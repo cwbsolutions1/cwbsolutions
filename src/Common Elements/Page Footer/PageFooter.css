@@ -1,0 +1,21 @@
+.page-footer-container{
+    display: block;
+    margin-bottom: 0;
+}
+
+.page-footer-lower-section{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+/*<<<<<<<<<<<<<<<<Mobile>>>>>>>>>>>>>>>>>>>*/
+
+@media (max-width:860px){
+    .page-footer-lower-section{
+        font-size: 0.6em;
+    }
+}

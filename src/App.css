@@ -1,0 +1,22 @@
+#root {
+  max-width: 100%;
+  text-align: center;
+}
+
+/* App.css */
+
+body, html {
+  height: 100%; /* Full height for body and html */
+  margin: 0; /* Remove default margins */
+}
+
+.app-container {
+  display: flex;               /* Use flexbox for layout */
+  flex-direction: column;      /* Stack items vertically */
+  min-height: 100vh;          /* Minimum height of the viewport */
+}
+
+.main-content {
+  height:1200px;
+  background-color: rgb(216, 208, 205);
+}

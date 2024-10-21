@@ -1,0 +1,121 @@
+.custom-navbar {
+    transition: height 0.3s ease; /* Smooth transition */
+}
+  
+.navigation-bar-cwb-logo{
+    transition: 0.8s;
+    width:45% ;
+    height: auto
+}
+
+.navigation-bar-cwb-logo.logo-expand{
+    width: 50%;
+}
+
+.navbar-nav {
+    flex-direction: column; /* Stack nav links vertically when expanded */
+}
+
+.nav-item a {
+
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+.nav-item a:hover {
+    background-color: #3c3d3d;
+    border-radius: 5px;
+    color: rgb(5, 142, 255);
+}
+
+.custom-toggle-navbar {
+    position: absolute; /* Position it absolutely */
+    right: 10px;        /* Align to the right */
+    top: 10px;          /* Align to the top */
+    border: none !important;
+}
+
+.custom-toggle-navbar:focus {
+outline: none !important; /* Removes the default outline */
+box-shadow: none !important; /* Removes any box shadow that might cause the line */
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+/* Prevent "About Us" from wrapping */
+.nav-link[href="#about"],
+.nav-link[href="#clients"] {
+    white-space: nowrap;  /* Prevent wrapping for About Us */
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.nav-link[href="#about"]:hover,
+.nav-link[href="#clients"]:hover {
+    background-color: #3c3d3d;
+    border-radius: 5px;
+    color: rgb(5, 142, 255);
+}
+
+.custom-dropdown .dropdown-menu {
+    max-height: 250px; /* Set your desired max height */
+    overflow-y: auto;  /* Allows vertical scrolling */
+    -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
+    background-color: #212529;
+    border: none;
+
+}
+
+/* Custom scrollbar for WebKit browsers (Chrome, Safari) */
+.custom-dropdown .dropdown-menu::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    background: rgba(0, 0, 0, 0.3); /* Background color of the scrollbar */
+    border-radius: 5px;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(51, 53, 54) !important;
+    color: rgb(12, 129, 230) !important;
+}
+  
+
+
+  @media (max-width:860px) {
+
+    .navigation-bar-cwb-logo{
+        width:75% 
+    }
+
+    .navigation-bar-cwb-logo.logo-expand{
+        width: 75%;
+    }
+
+    .custom-dropdown .dropdown-menu {
+        max-height: none; /* Remove the max height to allow full height */
+        overflow-y: auto;
+        max-height: 180px;
+    }
+    
+}
+
+/*Nav bar slight collapse only for big screens*/
+
+@media (min-width:860px) {
+
+    .custom-navbar {
+        transition: height 0.3s ease; /* Smooth transition */
+        height: 90px; /* Initial collapsed height */
+    
+    }
+    
+    .custom-navbar.expanded {
+        height: 14%; /* Height when expanded */
+    }
+}
