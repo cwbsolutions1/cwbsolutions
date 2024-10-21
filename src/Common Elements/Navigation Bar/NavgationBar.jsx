@@ -9,12 +9,22 @@ import { Navbar, Nav, NavDropdown,Container } from 'react-bootstrap';
 const NavigationBar = () =>{
     const [isExpanded, setExpanded] = useState(false);
 
-    const handleMouseEnter = () => {
+    const [dropdownOpen, setDropdownOpen] = useState({
+        engineeringSolutions: false,
+        productsServices: false,
+        supportLocations: false,
+    });
+    
+    // Handle mouse enter for dropdowns
+    const handleMouseEnter = (dropdown) => {
         setExpanded(true);
+        setDropdownOpen((prev) => ({ ...prev, [dropdown]: true }));
     };
-
-    const handleMouseLeave = () => {
+    
+    // Handle mouse leave for dropdowns
+    const handleMouseLeave = (dropdown) => {
         setExpanded(false);
+        setDropdownOpen((prev) => ({ ...prev, [dropdown]: false }));
     };
 
     return (
@@ -38,8 +48,14 @@ const NavigationBar = () =>{
                 style={{ maxHeight: '300px' }}
                 navbarScroll
               >
-                <NavDropdown title="Engineering Solutions" id="basic-nav-dropdown"  className="custom-dropdown"                                 onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}>
+                <NavDropdown 
+                title="Engineering Solutions" 
+                id="basic-nav-dropdown" 
+                className={`custom-dropdown ${dropdownOpen.engineeringSolutions ? 'nav-dropdown-active' : ''}`}
+                onMouseEnter={() => handleMouseEnter('engineeringSolutions')}
+                onMouseLeave={() => handleMouseLeave('engineeringSolutions')}
+                show={dropdownOpen.engineeringSolutions}
+                >
                     <NavDropdown.Item>Payment Integration</NavDropdown.Item>
                     <NavDropdown.Item>Engineering Solutions</NavDropdown.Item>
                     <NavDropdown.Item>PCB Boards</NavDropdown.Item>
@@ -49,9 +65,10 @@ const NavigationBar = () =>{
                     <NavDropdown.Item>Engineering Solutions</NavDropdown.Item>
                 </NavDropdown>
     
-                <NavDropdown title="Products & Services" id="basic-nav-dropdown" className="custom-dropdown " 
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
+                <NavDropdown title="Products & Services" id="basic-nav-dropdown" className={`custom-dropdown ${dropdownOpen.productsServices ? 'nav-dropdown-active' : ''}`} 
+                onMouseEnter={() => handleMouseEnter('productsServices')}
+                onMouseLeave={() => handleMouseLeave('productsServices')}
+                show={dropdownOpen.productsServices} // Show dropdown based on state
                 >
                     <NavDropdown.Item href='#'>Vehicle License Plate Recorgnizer</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Electronic Parking System</NavDropdown.Item>
@@ -69,9 +86,10 @@ const NavigationBar = () =>{
                     <NavDropdown.Item href='#'>Replacement Parts</NavDropdown.Item>
                 </NavDropdown>
     
-                <NavDropdown title="Support & Locations " className="custom-dropdown"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
+                <NavDropdown title="Support & Locations " className={`custom-dropdown ${dropdownOpen.supportLocations ? 'nav-dropdown-active' : ''}`}
+                onMouseEnter={() => handleMouseEnter('supportLocations')}
+                onMouseLeave={() => handleMouseLeave('supportLocations')}
+                show={dropdownOpen.supportLocations}
                 >
                     <NavDropdown.Item>Water Dispenser Locations</NavDropdown.Item>
                     <NavDropdown.Item>Power Vacuum Locations</NavDropdown.Item>
@@ -80,7 +98,7 @@ const NavigationBar = () =>{
     
                 <Nav.Link href='#clients'>Clients</Nav.Link>
                 <Nav.Link href='#about'>About Us</Nav.Link>
-                <Nav.Link href='#about'>Contact Us</Nav.Link>
+                <Nav.Link href='#contact'>Contact Us</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

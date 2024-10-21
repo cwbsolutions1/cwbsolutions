@@ -23,10 +23,14 @@
 
 }
 
+.nav-dropdown-active .nav-link {
+    color: rgb(21, 217, 243) !important; /* Change color when dropdown is open */
+}
+
+
 .nav-item a:hover {
     background-color: #3c3d3d;
     border-radius: 5px;
-    color: rgb(5, 142, 255);
 }
 
 .custom-toggle-navbar {
@@ -50,7 +54,8 @@ box-shadow: none !important; /* Removes any box shadow that might cause the line
 
 /* Prevent "About Us" from wrapping */
 .nav-link[href="#about"],
-.nav-link[href="#clients"] {
+.nav-link[href="#clients"],
+.nav-link[href="#contact"] {
     white-space: nowrap;  /* Prevent wrapping for About Us */
     color: white;
     border-radius: 5px;
@@ -58,10 +63,11 @@ box-shadow: none !important; /* Removes any box shadow that might cause the line
 }
 
 .nav-link[href="#about"]:hover,
-.nav-link[href="#clients"]:hover {
+.nav-link[href="#clients"]:hover,
+.nav-link[href="#contact"]:hover {
     background-color: #3c3d3d;
     border-radius: 5px;
-    color: rgb(5, 142, 255);
+
 }
 
 .custom-dropdown .dropdown-menu {
@@ -82,7 +88,7 @@ box-shadow: none !important; /* Removes any box shadow that might cause the line
 
 .dropdown-item:hover{
     background-color: rgb(51, 53, 54) !important;
-    color: rgb(12, 129, 230) !important;
+    color: rgb(4, 181, 226) !important;
 }
   
 
@@ -116,6 +122,6 @@ box-shadow: none !important; /* Removes any box shadow that might cause the line
     }
     
     .custom-navbar.expanded {
-        height: 14%; /* Height when expanded */
+        height: 13%; /* Height when expanded */
     }
 }
