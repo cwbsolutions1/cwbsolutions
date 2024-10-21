@@ -71,9 +71,9 @@ const NavigationBar = () =>{
                 show={dropdownOpen.productsServices} // Show dropdown based on state
                 >
                     <NavDropdown.Item href='#'>Vehicle License Plate Recorgnizer</NavDropdown.Item>
-                    <NavDropdown.Item href='#'>Electronic Parking System</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Electronic Parking Systems</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Car & Access Barrier Systems</NavDropdown.Item>
-                    <NavDropdown.Item href='#'>Perimeter Fencing and Gates</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Perimeter Fencing & Gates</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Automatic Car Washes</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Air Machines</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Electric BBQ Pits</NavDropdown.Item>
