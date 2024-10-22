@@ -1,21 +1,86 @@
-.page-footer-container{
+.page-footer-container {
     display: block;
     margin-bottom: 0;
 }
 
-.page-footer-lower-section{
+.page-footer-lower-section {
     background-color: #212529;
     color: white;
     text-align: center;
+}
 
+.page-footer-middle-section {
+    background: linear-gradient(135deg, rgb(2, 20, 46), #183957);
+    color: azure;
+}
+
+.page-footer-middle-section h6{
+    color: rgb(159, 198, 246);
+    font-size: 1.2em;
+}
+
+/* The parent row should be flex to display columns horizontally */
+.page-footer-middle-section-row-1,
+.page-footer-middle-section-row-2 {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; /* columns to wrap on smaller screens */
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
 }
 
 
+.page-footer-middle-section-column-in-row-1,
+.page-footer-middle-section-column-in-row-2 {
+    flex: 1; /* Make each column take up equal space */
+    padding: 20px; 
+}
 
-/*<<<<<<<<<<<<<<<<Mobile>>>>>>>>>>>>>>>>>>>*/
 
-@media (max-width:860px){
-    .page-footer-lower-section{
+.page-footer-middle-section li {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.page-footer-middle-section-column-in-row-1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Hover effect for list items */
+.page-footer-middle-section li:hover {
+    cursor: pointer;
+    color: rgb(18, 122, 240);
+}
+
+/* Mobile adjustments */
+@media (max-width: 860px) {
+    .page-footer-lower-section {
         font-size: 0.6em;
+    }
+
+    .page-footer-middle-section-row-1,
+    .page-footer-middle-section-row-2 {
+        flex-wrap: wrap;
+        justify-content: space-between; /* Keeps columns spaced */
+    }
+
+    .page-footer-middle-section-column-in-row-1{
+        flex: 0 0 50%; /* Each column takes up 45% of the width */
+        max-width: 50%;
+        margin-bottom: 20px; /* Adds spacing between rows */
+ 
+    }
+
+    .page-footer-middle-section-column-in-row-1,
+    .page-footer-middle-section-column-in-row-2 {
+        border-style: solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-width: 1px;
     }
 }

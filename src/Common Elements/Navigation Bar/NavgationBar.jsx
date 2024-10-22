@@ -56,13 +56,13 @@ const NavigationBar = () =>{
                 onMouseLeave={() => handleMouseLeave('engineeringSolutions')}
                 show={dropdownOpen.engineeringSolutions}
                 >
-                    <NavDropdown.Item>Payment Integration</NavDropdown.Item>
-                    <NavDropdown.Item>Engineering Solutions</NavDropdown.Item>
-                    <NavDropdown.Item>PCB Boards</NavDropdown.Item>
-                    <NavDropdown.Item>System Integration and Product Design</NavDropdown.Item>
-                    <NavDropdown.Item>Customized Solutions</NavDropdown.Item>
-                    <NavDropdown.Item>Consultation Services</NavDropdown.Item>
-                    <NavDropdown.Item>Engineering Solutions</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Payment Integration</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Engineering Solutions</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>PCB Boards</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>System Integration and Product Design</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Customized Solutions</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Consultation Services</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Engineering Solutions</NavDropdown.Item>
                 </NavDropdown>
     
                 <NavDropdown title="Products & Services" id="basic-nav-dropdown" className={`custom-dropdown ${dropdownOpen.productsServices ? 'nav-dropdown-active' : ''}`} 
@@ -91,9 +91,9 @@ const NavigationBar = () =>{
                 onMouseLeave={() => handleMouseLeave('supportLocations')}
                 show={dropdownOpen.supportLocations}
                 >
-                    <NavDropdown.Item>Water Dispenser Locations</NavDropdown.Item>
-                    <NavDropdown.Item>Power Vacuum Locations</NavDropdown.Item>
-                    <NavDropdown.Item>Technical Support</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Water Dispenser Locations</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Power Vacuum Locations</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Technical Support</NavDropdown.Item>
                 </NavDropdown>
     
                 <Nav.Link href='#clients'>Clients</Nav.Link>
