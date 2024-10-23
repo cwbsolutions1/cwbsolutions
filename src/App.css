@@ -21,7 +21,6 @@ body, html {
   box-sizing: border-box; /* Ensures padding doesn't affect width calculation */
   display: flex; /* Use flexbox to arrange items in a row */
   flex-direction: row; /* Ensures the two sections appear side by side */
-  margin-bottom: 50px;
 }
 
 .main-content-container-left-section,
@@ -33,11 +32,11 @@ body, html {
 }
 
 .main-content-container-left-section{
-  width: 17%;
+  width: 20%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .main-content-container-right-section{
-  width: 83%;
+  width: 80%;
   background-color: rgb(253, 252, 255);
 }
 

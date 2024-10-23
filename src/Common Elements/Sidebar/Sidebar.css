@@ -1,7 +1,7 @@
 .custom-sidebar-button{
     margin: 5px;
     width: 95%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 239, 246);
     color: rgb(34, 33, 33);
     border: none;
     text-wrap: wrap;
@@ -38,6 +38,74 @@
     width: 350px;
 
 }
+
+
+/*<<<<<<Form>>>>>>>>>> */
+
+.maintenence-reporting-form{
+    margin-top: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 20px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.maintenence-reporting-form label,
+.maintenence-reporting-form input,
+.maintenence-reporting-form textarea{
+    display: block;
+    text-align: left;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 98%;
+    border-radius: 4px;
+    border: none;
+}  
+
+.maintenence-reporting-form label{
+    font-weight: 500;
+}
+
+.maintenence-reporting-form input,
+.maintenence-reporting-form textarea{
+    margin-bottom: 10px;
+    background-color: rgb(215, 213, 213);
+    color: black;
+}
+
+.maintenence-reporting-form textarea{
+    height: 100px;
+    max-height: 250px;
+}
+.maintenence-reporting-form button{
+    margin-top: 10px;
+    background-color: rgb(45, 121, 242);
+    width: 15em;
+    align-items: center;
+
+    transition: 0.5s;
+}
+
+.maintenence-reporting-form button:hover{
+
+    color: rgb(45, 121, 242);
+    background-color: aliceblue;
+
+}
+
+.maintenence-reporting-form input:focus,
+.maintenence-reporting-form textarea:focus{
+    border-color: #0778f2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+
 
 @media (max-width:860px){
     .dropdown-item-in-sidebar{

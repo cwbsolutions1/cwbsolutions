@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Dropdown, Button, Offcanvas } from 'react-bootstrap';
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -171,6 +173,108 @@ const Sidebar = () => {
     </>
   );
 
+  const maintenanceReportingForm = () =>{
+
+    const [formData,setFormData] = useState ({
+        customerName:'',
+        companyName:'',
+        email:'',
+        contactNumber:'',
+        description:''
+    })
+
+    const handleChange = (e) =>{
+        const {name, value} =e.target;
+        setFormData((prev)=>({
+            ...prev,
+            [name]:value,
+        }));
+    }
+
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+
+
+        toast.success("Successfully Saved ", {
+            position: "top-right",
+            autoClose: 4500, // Auto close after 3 seconds
+            hideProgressBar: false,
+            pauseOnHover: true,
+            draggable: false,
+            progress: undefined,
+
+        });
+
+        setFormData({
+            customerName:'',
+            companyName:'',
+            email:'',
+            contactNumber:'',
+            description:''
+        })
+    }
+
+    return (
+        <form className='maintenence-reporting-form' onSubmit={handleSubmit} action="">
+            <h5>Maintainance Reporting</h5>
+            <label htmlFor="customerName">Contact Name*</label>
+            <input 
+            type="text"
+            name='customerName'
+            id='customerName' 
+            value={formData.customerName}
+            onChange={handleChange}
+            required
+            placeholder='Enter Your Name' />
+
+            <label htmlFor="Companyname">Company Name</label>
+            <input type="text" 
+            name='companyName'
+            id='companyName'
+            value={formData.companyName}
+            onChange={handleChange}
+            placeholder='Enter Company Name' />
+
+            <label htmlFor="email">Email*</label>
+            <input 
+            type="email"
+            name='email'
+            id='email'
+            value={formData.email} 
+            onChange={handleChange}
+            required
+            placeholder='Enter Your Email' />
+
+            <label htmlFor="contactNumber">Contact Number*</label>
+            <input type="text" 
+            name="contactNumber" 
+            id="contactNumber" 
+            value={formData.contactNumber}
+            onChange={handleChange}
+            required
+            placeholder='Enter Your Contact Number'/>
+
+            <label htmlFor="description">Description*</label>
+            <textarea 
+            name="description" 
+            id="description" 
+            value={formData.description}
+            onChange={handleChange}
+            required
+            placeholder='Enter Description'></textarea>
+
+            <div>
+            simply fill out the contact form above and we will get back to you as soon as we can.
+            </div>
+
+            <button
+            type='submit'>
+                Submit
+            </button>
+        </form>
+    )
+  }
+
   return (
     <div>
         {/* Show the button only on small screens */}
@@ -185,10 +289,12 @@ const Sidebar = () => {
 
             <Offcanvas.Header closeButton>
                 <Offcanvas.Title>Quick Links</Offcanvas.Title>
+                <ToastContainer/>
             </Offcanvas.Header>
 
         <Offcanvas.Body>
           {renderDropdowns()} {/* Render dropdowns */}
+          {maintenanceReportingForm()}
         </Offcanvas.Body>
 
       </Offcanvas>
@@ -197,8 +303,13 @@ const Sidebar = () => {
       {isLargeScreen && (
         <div className="d-none d-lg-block sidebar">
           {renderDropdowns()} {/* Render dropdowns */}
+          {maintenanceReportingForm()}
+          <ToastContainer/>
         </div>
       )}
+
+      
+
     </div>
   );
 };
