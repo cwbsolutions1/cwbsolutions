@@ -32,7 +32,7 @@ const PageFooter = () =>{
                     <div className='page-footer-middle-section-column-in-row-1'>
                         <ul type="none">
                             <h6>Our Products and Services</h6>
-                            <li>Key and Storage Management system</li>
+                            <li>Key and Storage Management System</li>
                             <li>Self service equipment for petrol stations</li>
                             <li>Road Safety Products</li>
                             <li>Solar Powered Studs</li>
@@ -79,7 +79,7 @@ const PageFooter = () =>{
                     </div>
                     <div className='page-footer-middle-section-column-in-row-1'>
                         <ul type="none">
-                            <h6>Key and Storage Management system</h6>
+                            <h6>Key and Storage Management System</h6>
                             <li>IQ Key Safe series</li>
                             <li>IQ Wall Cabinet series</li>
                             <li>IQ BoxCabinet series</li>
@@ -90,7 +90,7 @@ const PageFooter = () =>{
                 <div className='page-footer-middle-section-row-2'>
                     <div className='page-footer-middle-section-column-in-row-1'>
                         <ul type="none">
-                            <h6>Self service equipment for petrol stations</h6>
+                            <h6>Self Service Equipment for Petrol Stations</h6>
                             <li>Mini Car Washes</li>
                             <li>Powerful Car Vacuums</li>
                             <li>Hot Air Dryer</li>
@@ -135,7 +135,7 @@ const PageFooter = () =>{
                     </div>
                     <div className='page-footer-middle-section-column-in-row-1'>
                         <ul type="none">
-                            <h6>IQ Key Safe series</h6>
+                            <h6>IQ Key Safe Series</h6>
                             <li>IQ Key Safe 40</li>
                             <li>IQ Key Safe 160</li>
                             <li>IQ Key Safe 210r</li>
@@ -147,7 +147,7 @@ const PageFooter = () =>{
                 <div className='page-footer-middle-section-row-2'>
                     <div className='page-footer-middle-section-column-in-row-1'>
                         <ul>
-                            <h6>IQ Wall Cabinet series</h6>
+                            <h6>IQ Wall Cabinet Series</h6>
                             <li>IQ Wall Cabinet 50</li>
                             <li>IQ Wall Cabinet 80</li>
                             <li>IQ Wall Cabinet 100</li>
@@ -159,7 +159,7 @@ const PageFooter = () =>{
                     </div>
                     <div className='page-footer-middle-section-column-in-row-1'>
                         <ul>
-                            <h6>IQ BoxCabinet series</h6>
+                            <h6>IQ BoxCabinet Series</h6>
                             <li>IQ Box Cabinet 12</li>
                             <li>IQ Box Cabinet 20</li>
                             <li>IQ Box Cabinet 30</li>
@@ -221,7 +221,7 @@ const PageFooter = () =>{
                     </div>
                     <div className='page-footer-middle-section-column-in-row-1'>
                         <ul>
-                            <h6>Self-service</h6>
+                            <h6>Self-Service</h6>
                             <li>Water Dispensers</li>
                             <li>WATER-I-VAC</li>
                         </ul>

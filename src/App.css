@@ -3,8 +3,6 @@
   text-align: center;
 }
 
-/* App.css */
-
 body, html {
   height: 100%; /* Full height for body and html */
   margin: 0; /* Remove default margins */
@@ -14,9 +12,35 @@ body, html {
   display: flex;               /* Use flexbox for layout */
   flex-direction: column;      /* Stack items vertically */
   min-height: 100vh;          /* Minimum height of the viewport */
+  background-color: rgb(245, 244, 241);
 }
 
-.main-content {
-  height:1200px;
-  background-color: rgb(216, 208, 205);
+.main-content-container {
+  width: 100%; /* The main container takes full width */
+  padding-top: 90px; /* Optional padding for spacing */
+  box-sizing: border-box; /* Ensures padding doesn't affect width calculation */
+  display: flex; /* Use flexbox to arrange items in a row */
+  flex-direction: row; /* Ensures the two sections appear side by side */
+  margin-bottom: 50px;
 }
+
+.main-content-container-left-section,
+.main-content-container-right-section{
+  box-sizing: border-box; /* Ensures padding doesn’t exceed the width */
+  border-style: solid;
+  padding: none;
+  border: none;
+}
+
+.main-content-container-left-section{
+  width: 17%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main-content-container-right-section{
+  width: 83%;
+  background-color: rgb(253, 252, 255);
+}
+
+
+
+

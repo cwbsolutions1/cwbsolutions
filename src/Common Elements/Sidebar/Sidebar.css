@@ -1,0 +1,34 @@
+.custom-sidebar-button{
+    margin: 5px;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 33, 33);
+    border: none;
+    text-wrap: wrap;
+    text-align: left;
+}
+
+.custom-sidebar-button:hover {
+    background-color: rgb(26, 25, 25) ;
+    color: azure;
+}
+
+.custom-sidebar-button:active,
+.custom-sidebar-button:focus {
+    background-color: rgb(35, 34, 34) !important; /* Keep the background color on click */
+    color: azure ; /* Keep the text color on click */
+    outline: none; /* Remove the outline for focus state */
+}
+
+
+
+.sidebar{
+    box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-item-in-sidebar{
+    text-wrap: wrap ;
+    width: 350px;
+
+}

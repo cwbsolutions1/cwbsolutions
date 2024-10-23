@@ -17,6 +17,7 @@
 .page-footer-middle-section h6{
     color: rgb(159, 198, 246);
     font-size: 1.2em;
+    height: 4em;
 }
 
 /* The parent row should be flex to display columns horizontally */
@@ -30,6 +31,7 @@
     border-left: none;
     border-right: none;
     border-width: 1px;
+    border-color: rgb(86, 86, 88);
 }
 
 
@@ -82,5 +84,6 @@
         border-left: none;
         border-right: none;
         border-width: 1px;
+        border-color: rgb(86, 86, 88);
     }
 }
