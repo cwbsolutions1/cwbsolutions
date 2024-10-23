@@ -14,8 +14,18 @@
     color: rgb(255, 255, 255);
 }
 #sidebar-dropdown-menu{
-    background-color: rgb(53, 52, 51);
+    background-color: rgb(7, 113, 250);
 
+}
+
+.dropdown-item-in-sidebar{
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.dropdown-item-in-sidebar:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(7, 113, 250) !important;
 }
 
 .sidebar{
