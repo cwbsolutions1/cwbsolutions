@@ -8,19 +8,15 @@
     text-align: left;
 }
 
-.custom-sidebar-button:hover {
-    background-color: rgb(26, 25, 25) ;
-    color: azure;
+.dropdown-item-in-sidebar{
+    max-width: 245px;
+    text-wrap: wrap;
+    color: rgb(255, 255, 255);
 }
+#sidebar-dropdown-menu{
+    background-color: rgb(53, 52, 51);
 
-.custom-sidebar-button:active,
-.custom-sidebar-button:focus {
-    background-color: rgb(35, 34, 34) !important; /* Keep the background color on click */
-    color: azure ; /* Keep the text color on click */
-    outline: none; /* Remove the outline for focus state */
 }
-
-
 
 .sidebar{
     box-shadow: 4px 0 6px rgba(0, 0, 0, 0.2);
@@ -31,4 +27,11 @@
     text-wrap: wrap ;
     width: 350px;
 
+}
+
+@media (max-width:860px){
+    .dropdown-item-in-sidebar{
+        max-width: 100%;
+        text-wrap: wrap;
+    }
 }
