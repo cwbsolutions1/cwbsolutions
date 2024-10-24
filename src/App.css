@@ -33,7 +33,7 @@ body, html {
 
 .main-content-container-left-section{
   width: 20%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(254, 254, 254);
 }
 .main-content-container-right-section{
   width: 80%;

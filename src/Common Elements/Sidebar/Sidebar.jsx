@@ -264,11 +264,11 @@ const Sidebar = () => {
             placeholder='Enter Description'></textarea>
 
             <div>
-            simply fill out the contact form above and we will get back to you as soon as we can.
+            Simply fill out the contact form above and we will get back to you as soon as we can.
             </div>
 
             <button
-            type='submit'>
+            type='submit' className='submit-button-in-sidebar'>
                 Submit
             </button>
         </form>
