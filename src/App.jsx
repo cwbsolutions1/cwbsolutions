@@ -5,6 +5,7 @@ import PageFooter from './Common Elements/Page Footer/PageFooter';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Sidebar from './Common Elements/Sidebar/Sidebar';
+import Homepage from './Site Pages/Home Page/Homepage';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         </div>
 
         <div className='main-content-container-right-section'>
-            <h1>Right Section</h1>
+            <Homepage/>
         </div>
 
       </div>

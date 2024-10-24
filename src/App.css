@@ -42,4 +42,22 @@ body, html {
 
 
 
+@media (max-width:860px){
+
+  .main-content-container{
+    padding-top: 70px;
+  }
+
+  .main-content-container-left-section{
+    width: 0%;
+    height: 0%;
+    z-index: 5;
+  }
+  .main-content-container-right-section{
+    padding-top: 1%;
+    width: 100%;
+  }
+}
+
+
 

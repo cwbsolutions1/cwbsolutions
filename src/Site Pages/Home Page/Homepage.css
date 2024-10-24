@@ -1,0 +1,17 @@
+.Homepage-container p{
+    line-height: 1.8em;
+}
+
+
+
+
+
+
+
+@media (max-width:860px){
+
+    .Homepage-container h1{
+        padding-left: 40px;
+    }
+    
+  }
