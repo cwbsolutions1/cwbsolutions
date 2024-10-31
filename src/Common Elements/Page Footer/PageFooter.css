@@ -4,9 +4,13 @@
 }
 
 .page-footer-lower-section {
-    background-color: #212529;
+    display: flex;                 /* Make it a flex container */
+    background-color: #182a3e;
     color: white;
     text-align: center;
+    height: 3em;
+    align-items: center;           /* Center vertically */
+    justify-content: center;    
 }
 
 .page-footer-middle-section {
@@ -14,11 +18,7 @@
     color: azure;
 }
 
-.page-footer-middle-section h6{
-    color: rgb(159, 198, 246);
-    font-size: 1.2em;
-    height: 4em;
-}
+
 
 /* The parent row should be flex to display columns horizontally */
 .page-footer-middle-section-row-1,
@@ -35,28 +35,54 @@
 }
 
 
+
 .page-footer-middle-section-column-in-row-1,
 .page-footer-middle-section-column-in-row-2 {
     flex: 1; /* Make each column take up equal space */
-    padding: 20px; 
+    padding: 10px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
 }
 
-
-.page-footer-middle-section li {
+#dropdown-toggle-button-in-footer{
+    background-color:transparent;
+    text-wrap: wrap;
+    border: none;
+    text-wrap: wrap;
+    width: 100%;
     font-size: 0.9em;
-    margin-bottom: 15px;
 }
 
-.page-footer-middle-section-column-in-row-1 ul {
-    list-style: none;
-    padding: 0;
+#dropdown-menu-in-footer{
+    background-color: rgb(42, 40, 40);
+    max-height: 250px;
+    overflow-y: auto;  /* Allows vertical scrolling */
+    -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
 }
 
-/* Hover effect for list items */
-.page-footer-middle-section li:hover {
-    cursor: pointer;
-    color: rgb(18, 122, 240);
+#dropdown-menu-in-footer::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    background: rgba(0, 0, 0, 0.3); /* Background color of the scrollbar */
+    border-radius: 5px;
 }
+
+
+.page-footer-middle-section-column-in-row-1 .dropdown-item{
+    color: rgb(238, 232, 231);
+    font-size: 0.85em;
+    width: 195px;
+    text-wrap: wrap;
+    margin-top: 5px;
+}
+
+#dropdown-toggle-button-in-footer:hover{
+    background-color: #38455d;
+    color: rgb(105, 201, 225);
+}
+
+
 
 /* Mobile adjustments */
 @media (max-width: 860px) {
@@ -77,13 +103,5 @@
  
     }
 
-    .page-footer-middle-section-column-in-row-1,
-    .page-footer-middle-section-column-in-row-2 {
-        border-style: solid;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-width: 1px;
-        border-color: rgb(86, 86, 88);
-    }
+
 }
