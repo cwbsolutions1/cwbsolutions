@@ -1,0 +1,44 @@
+.contact-us-container{
+    text-align: left;
+    padding: 3%;
+}
+
+.contact-us-information{
+    margin-top: 3%;
+    padding: 1%;
+    background-color: rgba(10, 90, 63, 0.116);
+    border-radius: 10px;
+    width: 60%;
+}
+
+.contact-us-information p{
+    height: 35px;
+    background-color: rgba(18, 111, 80, 0.16);
+    border-radius: 10px;
+    padding: 1%;
+}
+.contact-us-container h5{
+margin-top: 3%;
+margin-left: 1%;
+}
+
+.contact-us-information span{
+    font-size: 1.2em;
+}
+
+#float-animation-in-contact-us{
+    margin-top: 0px;
+}
+
+#contact-us-form{
+    margin-top: 3%;
+    padding: 1%;
+    background-color: rgba(18, 111, 80, 0.16);
+    border-radius: 10px;
+
+}
+
+#contact-us-form input,
+#contact-us-form textarea{
+    background-color: rgba(10, 90, 63, 0.116);
+}

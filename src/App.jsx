@@ -13,6 +13,7 @@ import PCB from './Site Pages/Engineering Solutions/PCB/PCB';
 import SystemIntegration from './Site Pages/Engineering Solutions/System Integration and Product Design/System Integration and Product Design';
 import CustomizedSolutions from './Site Pages/Engineering Solutions/Customized Solutions/Customized Solutions';
 import Consultation from './Site Pages/Engineering Solutions/Consultation/Consultation';
+import ContactUs from './Site Pages/Contact Us/Contact us';
 
 
 
@@ -44,6 +45,7 @@ function App() {
               <Route path='engineering-solutions/system-integration-and-product-design/' element={<SystemIntegration/>}></Route>
               <Route path='engineering/customised-solutions/' element={<CustomizedSolutions/>}></Route>
               <Route path='engineering-solutions/consultation-services/' element={<Consultation/>}></Route>
+              <Route path='cwbsolutions.net/contact-us/' element={<ContactUs/>}></Route>
               
             </Routes>
         </div>
