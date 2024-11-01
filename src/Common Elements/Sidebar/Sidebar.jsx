@@ -217,7 +217,7 @@ const Sidebar = () => {
     return (
         <form className='maintenence-reporting-form' onSubmit={handleSubmit} action="">
             <h5>Maintainance Reporting</h5>
-            <label htmlFor="customerName">Contact Name*</label>
+            <label htmlFor="customerName">Contact Name <span style={{color:'red'}}> *</span></label>
             <input 
             type="text"
             name='customerName'
@@ -235,7 +235,7 @@ const Sidebar = () => {
             onChange={handleChange}
             placeholder='Enter Company Name' />
 
-            <label htmlFor="email">Email*</label>
+            <label htmlFor="email">Email<span style={{color:'red'}}> *</span></label>
             <input 
             type="email"
             name='email'
@@ -245,7 +245,7 @@ const Sidebar = () => {
             required
             placeholder='Enter Your Email' />
 
-            <label htmlFor="contactNumber">Contact Number*</label>
+            <label htmlFor="contactNumber">Contact Number<span style={{color:'red'}}> *</span></label>
             <input type="text" 
             name="contactNumber" 
             id="contactNumber" 
@@ -254,7 +254,7 @@ const Sidebar = () => {
             required
             placeholder='Enter Your Contact Number'/>
 
-            <label htmlFor="description">Description*</label>
+            <label htmlFor="description">Description<span style={{color:'red'}}> *</span></label>
             <textarea 
             name="description" 
             id="description" 

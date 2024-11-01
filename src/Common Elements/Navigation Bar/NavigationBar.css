@@ -79,19 +79,23 @@ box-shadow: none !important; /* Removes any box shadow that might cause the line
 
 }
 
+.custom-dropdown .dropdown-menu a{
+    color: white;
+    font-weight: 400;
+
+}
+.custom-dropdown .dropdown-menu a:hover{
+    background-color: rgb(51, 53, 54) ;
+    color: rgb(4, 181, 226) ;
+}
+
 /* Custom scrollbar for WebKit browsers (Chrome, Safari) */
 .custom-dropdown .dropdown-menu::-webkit-scrollbar {
     width: 8px; /* Width of the scrollbar */
     background: rgba(0, 0, 0, 0.3); /* Background color of the scrollbar */
     border-radius: 5px;
 }
-
-.dropdown-item:hover{
-    background-color: rgb(51, 53, 54) !important;
-    color: rgb(4, 181, 226) !important;
-}
   
-
 
   @media (max-width:860px) {
 

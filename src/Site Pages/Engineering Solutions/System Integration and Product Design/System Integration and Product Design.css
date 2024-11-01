@@ -1,0 +1,30 @@
+
+.system-integration-container{
+    padding: 3%;
+    text-align: left
+    ;
+}
+
+.system-integration-container h1{
+    margin-bottom: 5%;
+}
+
+.system-integration-container h3{
+    margin-bottom: 2%;
+}
+
+#float-animation-in-system-integration{
+    margin-top: -50px;
+}
+
+@media (max-width:860px){
+
+    .system-integration-container h1{
+        font-size: 2em;
+        margin-left: 2em;
+    }
+
+    .system-integration-container h3{
+        margin-bottom: 3em;
+    }
+}

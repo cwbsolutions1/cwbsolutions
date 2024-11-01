@@ -1,0 +1,69 @@
+.consultation-container{
+    text-align: left;
+    padding: 3%;
+}
+
+.consultation-container div:nth-child(5) {
+    font-size: 1.2em;
+}
+
+#checked-icon-section{
+
+    width:fit-content;
+    padding: 1.3%;
+    background-color: rgba(0, 211, 46, 0.422);
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#checked-icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+#handshake-animated-image{
+    margin-top: -50px;
+    width: 250px;
+    height: auto;
+    justify-content: end;
+}
+
+.consultation-container h1{
+    margin-bottom: 1em;
+}
+
+.consultation-container h3{
+    margin-bottom: 1em;
+}
+
+.consultation-description-sub-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:860px){
+
+    .consultation-container h1{
+        font-size: 2em;
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+
+    .consultation-container h3{
+        margin-bottom: 1.5em;
+    }
+
+    .consultation-description-sub-container{
+        display: block;
+        
+    }
+
+    #handshake-animated-image{
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}

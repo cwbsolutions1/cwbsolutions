@@ -12,32 +12,35 @@ body, html {
   display: flex;               /* Use flexbox for layout */
   flex-direction: column;      /* Stack items vertically */
   min-height: 100vh;          /* Minimum height of the viewport */
-  background-color: rgb(245, 244, 241);
+  background-color: rgb(255, 255, 255);
 }
 
 .main-content-container {
   width: 100%; /* The main container takes full width */
-  padding-top: 90px; /* Optional padding for spacing */
+ /* Optional padding for spacing */
   box-sizing: border-box; /* Ensures padding doesn't affect width calculation */
   display: flex; /* Use flexbox to arrange items in a row */
-  flex-direction: row; /* Ensures the two sections appear side by side */
+
 }
 
 .main-content-container-left-section,
 .main-content-container-right-section{
-  box-sizing: border-box; /* Ensures padding doesn’t exceed the width */
   border-style: solid;
   padding: none;
   border: none;
 }
 
 .main-content-container-left-section{
-  width: 22%;
-  background-color: rgb(254, 254, 254);
+  width: 18%;
+  height: 1250px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 95px;
 }
 .main-content-container-right-section{
-  width: 78%;
-  background-color: rgb(253, 252, 255);
+  width: 82%;
+  padding-top: 95px;
+  background-color: rgb(255, 255, 255);
+  flex-grow: 1;
 }
 
 
@@ -45,13 +48,14 @@ body, html {
 @media (max-width:860px){
 
   .main-content-container{
-    padding-top: 70px;
+    padding-top: 85px;
   }
 
   .main-content-container-left-section{
     width: 0%;
     height: 0%;
     z-index: 5;
+    padding-top: 0px;
   }
   .main-content-container-right-section{
     padding-top: 1%;

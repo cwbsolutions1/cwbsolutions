@@ -1,0 +1,100 @@
+.payments-integration-container{
+    padding: 3%;
+    text-align: left;
+}
+
+#animation-payments-integration{
+    margin-top: -100px;
+}
+
+.payments-integration-container h2{
+    margin-bottom: 15px;
+}
+
+.payments-integration-category img{
+    display: block;
+    height: 250px;
+    width: auto;
+}
+
+.payments-integration-category > div {
+    display: flex;
+    align-items: center; /* Vertically centers the flex items */
+    background-color: azure;
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    transition: 0.3s;
+    flex-wrap: wrap;
+    padding: 2%;
+    
+}
+
+.payments-integration-category > div:hover {
+    background-color: rgba(17, 106, 118, 0.205);
+}
+
+.payments-integration-category > div >div{
+    margin-left: 30px;
+}
+
+.payments-integration-category p{
+    max-width: 50em;
+}
+
+.payments-integration-category > div >div h3{
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.payments-integration-category > div >div li{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(26, 95, 96, 0.6);
+    width:25%;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.payments-integration-category > div ul {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    padding: 0;
+    margin: 0;
+}
+
+.payments-integration-category > div ul li {
+    list-style: none;     /* Removes default bullet points */
+    background-color: rgba(21, 104, 105, 0.578); /* Background color */
+    color: white;         /* Text color */
+    border-radius: 5px;   /* Optional: Rounds the edges */
+    width: fit-content;
+    padding: 1%;
+}
+
+/*<<<<<<<<<<<<<<<<Mobile>>>>>>>>>>>>>>>>>*/
+@media (max-width:860px){
+    .payments-integration-category img{
+        display: block;
+        height: 150px;
+        width: auto;
+    }
+    .payments-integration-category > div ul {
+
+        flex-wrap: wrap;       /* Allows items to wrap to the next line */
+        font-size: 0.8em;
+
+   
+    }
+
+    .payments-integration-container h2{
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+
+    #animation-payments-integration{
+        display: none;
+    }
+    
+}

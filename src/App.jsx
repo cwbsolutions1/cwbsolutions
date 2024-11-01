@@ -6,10 +6,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Sidebar from './Common Elements/Sidebar/Sidebar';
 import Homepage from './Site Pages/Home Page/Homepage';
+import ScrollUp from './Common Elements/ScrollUp';
+import EngineeringSolutions from './Site Pages/Engineering Solutions/Engineering Solutions/Engineering Solutions';
+import PaymentsIntegration from './Site Pages/Engineering Solutions/Payment Modules/Payments Integration/Payments Integration';
+import PCB from './Site Pages/Engineering Solutions/PCB/PCB';
+import SystemIntegration from './Site Pages/Engineering Solutions/System Integration and Product Design/System Integration and Product Design';
+import CustomizedSolutions from './Site Pages/Engineering Solutions/Customized Solutions/Customized Solutions';
+import Consultation from './Site Pages/Engineering Solutions/Consultation/Consultation';
+
 
 
 function App() {
+
+
   return (
+
+    <Router>
+      <ScrollUp />
     <div className="app-container">
 
       <div className='testt'>
@@ -23,7 +36,16 @@ function App() {
         </div>
 
         <div className='main-content-container-right-section'>
-            <Homepage/>
+            <Routes>
+              <Route path="cwbsolutions.net/" element={<Homepage />} />
+              <Route path='/engineering-solutions' element={<EngineeringSolutions/>} />
+              <Route path='/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/' element={<PaymentsIntegration/>}></Route>
+              <Route path='pcb-boards/' element={<PCB/>}></Route>
+              <Route path='engineering-solutions/system-integration-and-product-design/' element={<SystemIntegration/>}></Route>
+              <Route path='engineering/customised-solutions/' element={<CustomizedSolutions/>}></Route>
+              <Route path='engineering-solutions/consultation-services/' element={<Consultation/>}></Route>
+              
+            </Routes>
         </div>
 
       </div>
@@ -31,9 +53,12 @@ function App() {
       <div>
       <PageFooter />
       </div>
+      
 
 
     </div>
+    
+    </Router>
   );
 }
 

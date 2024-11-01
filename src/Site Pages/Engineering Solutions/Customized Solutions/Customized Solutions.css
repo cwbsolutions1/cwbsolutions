@@ -1,0 +1,52 @@
+.customized-solutions-container{
+    text-align: left;
+    padding: 3%;
+}
+
+.customized-solutions-container h1{
+    margin-bottom: 5%;
+}
+
+.customized-solutions-container h3{
+    margin-bottom: 3%;
+}
+
+.customized-solutions-form label,
+.customized-solutions-form input,
+.customized-solutions-form textarea{
+    display: block;
+    width:100%;
+}
+
+.customized-solutions-form input,
+.customized-solutions-form textarea{
+    background-color: white;
+    color: rgb(30, 29, 27);
+    margin-bottom: 1%;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    min-height: 35px;
+}
+
+.customized-solutions-form textarea{
+    max-height: 100px;
+}
+
+.customized-solutions-form{
+    margin-top: 8%;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: rgb(245, 246, 247);
+    box-shadow: 0px 0px 5px rgba(117, 153, 157, 0.377);
+}
+
+@media (max-width:860px){
+
+    .customized-solutions-container h1{
+        font-size: 2em;
+        margin-left: 2em;
+    }
+
+
+}

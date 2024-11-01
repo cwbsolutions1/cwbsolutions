@@ -6,15 +6,18 @@
     border: none;
     text-wrap: wrap;
     text-align: left;
+    font-size: 0.85em;
 }
 
+
 .dropdown-item-in-sidebar{
-    max-width: 310px;
+    max-width: 253px;
     text-wrap: wrap;
     color: rgb(255, 255, 255);
 }
 #sidebar-dropdown-menu{
-    background-color: rgb(0, 69, 158);
+    background-color: rgb(39, 83, 141);
+    font-size: 0.85em;
 
 }
 
@@ -24,8 +27,8 @@
 }
 
 .dropdown-item-in-sidebar:hover{
-    background-color: rgb(255, 255, 255) !important;
-    color: rgb(11, 75, 157) !important;
+    background-color: rgba(144, 197, 236, 0.248);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -49,6 +52,7 @@
     border-width: 1px;
     background-color: rgb(169, 181, 181);
     box-shadow: 0px 0px 10px rgba(142, 192, 241, 0.5);
+    font-size: 0.85em;
 
 }
 

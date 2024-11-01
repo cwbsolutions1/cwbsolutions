@@ -1,10 +1,81 @@
-.Homepage-container p{
-    line-height: 1.8em;
+
+.company-introduction-in-homepage{
+    padding: 3%;
+    text-align: left;
+
+}
+
+.product-section-in-homepage{
+    text-align: left;
+    padding: 3%;
+    border-width: 1px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(227, 227, 228);
+    border-bottom: none;
+}
+
+.product-section-in-homepage h2{
+    margin-bottom: 15px;
+}
+
+.product-visuals-in-homepage {
+    display: flex; /* Use flexbox to arrange items in a row */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    justify-content: space-between; /* Space between the items */
+}
+
+.product-visuals-in-homepage > div {
+    flex: 1; /* Allow the child divs to grow and fill the space */
+    min-width: 300px; /* Minimum width for each box (optional) */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+    margin: 5px; /* Optional margin for spacing */
+}
+
+#i-vac-video{
+    border-radius: 8px;
+    width: 100%;
+}
+
+.iot-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iot-products div{
+    padding: 2%;
+    border-top-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    margin: 0.3%;
+    font-size: 1.2em;
+    transition: 0.2s;
+    color: rgb(50, 52, 54);
+}
+
+.iot-products div:hover{
+    padding: 15px;
 }
 
 
 
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;         /* Rounds the image corners */
+}
 
+#carousel-home-page{
+    width: 60%;
+    margin-left: 5em;
+    overflow: hidden;
+}
+
+#ivac-image{
+    width: 300px;
+    height: auto;
+}
 
 
 
@@ -12,6 +83,9 @@
 
     .Homepage-container h1{
         padding-left: 40px;
+    }
+    .product-visuals-in-homepage {
+        flex-direction: column; /* Stack items on top of each other in mobile view */
     }
     
   }
