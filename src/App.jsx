@@ -15,6 +15,7 @@ import CustomizedSolutions from './Site Pages/Engineering Solutions/Customized S
 import Consultation from './Site Pages/Engineering Solutions/Consultation/Consultation';
 import ContactUs from './Site Pages/Contact Us/Contact us';
 import AboutUs from './Site Pages/About Us/About us';
+import Clients from './Site Pages/Clients/Clients';
 
 
 
@@ -48,6 +49,7 @@ function App() {
               <Route path='engineering-solutions/consultation-services/' element={<Consultation/>}></Route>
               <Route path='cwbsolutions.net/contact-us/' element={<ContactUs/>}></Route>
               <Route path='cwbsolutions.net/about-us/' element={<AboutUs/>}></Route>
+              <Route path='cwbsolutions.net/clients/' element={<Clients/>}></Route>
               
             </Routes>
         </div>

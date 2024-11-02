@@ -36,7 +36,7 @@ const AboutUs =  () =>{
                             </Lottie>
                         </div>
                         </div>
-                        <div>Innovation is the core of Human Progress. Technology is it's Key. We Innovate! </div>
+                        <div>Innovation is the core of Human Progress. Technology is its Key. We Innovate! </div>
                     </div>
                     <div id='main-horizontal-section'>
                         <div>OUR MISSION

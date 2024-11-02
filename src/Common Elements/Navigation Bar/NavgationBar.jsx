@@ -139,9 +139,10 @@ const NavigationBar = () => {
                             <NavDropdown.Item href="#" onClick={closeDropdowns}>Technical Support</NavDropdown.Item>
                         </NavDropdown>
 
-                        <Nav.Link onClick={closeDropdowns} id='client' >Clients</Nav.Link>
+                        <Nav.Link onClick={closeDropdowns} id='client' as={Link} to={"cwbsolutions.net/clients/"}>Clients</Nav.Link>
                         <Nav.Link onClick={closeDropdowns} id='contact-us' as={Link} to="cwbsolutions.net/about-us/">About Us</Nav.Link>
                         <Nav.Link onClick={closeDropdowns} id='contact-us' as={Link} to="cwbsolutions.net/contact-us">Contact Us</Nav.Link>
+                        
                     </Nav>
                 </Navbar.Collapse>
             </Container>
