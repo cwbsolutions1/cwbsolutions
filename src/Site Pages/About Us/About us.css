@@ -1,0 +1,76 @@
+.about-us-container{
+    text-align: left;
+    padding: 3%;
+}
+
+#CWB-logo-in-about-us{
+    width:100%;
+    padding: 2%;
+}
+
+
+#main-horizontal-section{
+    height: 15em;
+    background: linear-gradient(to right,rgb(70, 137, 113),rgba(70, 137, 113, 0.775));
+    margin-top: 10px;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+#main-horizontal-section div:nth-child(1){
+    background-color: rgb(70, 137, 113);
+    width: 30%;
+    font-size: 1.5em;
+    padding: 1%;
+    color: aliceblue;
+}
+
+#float-animation-in-about-us{
+    margin-left: 20%;
+}
+
+
+#main-horizontal-section div:nth-child(2) {
+    padding: 1%;
+    font-size: 1.35em;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Optional if you also want horizontal centering */
+    text-align: center; /* Optional for centering text alignment */
+    color: rgba(248, 248, 248, 0.907);
+}
+
+
+@media (max-width:860px){
+
+    .about-us-container h1{
+        margin-left: 15%;
+        font-size: 2.4em;
+    }
+    
+    #main-horizontal-section div:nth-child(1){
+        background-color: rgb(70, 137, 113);
+        width: 40%;
+        font-size: 1.2em;
+        padding: 1%;
+        color: aliceblue;
+        
+    }
+
+    #main-horizontal-section div:nth-child(2) {
+        font-size: 1em;
+
+    }
+
+    #main-horizontal-section{
+        height: fit-content;
+    }
+
+    #float-animation-in-about-us{
+        margin-left: 0%;
+    }
+    
+}

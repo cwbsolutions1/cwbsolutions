@@ -71,7 +71,7 @@ const ContactUs = () =>{
                 <p><a href="tel:+6565423745">(+65) 6542 3745</a></p>
                 <span>24/7 Technical Support</span>
                 <p><a href="tel:+6591110311">(+65) 9111 0311</a></p>
-                <span>E-Mail:</span>
+                <span>E-Mail</span>
                 <p><a href="mailto:info@cwbsolutions.net">info@cwbsolutions.net</a></p>
             </div>
 

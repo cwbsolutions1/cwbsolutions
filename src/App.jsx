@@ -14,6 +14,7 @@ import SystemIntegration from './Site Pages/Engineering Solutions/System Integra
 import CustomizedSolutions from './Site Pages/Engineering Solutions/Customized Solutions/Customized Solutions';
 import Consultation from './Site Pages/Engineering Solutions/Consultation/Consultation';
 import ContactUs from './Site Pages/Contact Us/Contact us';
+import AboutUs from './Site Pages/About Us/About us';
 
 
 
@@ -46,6 +47,7 @@ function App() {
               <Route path='engineering/customised-solutions/' element={<CustomizedSolutions/>}></Route>
               <Route path='engineering-solutions/consultation-services/' element={<Consultation/>}></Route>
               <Route path='cwbsolutions.net/contact-us/' element={<ContactUs/>}></Route>
+              <Route path='cwbsolutions.net/about-us/' element={<AboutUs/>}></Route>
               
             </Routes>
         </div>

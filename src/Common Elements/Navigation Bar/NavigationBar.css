@@ -84,7 +84,7 @@ box-shadow: none !important; /* Removes any box shadow that might cause the line
 
 .custom-dropdown .dropdown-menu a{
     color: white;
-    font-weight: 400;
+    font-weight: 300;
 
 }
 .custom-dropdown .dropdown-menu a:hover{

@@ -48,7 +48,7 @@ const EngineeringSolutions = () => {
                     <div>Customised BBQ Pits</div>
                 </div>
                 <div>
-                    <div>Consultation Services</div>
+                    <Link id='link-item' to={"/engineering-solutions/consultation-services/"}>Consultation Services</Link>
                     <div>Payment Modules
                         <p> Coin, Cash Card/Flash Pay, Top Up</p>
                     </div>
@@ -60,10 +60,10 @@ const EngineeringSolutions = () => {
                         </div>
                     </Link>
                     
-                    <Link id='link-item' to={"/pcb-boards/"}>PCB Boards<div></div></Link>
+                    <Link id='link-item' to={"/pcb-boards/"}>PCB Boards</Link>
                 </div>
                 <div>
-                    <div>System integration & Product Design</div>
+                    <Link id='link-item' to={"/engineering-solutions/system-integration-and-product-design/"}>System integration & Product Design</Link>
                     <div>
                         Parking Guidence System (PGS)
                         <p>GSM modules</p>
