@@ -1,0 +1,11 @@
+.car-and-access-barrier-systems-container{
+    padding: 3%;
+    text-align: left;
+}
+
+
+@media (max-width:860px){
+    .air-machines-container h1{
+        margin-left: 15%;
+    }
+}

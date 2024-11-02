@@ -1,0 +1,11 @@
+.automatic-car-washes-container{
+    padding: 3%;
+    text-align: left;
+}
+
+
+@media (max-width:860px){
+    .automatic-car-washes-container h1{
+        margin-left: 15%;
+    }
+}

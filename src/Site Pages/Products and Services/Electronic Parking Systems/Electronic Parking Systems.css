@@ -1,0 +1,11 @@
+.electronic-parking-systems-container{
+    padding: 3%;
+    text-align: left;
+}
+
+
+@media (max-width:860px){
+    .electronic-parking-systems-container h1{
+        margin-left: 15%;
+    }
+}

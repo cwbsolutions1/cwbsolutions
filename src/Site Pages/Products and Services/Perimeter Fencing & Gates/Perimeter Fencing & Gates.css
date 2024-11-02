@@ -1,0 +1,12 @@
+.perimeter-fencing-and-gates{
+    padding: 3%;
+    text-align: left;
+}
+
+@media(max-width:860px){
+
+    .perimeter-fencing-and-gates h1{
+        margin-left: 15%;
+    }
+
+}

@@ -7,7 +7,7 @@ const PowerVaccumLocations = () =>{
 
             <h1>Power Vaccum Locations</h1>
 
-            <h3>Self Service Power Vacuum in Singapore</h3>
+            <h3>Self Service Power Vaccum in Singapore</h3>
 
             <div class="video-container">
                 <iframe 

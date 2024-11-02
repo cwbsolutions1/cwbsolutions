@@ -1,0 +1,10 @@
+.coin-operated-showers-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media (max-width:860px){
+    .coin-operated-showers-container h1{
+        margin-left: 15%;
+    }
+}

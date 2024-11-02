@@ -110,20 +110,40 @@ const NavigationBar = () => {
                             onClick={() => toggleDropdown('productsServices')} // Toggle on click for small screens
                             show={dropdownOpen.productsServices || (!isSmallScreen && dropdownOpen.productsServices)}
                         >
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Vehicle License Plate Recognizer</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Electronic Parking Systems</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Car & Access Barrier Systems</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Perimeter Fencing & Gates</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Automatic Car Washes</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Air Machines</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Electric BBQ Pits</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Mini Car Washes</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Water Dispensers</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Coin Operated Showers</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Hot Air Dryers</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>NETS CashCard and FlashPay</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Powerful Car Vacuums</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Replacement Parts</NavDropdown.Item>
+                            <NavDropdown.Item> <Link to={"cwbsolutions.net/vehicle-license-plate-recognizer/"}onClick={closeDropdowns}>Vehicle License Plate Recognizer</Link>
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/parking-and-access-control/electronic-parking-systems/"}onClick={closeDropdowns}>Electronic Parking Systems</Link>
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/car-barrier-systems/"}onClick={closeDropdowns}>Car & Access Barrier Systems</Link>
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/perimeter-fencing---gates/"}onClick={closeDropdowns}>Perimeter Fencing & Gates</Link></NavDropdown.Item>
+
+                            <NavDropdown.Item onClick={closeDropdowns}><Link to={"cwbsolutions.net/automatic-car-wash/"}>Automatic Car Washes</Link>
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/air-machines/"} onClick={closeDropdowns}>Air Machines</Link>
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/electric-bbq-pits/"} onClick={closeDropdowns}>Electric BBQ Pits</Link></NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/news/mini-car-washes/"}onClick={closeDropdowns}>Mini Car Washes</Link></NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/"}onClick={closeDropdowns}>Water Dispensers</Link></NavDropdown.Item>
+
+                            <NavDropdown.Item ><Link to={"cwbsolutions.net/coin-operated-showers"} onClick={closeDropdowns}>Coin Operated Showers</Link>
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/hot-air-dryer/"} onClick={closeDropdowns}>Hot Air Dryers</Link></NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/"}onClick={closeDropdowns}>NETS CashCard and FlashPay</Link></NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/"}onClick={closeDropdowns}>Powerful Car Vacuums</Link></NavDropdown.Item>
+
+                            <NavDropdown.Item><Link to={"cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/"}onClick={closeDropdowns}>Replacement Parts</Link></NavDropdown.Item>
+
                         </NavDropdown>
 
                         <NavDropdown

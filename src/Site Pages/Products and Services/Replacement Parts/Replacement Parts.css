@@ -1,0 +1,10 @@
+.replacement-parts{
+    padding: 3%;
+    text-align: left;
+}
+
+@media (max-width:860px){
+    .replacement-parts h1{
+        margin-left: 15%;
+    }
+}

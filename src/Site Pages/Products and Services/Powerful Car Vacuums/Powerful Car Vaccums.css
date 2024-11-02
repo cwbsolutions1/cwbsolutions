@@ -1,0 +1,10 @@
+.powerful-car-vaccums-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media(max-width:860px){
+    .powerful-car-vaccums-container h1{
+        margin-left: 15%;
+    }
+}

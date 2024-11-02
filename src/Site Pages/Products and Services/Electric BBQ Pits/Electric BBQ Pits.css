@@ -1,0 +1,10 @@
+.electric-bbq-pits-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media(max-width:860px){
+    .electric-bbq-pits-container h1{
+        margin-left: 15%;
+    }
+}

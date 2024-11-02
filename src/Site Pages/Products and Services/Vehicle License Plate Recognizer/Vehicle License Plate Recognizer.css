@@ -1,0 +1,45 @@
+.vehicle-license-plate-recognizer-container{
+    padding: 3%;
+    text-align: left;
+}
+
+.vehicle-license-plate-recognizer-products-container{
+    margin-top: 5em;
+}
+
+.vehicle-license-plate-recognizer-product{
+    display: flex;
+    height: 18em;
+    margin-bottom: 25px;
+}
+
+.vehicle-license-plate-recognizer-product div:nth-child(1){
+    width: 40%;
+    background-color: rgb(70, 137, 113);
+    
+}
+
+.vehicle-license-plate-recognizer-product div:nth-child(2) {
+    width: 60%;
+    padding: 2%;
+    background-color: rgba(70, 137, 113, 0.775);
+    border-top-right-radius: 20px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; 
+    justify-content: center; /* Center items vertically */
+    
+}
+
+.vehicle-license-plate-recognizer-product h5{
+    font-size: 2em;
+}
+
+
+
+
+@media (max-width:860px){
+    .vehicle-license-plate-recognizer-container{
+        margin-left: 15%;
+    }
+}

@@ -18,6 +18,20 @@ import AboutUs from './Site Pages/About Us/About us';
 import Clients from './Site Pages/Clients/Clients';
 import PowerVaccumLocations from './Site Pages/Support & Locations/Power Vaccum Locations/Power Vaccum Locations';
 import WaterDispenserLocations from './Site Pages/Support & Locations/Water Dispenser Locations/Water Dispenser Locations';
+import VehicleLicensePlateRecognizer from './Site Pages/Products and Services/Vehicle License Plate Recognizer/Vehicle License Plate Recognizer';
+import ElectronicParkingSystems from './Site Pages/Products and Services/Electronic Parking Systems/Electronic Parking Systems';
+import AirMachines from './Site Pages/Products and Services/Air Machines/Air Machines';
+import AutomaticCarWashes from './Site Pages/Products and Services/Automatic Car Washes/Automatic Car Washes';
+import CarAndAccessBarrierSystems from './Site Pages/Products and Services/Car & Access Barrier Systems/Car & Access Barrier Systems';
+import CoinOperatedShowers from './Site Pages/Products and Services/Coin Operated Showers/Coin Operated Showers';
+import ElectricBBQPits from './Site Pages/Products and Services/Electric BBQ Pits/Electric BBQ Pits';
+import HotAirDryers from './Site Pages/Products and Services/Hot Air Dryers/Hot Air Dryers';
+import MiniCarWashes from './Site Pages/Products and Services/Mini Car Washes/Mini Car Washes';
+import NETSCashCardAndFlashPay from './Site Pages/Products and Services/NETS CashCard and FlashPay/NETS CashCard and FlashPay';
+import PerimeterFencingAndGates from './Site Pages/Products and Services/Perimeter Fencing & Gates/Perimeter Fencing & Gates';
+import PowerfulCarVaccums from './Site Pages/Products and Services/Powerful Car Vacuums/Powerful Car Vaccums';
+import ReplacementParts from './Site Pages/Products and Services/Replacement Parts/Replacement Parts';
+import WaterDispensers from './Site Pages/Products and Services/Water Dispensers/Water Dispensers';
 
 
 
@@ -54,6 +68,20 @@ function App() {
               <Route path='cwbsolutions.net/clients/' element={<Clients/>}></Route>
               <Route path='cwbsolutions.net/power-vacuum-locations/' element={<PowerVaccumLocations/>}></Route>
               <Route path='cwbsolutions.net/water-dispenser-locations/' element={<WaterDispenserLocations/>}></Route>
+              <Route path='cwbsolutions.net/vehicle-license-plate-recognizer/' element={<VehicleLicensePlateRecognizer/>}></Route>
+              <Route path='cwbsolutions.net/parking-and-access-control/electronic-parking-systems/' element={<ElectronicParkingSystems/>}></Route>
+              <Route path='cwbsolutions.net/air-machines/' element={<AirMachines/>}></Route>
+              <Route path='cwbsolutions.net/automatic-car-wash/' element={<AutomaticCarWashes/>}></Route>
+              <Route path='cwbsolutions.net/car-barrier-systems/' element={<CarAndAccessBarrierSystems/>}></Route>
+              <Route path='cwbsolutions.net/coin-operated-showers' element={<CoinOperatedShowers/>}></Route>
+              <Route path='cwbsolutions.net/electric-bbq-pits/' element={<ElectricBBQPits/>}></Route>
+              <Route path='cwbsolutions.net/hot-air-dryer/'element={<HotAirDryers/>}></Route>
+              <Route path='cwbsolutions.net/news/mini-car-washes/' element={<MiniCarWashes/>}></Route>
+              <Route path='cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/' element={<NETSCashCardAndFlashPay/>}></Route>
+              <Route path='cwbsolutions.net/perimeter-fencing---gates/' element={<PerimeterFencingAndGates/>}></Route>
+              <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/' element={<PowerfulCarVaccums/>}></Route>
+              <Route path='cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/' element={<ReplacementParts/>}></Route>
+              <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/' element={<WaterDispensers/>}></Route>
               
             </Routes>
         </div>

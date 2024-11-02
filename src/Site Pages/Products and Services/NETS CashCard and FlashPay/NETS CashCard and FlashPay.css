@@ -1,0 +1,10 @@
+.nets-cash-card-and-flash-pay-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media (max-width:860px){
+    .nets-cash-card-and-flash-pay-container h1{
+        margin-left: 15%;
+    }
+}

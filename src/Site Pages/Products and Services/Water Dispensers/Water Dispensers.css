@@ -1,0 +1,11 @@
+.water-dispensers-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media (max-width:860px){
+    
+    .water-dispensers-container h1{
+    margin-left: 15%;
+    }
+}
