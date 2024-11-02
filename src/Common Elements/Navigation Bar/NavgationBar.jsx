@@ -64,7 +64,7 @@ const NavigationBar = () => {
             <Container fluid>
                 <Navbar.Brand href="#">
                     <Link to="cwbsolutions.net/">
-                        <img className={`navigation-bar-cwb-logo ${isExpanded ? 'logo-expand' : ''}`} src={CWBLogo} alt="CWB Solutions Logo" />
+                        <img className={`navigation-bar-cwb-logo ${isExpanded ? 'logo-expand' : ''}`} src={CWBLogo} alt="CWB Solutions Logo" onClick={closeDropdowns} />
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" className="ms-auto custom-toggle-navbar" />
@@ -134,8 +134,8 @@ const NavigationBar = () => {
                             onClick={() => toggleDropdown('supportLocations')} // Toggle on click for small screens
                             show={dropdownOpen.supportLocations || (!isSmallScreen && dropdownOpen.supportLocations)}
                         >
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Water Dispenser Locations</NavDropdown.Item>
-                            <NavDropdown.Item href="#" onClick={closeDropdowns}>Power Vacuum Locations</NavDropdown.Item>
+                            <NavDropdown.Item ><Link to={"cwbsolutions.net/water-dispenser-locations/"} onClick={closeDropdowns}>Water Dispenser Locations</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to={"cwbsolutions.net/power-vacuum-locations/"} onClick={closeDropdowns}>Power Vacuum Locations</Link></NavDropdown.Item>
                             <NavDropdown.Item href="#" onClick={closeDropdowns}>Technical Support</NavDropdown.Item>
                         </NavDropdown>
 

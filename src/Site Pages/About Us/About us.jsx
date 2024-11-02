@@ -81,7 +81,7 @@ const AboutUs =  () =>{
                             </Lottie>
                         </div>
                         </div>
-                        <div>CWB'S competitive processes that is fair, open and effective in obtaining the best value. We seek to strike a balance between cost and quality that provides the best overall value.</div>
+                        <div>CWB's competitive processes that is fair, open and effective in obtaining the best value. We seek to strike a balance between cost and quality that provides the best overall value.</div>
                     </div>
                 </div>
             </div>

@@ -153,7 +153,8 @@ const Homepage = () =>{
 
                 <div>
                 <iframe 
-                    width="560" 
+                    style={{marginTop:"10px"}}
+                    width="100%" 
                     height="315" 
                     src="https://www.youtube.com/embed/9HqbHp3osys?si=2ogEKY5460Xz8UNC" 
                     title="YouTube video player" 

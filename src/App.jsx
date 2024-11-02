@@ -16,6 +16,8 @@ import Consultation from './Site Pages/Engineering Solutions/Consultation/Consul
 import ContactUs from './Site Pages/Contact Us/Contact us';
 import AboutUs from './Site Pages/About Us/About us';
 import Clients from './Site Pages/Clients/Clients';
+import PowerVaccumLocations from './Site Pages/Support & Locations/Power Vaccum Locations/Power Vaccum Locations';
+import WaterDispenserLocations from './Site Pages/Support & Locations/Water Dispenser Locations/Water Dispenser Locations';
 
 
 
@@ -50,6 +52,8 @@ function App() {
               <Route path='cwbsolutions.net/contact-us/' element={<ContactUs/>}></Route>
               <Route path='cwbsolutions.net/about-us/' element={<AboutUs/>}></Route>
               <Route path='cwbsolutions.net/clients/' element={<Clients/>}></Route>
+              <Route path='cwbsolutions.net/power-vacuum-locations/' element={<PowerVaccumLocations/>}></Route>
+              <Route path='cwbsolutions.net/water-dispenser-locations/' element={<WaterDispenserLocations/>}></Route>
               
             </Routes>
         </div>

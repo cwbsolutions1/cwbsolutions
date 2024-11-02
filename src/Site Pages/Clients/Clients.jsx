@@ -2,6 +2,7 @@ import './Clients.css'
 import animation from './Animation - 1730525050598.json'
 import animation2 from './Animation - 1730524018714.json'
 import Lottie from 'lottie-react';
+import PungoolPasirRisTownCouncil from './pasir-ris-punggol-town-councilx.jpg'
 
 const Clients = () =>{
 
