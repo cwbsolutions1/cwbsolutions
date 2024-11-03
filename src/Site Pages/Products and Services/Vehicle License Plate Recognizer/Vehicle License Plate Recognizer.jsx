@@ -14,9 +14,9 @@ const VehicleLicensePlateRecognizer = () =>{
                 <div className='vehicle-license-plate-recognizer-product'>
                     <div>
                         <Lottie
+                        id='lottie-animation-in-vehicle-license-plate-recognizer'
                         animationData={animation}
                         style={{background:"transparent", width: "300px", height: "300px"}}>
-
                         </Lottie>
                     </div>
                     <div>
@@ -29,6 +29,7 @@ const VehicleLicensePlateRecognizer = () =>{
                 <div className='vehicle-license-plate-recognizer-product'>
                     <div>
                         <Lottie
+                            id='lottie-animation-in-vehicle-license-plate-recognizer'
                             animationData={animation}
                             style={{background:"transparent", width: "300px", height: "300px"}}>
 

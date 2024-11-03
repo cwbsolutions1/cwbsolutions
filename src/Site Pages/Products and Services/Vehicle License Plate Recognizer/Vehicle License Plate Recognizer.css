@@ -9,13 +9,16 @@
 
 .vehicle-license-plate-recognizer-product{
     display: flex;
-    height: 18em;
+    height: 20em;
     margin-bottom: 25px;
+    width: 100%;
 }
 
 .vehicle-license-plate-recognizer-product div:nth-child(1){
     width: 40%;
     background-color: rgb(70, 137, 113);
+    align-items: center;
+    display: flex;
     
 }
 
@@ -38,8 +41,19 @@
 
 
 
+
+
+
+
 @media (max-width:860px){
-    .vehicle-license-plate-recognizer-container{
+    .vehicle-license-plate-recognizer-container h1{
         margin-left: 15%;
     }
+
+    #lottie-animation-in-vehicle-license-plate-recognizer{
+        height: 250px !important; 
+        width: 250px !important;
+    }
+
+
 }
