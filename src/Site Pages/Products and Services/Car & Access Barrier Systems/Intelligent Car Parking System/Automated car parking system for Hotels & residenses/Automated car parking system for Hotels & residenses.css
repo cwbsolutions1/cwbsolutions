@@ -1,0 +1,29 @@
+.automated-car-parking-system-for-hotels-and-recidencies-container{
+    padding: 3%;
+    text-align: left;
+}
+
+.automated-car-parking-system-for-hotels-and-recidencies-container p{
+    margin-bottom: 1.5%;
+}
+
+.system-inclutions-in-automated-car-parking-system-for-hotels-and-recidencies-applications{
+    background-color: rgba(27, 135, 70, 0.074);
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 2%;
+    transition: 0.7s;
+}
+
+.system-inclutions-in-automated-car-parking-system-for-hotels-and-recidencies-applications:hover{
+    background-color: rgba(23, 122, 80, 0.238);
+}
+
+
+
+@media(max-width:860px){
+    .automated-car-parking-system-for-hotels-and-recidencies-container h1{
+        margin-left: 15%;
+        font-size: 2.2em;
+    }
+}

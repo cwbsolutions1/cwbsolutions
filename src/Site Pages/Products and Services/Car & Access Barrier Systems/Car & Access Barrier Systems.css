@@ -3,9 +3,60 @@
     text-align: left;
 }
 
+.car-and-access-barrier-systems-products-navigation-box{
+    padding: 1%;
+    margin-top: 2%;
+    background-color: rgb(8, 135, 92);
+    font-size: 1.2em;
+    width: 100%;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-weight: 400;
+}
+
+.car-and-access-barrier-systems-products-navigation-box-sub-headings{
+    margin-top: 10px;
+}
+
+.car-and-access-barrier-systems-products-navigation-box-sub-headings div{
+    font-size: 0.7em;
+    padding: 0.4%;
+    background-color: rgba(29, 160, 116, 0.256);
+    margin-top: 6px;
+    border-radius: 4px;
+}
+
+.car-and-access-barrier-item{
+    font-size: 0.85em;
+    padding: 0.4%;
+    background-color: rgba(29, 160, 116, 0.256);
+    margin-top: 6px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    display: block;
+
+}
+.car-and-access-barrier-item:hover{
+    background-color: rgba(29, 160, 116, 0.733);
+    cursor: pointer;
+    color: inherit;
+
+}
+
+.car-and-access-barrier-systems-products-navigation-box-sub-headings div:hover{
+    background-color: rgba(29, 160, 116, 0.733);
+    cursor: pointer;
+}
+
+
 
 @media (max-width:860px){
-    .air-machines-container h1{
+    .car-and-access-barrier-systems-container h1{
         margin-left: 15%;
+        font-size: 2.2em;
+        margin-bottom: 5%;
     }
 }

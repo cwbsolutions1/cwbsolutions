@@ -32,6 +32,13 @@ import PerimeterFencingAndGates from './Site Pages/Products and Services/Perimet
 import PowerfulCarVaccums from './Site Pages/Products and Services/Powerful Car Vacuums/Powerful Car Vaccums';
 import ReplacementParts from './Site Pages/Products and Services/Replacement Parts/Replacement Parts';
 import WaterDispensers from './Site Pages/Products and Services/Water Dispensers/Water Dispensers';
+import CameGard from './Site Pages/Products and Services/Car & Access Barrier Systems/Came Gard/Came Gard';
+import NiceWilParkingBarrierGate from './Site Pages/Products and Services/Car & Access Barrier Systems/NICE WIL Parking Barrier Gate/NICE WIL Parking Barrier Gate';
+import AutomaticCarParkBarrierGates from './Site Pages/Products and Services/Car & Access Barrier Systems/Automatic Car Park Barrier Gates/Automatic Car Park Barrier Gates';
+import AutomaticTrafficBarrieWithLedSignal from './Site Pages/Products and Services/Car & Access Barrier Systems/Automatic Traffic barrier with LED signal/Automatic Traffic barrier with LED signal';
+import IntelligentCarParkingSystemManagement from './Site Pages/Products and Services/Car & Access Barrier Systems/Intelligent Car Parking System/Intelligent Car Parking System Management/Intelligent Car Parking System Management';
+import IntelligentCarParkingSystemManagementWithLedDisplay from './Site Pages/Products and Services/Car & Access Barrier Systems/Intelligent Car Parking System/Intelligent Car Parking System Management with LED Display/Intelligent Car Parking System Management with LED Display';
+import AutomatedCarParkingSystemForHotelsAndResidencies from './Site Pages/Products and Services/Car & Access Barrier Systems/Intelligent Car Parking System/Automated car parking system for Hotels & residenses/Automated car parking system for Hotels & residenses';
 
 
 
@@ -82,6 +89,13 @@ function App() {
               <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/' element={<PowerfulCarVaccums/>}></Route>
               <Route path='cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/' element={<ReplacementParts/>}></Route>
               <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/' element={<WaterDispensers/>}></Route>
+              <Route path='/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/' element={<CameGard/>}> </Route>
+              <Route path='/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate/' element={<NiceWilParkingBarrierGate/>}></Route>
+              <Route path='/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/' element={<AutomaticCarParkBarrierGates/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-traffic-barrier-with-led-signal/'element={<AutomaticTrafficBarrieWithLedSignal/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-/'element={<IntelligentCarParkingSystemManagement/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/' element={<IntelligentCarParkingSystemManagementWithLedDisplay/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--/' element={<AutomatedCarParkingSystemForHotelsAndResidencies/>}></Route>
               
             </Routes>
         </div>

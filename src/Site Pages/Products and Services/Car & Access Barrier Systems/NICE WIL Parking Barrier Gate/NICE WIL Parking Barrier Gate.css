@@ -1,0 +1,11 @@
+.nice-wil-parking-barrier-gate-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media(Max-width:860px){
+    .nice-wil-parking-barrier-gate-container h1{
+        margin-left: 15%;
+        font-size: 2.2em;
+    }
+}

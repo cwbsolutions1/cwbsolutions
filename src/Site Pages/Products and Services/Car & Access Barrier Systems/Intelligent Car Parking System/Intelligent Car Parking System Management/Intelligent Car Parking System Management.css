@@ -1,0 +1,11 @@
+.intelligent-car-parking-system-management-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media(max-width:860px){
+    .intelligent-car-parking-system-management-container h1{
+        margin-left: 15%;
+        font-size: 2.2em;
+    }
+}
