@@ -14,8 +14,10 @@ const SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions = () =>
                     <img src={productImage} style={{maxWidth:'100%'}} alt="" />
                 </div>
 
-                <div>
-                    <p>Applications</p>
+                {/*classname "applications-in-swing-arm-barrier-super-section" and  classname "features-and-functions-container-in-swing-arm-barrier-super-section" are common classes handled in the, "stainless-steel-automatic-single-arm-swing-gate" page. Adjustemt will appear on all parts in that specific section*/}
+
+                <div className='applications-in-swing-arm-barrier-super-section'>
+                    <h6>Applications</h6>
                     <ul type='square'>
                         <li>Highway Toll Station</li>
                         <li>Road</li>
@@ -26,7 +28,7 @@ const SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions = () =>
                     </ul>
                 </div>
 
-                <div>
+                <div className='features-and-functions-container-in-swing-arm-barrier-super-section'>
                     <h6>Features</h6>
 
                     <ul>

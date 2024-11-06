@@ -18,7 +18,9 @@ const FlapBarrier= () =>{
                     {/*For Apllications */}
                 </div>
 
-                <div>
+                {/*classname "applications-in-swing-arm-barrier-super-section" and  classname "features-and-functions-container-in-swing-arm-barrier-super-section" are common classes handled in the, "stainless-steel-automatic-single-arm-swing-gate" page. Adjustemt will appear on all parts in that specific section*/}
+
+                <div className='features-and-functions-container-in-swing-arm-barrier-super-section'>
                     <h6>Features & Functions</h6>
 
                     <ul>

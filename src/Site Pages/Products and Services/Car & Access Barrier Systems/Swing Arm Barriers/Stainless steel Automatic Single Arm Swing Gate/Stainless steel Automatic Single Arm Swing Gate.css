@@ -4,6 +4,47 @@
 
 }
 
+.applications-in-swing-arm-barrier-super-section h6{
+    background-color: rgb(14, 152, 176);
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 2px;
+    border-top-right-radius: 8px;
+}
+
+.features-and-functions-container-in-swing-arm-barrier-super-section,
+.applications-in-swing-arm-barrier-super-section{
+    background-color: rgba(159, 221, 232, 0.366);
+    padding: 1.5%;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.features-and-functions-container-in-swing-arm-barrier-super-section h6{
+    background-color: rgb(14, 152, 176);
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 2px;
+    border-top-right-radius: 8px;
+    
+}
+
+
+.features-and-functions-container-in-swing-arm-barrier-super-section:hover,
+.applications-in-swing-arm-barrier-super-section:hover{
+    background-color: rgba(159, 221, 232, 0.637);
+}
+
+.features-and-functions-container-in-swing-arm-barrier-super-section li{
+    margin-top: 5px
+}
+
+
+
 @media(Max-width:860px){
     .stainless-steel-automatic-single-arm-swing-gate h1{
         margin-left: 15%;
