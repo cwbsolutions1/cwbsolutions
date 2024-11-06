@@ -54,11 +54,27 @@ const CarAndAccessBarrierSystems =()=>{
                 <div className='car-and-access-barrier-systems-products-navigation-box'>
                     <h4>Swing Arm Barriers</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
-                        <div>Stainless steel Automatic Single Arm Swing Gate</div>
-                        <div>Smart Swing Security Arm Barrier for Hotel Community Financial Institutions</div>
-                        <div>Access control Time attendance Versatile Stainless Steel Flap Swing Arm Barrier</div>
-                        <div>Waterproof stainless steel LAN Sock pedestrian barrier gate Swing barriers</div>
-                        <div>Flap Barrier (Speed Gate)</div>
+                        <Link 
+                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate/'}
+                        className='car-and-access-barrier-item'>Stainless steel Automatic Single Arm Swing Gate</Link>
+                        <Link 
+                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/'}
+                        className='car-and-access-barrier-item'>Smart Swing Security Arm Barrier for Hotel Community Financial Institutions
+                        </Link>
+                        <Link 
+                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/'}
+                        className='car-and-access-barrier-item'>Access control Time attendance Versatile Stainless Steel Flap Swing Arm Barrier
+                        </Link>
+                        <Link 
+                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/'}
+                        className='car-and-access-barrier-item'
+                        >Waterproof stainless steel LAN Sock pedestrian barrier gate Swing barriers
+                        </Link>
+                        <Link 
+                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/'}
+                        className='car-and-access-barrier-item'>Flap Barrier (Speed Gate)
+                        </Link>
+                        
                     </div>
                 </div>
                 <div className='car-and-access-barrier-systems-products-navigation-box'>

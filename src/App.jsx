@@ -39,6 +39,11 @@ import AutomaticTrafficBarrieWithLedSignal from './Site Pages/Products and Servi
 import IntelligentCarParkingSystemManagement from './Site Pages/Products and Services/Car & Access Barrier Systems/Intelligent Car Parking System/Intelligent Car Parking System Management/Intelligent Car Parking System Management';
 import IntelligentCarParkingSystemManagementWithLedDisplay from './Site Pages/Products and Services/Car & Access Barrier Systems/Intelligent Car Parking System/Intelligent Car Parking System Management with LED Display/Intelligent Car Parking System Management with LED Display';
 import AutomatedCarParkingSystemForHotelsAndResidencies from './Site Pages/Products and Services/Car & Access Barrier Systems/Intelligent Car Parking System/Automated car parking system for Hotels & residenses/Automated car parking system for Hotels & residenses';
+import StainlessSteelAutomaticSingleArmSwingGate from './Site Pages/Products and Services/Car & Access Barrier Systems/Swing Arm Barriers/Stainless steel Automatic Single Arm Swing Gate/Stainless steel Automatic Single Arm Swing Gate';
+import SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions from './Site Pages/Products and Services/Car & Access Barrier Systems/Swing Arm Barriers/Smart Swing Security Arm Barrier for Hotel Community Financial Institutions/Smart Swing Security Arm Barrier for Hotel Community Financial Institutions';
+import AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier from './Site Pages/Products and Services/Car & Access Barrier Systems/Swing Arm Barriers/Access control Time attendance Versatile Stainless Steel Flap Swing Arm Barrier/Access control Time attendance Versatile Stainless Steel Flap Swing Arm Barrier';
+import WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers from './Site Pages/Products and Services/Car & Access Barrier Systems/Swing Arm Barriers/Waterproof stainless steel LAN Sock pedestrian barrier gate Swing barriers/Waterproof stainless steel LAN Sock pedestrian barrier gate Swing barriers';
+import FlapBarrier from './Site Pages/Products and Services/Car & Access Barrier Systems/Swing Arm Barriers/Flap Barrier (Speed Gate)/Flap Barrier';
 
 
 
@@ -96,6 +101,14 @@ function App() {
               <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-/'element={<IntelligentCarParkingSystemManagement/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/' element={<IntelligentCarParkingSystemManagementWithLedDisplay/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--/' element={<AutomatedCarParkingSystemForHotelsAndResidencies/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate/' element={<StainlessSteelAutomaticSingleArmSwingGate/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/' element={<SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions/>}>
+              </Route>
+              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/' element={<AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier></AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier>}>
+              </Route>
+              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/' element={<WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers/>}>
+              </Route>
+              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/' element={<FlapBarrier/>}></Route>
               
             </Routes>
         </div>
