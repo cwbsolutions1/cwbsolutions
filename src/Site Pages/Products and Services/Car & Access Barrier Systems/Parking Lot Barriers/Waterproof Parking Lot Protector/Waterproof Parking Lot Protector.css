@@ -1,0 +1,11 @@
+.waterproof-parking-lot-protector-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media(max-width:860px){
+    .waterproof-parking-lot-protector-container h1{
+        margin-left: 15%;
+        font: 2em;
+    }
+}

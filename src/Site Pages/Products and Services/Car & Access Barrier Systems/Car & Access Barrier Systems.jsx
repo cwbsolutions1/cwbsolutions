@@ -80,16 +80,32 @@ const CarAndAccessBarrierSystems =()=>{
                 <div className='car-and-access-barrier-systems-products-navigation-box'>
                     <h4>Parking Lot Barriers</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
-                        <div>Remote Control Automatic smooth running Parking Space Barriers</div>
-                        <div>Stainless steel Remote Control Parking Space Barrier</div>
-                        <div>Waterproof Parking Lot Protector</div>
+                        <Link 
+                        to={"/cwbsolutions.net/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/"}
+                        className='car-and-access-barrier-item'>Remote Control Automatic smooth running Parking Space Barriers
+                        </Link>
+                        <Link 
+                        to={"/www.cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier"}
+                        className='car-and-access-barrier-item'>Stainless steel Remote Control Parking Space Barrier
+                        </Link>
+                        <Link 
+                        to={"/cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/"}
+                        className='car-and-access-barrier-item'>Waterproof Parking Lot Protector
+                        </Link>
+
                     </div>
                 </div>
                 <div className='car-and-access-barrier-systems-products-navigation-box'>
                     <h4>Turnstile</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
-                        <div>Full Height Turnstile</div>
-                        <div>Tripod Turnstile</div>
+                        <Link 
+                        to={"/cwbsolutions.net/turnstile/full-height-turnstile/"}
+                        className='car-and-access-barrier-item'>Full Height Turnstile
+                        </Link>
+                        <Link
+                        to={'/cwbsolutions.net/tripod-turnstile/'}
+                        className='car-and-access-barrier-item'>Tripod Turnstile
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -44,6 +44,11 @@ import SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions from '
 import AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier from './Site Pages/Products and Services/Car & Access Barrier Systems/Swing Arm Barriers/Access control Time attendance Versatile Stainless Steel Flap Swing Arm Barrier/Access control Time attendance Versatile Stainless Steel Flap Swing Arm Barrier';
 import WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers from './Site Pages/Products and Services/Car & Access Barrier Systems/Swing Arm Barriers/Waterproof stainless steel LAN Sock pedestrian barrier gate Swing barriers/Waterproof stainless steel LAN Sock pedestrian barrier gate Swing barriers';
 import FlapBarrier from './Site Pages/Products and Services/Car & Access Barrier Systems/Swing Arm Barriers/Flap Barrier (Speed Gate)/Flap Barrier';
+import RemoteControlAutomaticSmoothRunningParkingSpaceBarriers from './Site Pages/Products and Services/Car & Access Barrier Systems/Parking Lot Barriers/Remote Control Automatic smooth running Parking Space Barriers/Remote Control Automatic smooth running Parking Space Barriers';
+import StainlessSteelRemoteControlParkingSpaceBarrier from './Site Pages/Products and Services/Car & Access Barrier Systems/Parking Lot Barriers/Stainless steel Remote Control Parking Space Barrier/Stainless steel Remote Control Parking Space Barrier';
+import WaterproofParkingLotProtector from './Site Pages/Products and Services/Car & Access Barrier Systems/Parking Lot Barriers/Waterproof Parking Lot Protector/Waterproof Parking Lot Protector';
+import FullHeightTurnstile from './Site Pages/Products and Services/Car & Access Barrier Systems/Turnstile/Full Height Turnstile/Full Height Turnstile';
+import TripodTurnstile from './Site Pages/Products and Services/Car & Access Barrier Systems/Turnstile/Tripod Turnstile/Tripod Turnstile';
 
 
 
@@ -109,7 +114,17 @@ function App() {
               <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/' element={<WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers/>}>
               </Route>
               <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/' element={<FlapBarrier/>}></Route>
-              
+              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/' element={<RemoteControlAutomaticSmoothRunningParkingSpaceBarriers/>}>
+              </Route>
+              <Route path='www.cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier' element={<StainlessSteelRemoteControlParkingSpaceBarrier/>}>
+              </Route>
+              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/' element={<WaterproofParkingLotProtector/>}>
+              </Route>
+              <Route path='cwbsolutions.net/turnstile/full-height-turnstile/' element={<FullHeightTurnstile/>}>
+              </Route>
+              <Route path='cwbsolutions.net/tripod-turnstile/' element={<TripodTurnstile/>}></Route>
+
+
             </Routes>
         </div>
 

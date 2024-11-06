@@ -1,0 +1,50 @@
+.remote-control-automatic-smoothrrunning-parking-space-barriers-container{
+    padding: 3%;
+    text-align: left;
+}
+
+.applications-in-parking-lot-barriers-super-section h6{
+    background-color: rgb(14, 152, 176);
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 2px;
+    border-top-right-radius: 8px;
+}
+
+.features-and-functions-container-in-parking-lot-barriers-super-section,
+.applications-in-parking-lot-barriers-super-section{
+    background-color: rgba(159, 221, 232, 0.366);
+    padding: 1.5%;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.features-and-functions-container-in-parking-lot-barriers-super-section h6{
+    background-color: rgb(14, 152, 176);
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 2px;
+    border-top-right-radius: 8px;
+    
+}
+
+.features-and-functions-container-in-parking-lot-barriers-super-section:hover,
+.applications-in-swing-arm-barrier-super-section:hover{
+    background-color: rgba(159, 221, 232, 0.637);
+}
+
+.features-and-functions-container-in-parking-lot-barriers-super-section li{
+    margin-top: 5px
+}
+
+
+@media(max-width:860px){
+    .remote-control-automatic-smoothrrunning-parking-space-barriers-container h1{
+        margin-left: 15%;
+        font-size: 2em;
+    }
+}

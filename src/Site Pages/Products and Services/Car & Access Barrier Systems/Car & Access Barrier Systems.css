@@ -4,9 +4,9 @@
 }
 
 .car-and-access-barrier-systems-products-navigation-box{
-    padding: 1%;
+    padding: 2%;
     margin-top: 2%;
-    background-color: rgb(8, 135, 92);
+    background-color: rgba(122, 211, 236, 0.363);
     font-size: 1.2em;
     width: 100%;
     color: white;
@@ -18,12 +18,20 @@
 
 .car-and-access-barrier-systems-products-navigation-box-sub-headings{
     margin-top: 10px;
+    
+}
+
+.car-and-access-barrier-systems-products-navigation-box h4{
+    background-color: rgb(14, 152, 176);
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
 }
 
 .car-and-access-barrier-systems-products-navigation-box-sub-headings div{
     font-size: 0.7em;
     padding: 0.4%;
-    background-color: rgba(29, 160, 116, 0.256);
+    background-color: rgba(29, 138, 160, 0.286);
     margin-top: 6px;
     border-radius: 4px;
 }
@@ -31,23 +39,23 @@
 .car-and-access-barrier-item{
     font-size: 0.85em;
     padding: 0.4%;
-    background-color: rgba(29, 160, 116, 0.256);
+    background-color: rgba(29, 125, 160, 0.051);
     margin-top: 6px;
     border-radius: 4px;
-    color: white;
+    color: rgb(83, 84, 84);
     font-weight: 400;
     display: block;
 
 }
 .car-and-access-barrier-item:hover{
-    background-color: rgba(29, 160, 116, 0.733);
+    background-color: rgba(29, 145, 160, 0.279);
     cursor: pointer;
-    color: inherit;
+    color: rgb(84, 84, 84);
 
 }
 
 .car-and-access-barrier-systems-products-navigation-box-sub-headings div:hover{
-    background-color: rgba(29, 160, 116, 0.733);
+    background-color: rgba(29, 145, 160, 0.279);
     cursor: pointer;
 }
 
