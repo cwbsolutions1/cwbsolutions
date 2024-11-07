@@ -170,6 +170,23 @@ const Sidebar = () => {
           <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Outdoor Umbrella</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
+
+      <Dropdown 
+        onMouseEnter={() => setOpenDropdown('home')} 
+        onMouseLeave={() => setOpenDropdown(null)}
+        show={openDropdown === 'home'}
+      >
+        <Dropdown.Toggle className="custom-sidebar-button">
+          Home
+        </Dropdown.Toggle>
+        <Dropdown.Menu id='sidebar-dropdown-menu'>
+          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>TEN FALCONS- Furniture & Furnishings</Dropdown.Item>
+          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>TEN BEARS- Consumer Lifestyle Trend Store</Dropdown.Item>
+          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>RHINE CONSULTANTS- Marketing, Desgining & IT </Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown> 
+
+      
     </>
   );
 
