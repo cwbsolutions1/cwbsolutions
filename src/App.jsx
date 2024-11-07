@@ -107,21 +107,14 @@ function App() {
               <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/' element={<IntelligentCarParkingSystemManagementWithLedDisplay/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--/' element={<AutomatedCarParkingSystemForHotelsAndResidencies/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate/' element={<StainlessSteelAutomaticSingleArmSwingGate/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/' element={<SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions/>}>
-              </Route>
-              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/' element={<AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier></AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier>}>
-              </Route>
-              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/' element={<WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers/>}>
-              </Route>
+              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/' element={<SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/' element={<AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier></AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/' element={<WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/' element={<FlapBarrier/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/' element={<RemoteControlAutomaticSmoothRunningParkingSpaceBarriers/>}>
-              </Route>
-              <Route path='www.cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier' element={<StainlessSteelRemoteControlParkingSpaceBarrier/>}>
-              </Route>
-              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/' element={<WaterproofParkingLotProtector/>}>
-              </Route>
-              <Route path='cwbsolutions.net/turnstile/full-height-turnstile/' element={<FullHeightTurnstile/>}>
-              </Route>
+              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/' element={<RemoteControlAutomaticSmoothRunningParkingSpaceBarriers/>}></Route>
+              <Route path='www.cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier' element={<StainlessSteelRemoteControlParkingSpaceBarrier/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/' element={<WaterproofParkingLotProtector/>}></Route>
+              <Route path='cwbsolutions.net/turnstile/full-height-turnstile/' element={<FullHeightTurnstile/>}></Route>
               <Route path='cwbsolutions.net/tripod-turnstile/' element={<TripodTurnstile/>}></Route>
 
 
