@@ -66,7 +66,7 @@ const AboutUs =  () =>{
                             </Lottie>
                         </div>
                         </div>
-                        <div>CWB prides itself on esceptional customer service and is committed to its promise to deliver quality on site, on time.</div>
+                        <div>CWB prides itself on exceptional customer service and is committed to its promise to deliver quality on site, on time.</div>
                     </div>
                     <div id='main-horizontal-section'>
                         <div>OUR MOTTO
