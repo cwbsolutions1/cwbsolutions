@@ -1,11 +1,77 @@
-.water-dispensers-container{
+.water-dispensers-container {
     padding: 3%;
     text-align: left;
 }
 
-@media (max-width:860px){
-    
-    .water-dispensers-container h1{
-    margin-left: 15%;
+.merchandise-section-in-water-dispensers,
+.add-on-section-in-water-dispensers {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 25px;
+    margin-bottom: 2%;
+}
+
+.water-dispensers-container h3{
+    padding: 1%;
+    background:linear-gradient(135deg,rgb(13, 57, 91),rgb(58, 174, 241));
+    border-radius: 4px;
+    color: white;
+}
+
+.merchandise-individual-box-in-water-dispensers,
+.add-on-individual-box-in-water-dispensers {
+    aspect-ratio: 0.65; /* Keeps each box square */
+    box-shadow: 0px 0px 5px rgb(214, 213, 213);
+    background-color: rgba(237, 237, 237, 0.526);
+    padding: 2.5%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.merchandise-individual-box-in-water-dispensers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.merchandise-individual-box-in-water-dispensers img,
+.add-on-individual-box-in-water-dispensers img {
+    width: 100%; /* Full width of the box */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the box area without distortion */
+    border-radius: 3px;
+    max-width: 100%;
+}
+
+.merchandise-title-individual-box-in-water-dispensers {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buy-now-section-in-water-dispensers {
+    background-color: rgb(245, 196, 61);
+    padding: 2%;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 5px;
+    color: rgb(77, 77, 77);
+    transition: 0.3s;
+    margin-top: auto; /* Pushes "Buy Now" to the bottom */
+}
+
+.buy-now-section-in-water-dispensers:hover {
+    background-color: rgb(248, 188, 23);
+    cursor: pointer;
+    color: black;
+}
+
+
+
+@media (max-width: 860px) {
+    .water-dispensers-container h1 {
+        margin-left: 15%;
     }
 }

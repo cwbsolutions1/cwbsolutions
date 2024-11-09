@@ -1,0 +1,11 @@
+.swimming-pool-showers-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media(max-width:860px){
+    .swimming-pool-showers-container h1{
+        margin-left: 15%;
+        font-size: 2em;
+    }
+}

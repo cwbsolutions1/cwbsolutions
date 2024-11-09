@@ -1,7 +1,7 @@
 import './Hot Air Dryers.css'
 import wallMountBoom from './61h-ugoupdl__ac_sl1500_.jpg'
 import vaccumCleaner from './Commercial-Vacuum-CleanerPower.png'
-import airDryer from './Hot-Air-Dryer.jpg'
+import airDryer from './Air_Machine.jpeg'
 
 const HotAirDryers = () =>{
     return(

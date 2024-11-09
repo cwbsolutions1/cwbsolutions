@@ -49,6 +49,7 @@ import StainlessSteelRemoteControlParkingSpaceBarrier from './Site Pages/Product
 import WaterproofParkingLotProtector from './Site Pages/Products and Services/Car & Access Barrier Systems/Parking Lot Barriers/Waterproof Parking Lot Protector/Waterproof Parking Lot Protector';
 import FullHeightTurnstile from './Site Pages/Products and Services/Car & Access Barrier Systems/Turnstile/Full Height Turnstile/Full Height Turnstile';
 import TripodTurnstile from './Site Pages/Products and Services/Car & Access Barrier Systems/Turnstile/Tripod Turnstile/Tripod Turnstile';
+import SwimmingPoolShowers from './Site Pages/Products and Services/Coin Operated Showers/Swimming Pool Showers/Swimming Pool Showers';
 
 
 
@@ -119,7 +120,7 @@ function App() {
               <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/' element={<WaterproofParkingLotProtector/>}></Route>
               <Route path='cwbsolutions.net/turnstile/full-height-turnstile/' element={<FullHeightTurnstile/>}></Route>
               <Route path='cwbsolutions.net/tripod-turnstile/' element={<TripodTurnstile/>}></Route>
-
+              <Route path='cwbsolutions.net/coin-operated-shower/swimming-pool-showers/' element={<SwimmingPoolShowers/>}></Route>
 
             </Routes>
         </div>
