@@ -23,27 +23,30 @@ const WaterDispensers = () =>{
                     <div><img src={image} alt="" /></div>
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Coin Operated Water Dispenser</div>
                     <div>This easy to maintain, sturdy, cost effective, full stainless steel water dispenser contains an extra protective door with lock for public areas. This model has a proven track record in most HDB car parks for almost 10 years now.</div>
-                    <div className='buy-now-section-in-water-dispensers'>
-                        Buy Now
-                    </div>
+                    <Link 
+                    to={"/cwbsolutions.net/coin-operated-water-dispenser/"}
+                    className='buy-now-section-in-water-dispensers'>Buy Now</Link>
+
                 </div>
 
                 <div className='merchandise-individual-box-in-water-dispensers'>
                     <div><img src={image} alt="" /></div>
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Aqua Save Water Dispenser</div>
                     <div>This compact  machine, ideal for public locations might cost slightly more but gives you the security peace of mind of knowing your collection remains yours.</div>
-                    <div className='buy-now-section-in-water-dispensers'>
-                        Buy Now
-                    </div>
+                    <Link 
+                    to={'/cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/'}
+                    className='buy-now-section-in-water-dispensers'>Buy Now</Link>
+
                 </div>
 
                 <div className='merchandise-individual-box-in-water-dispensers'>
                     <div><img src={image} alt="" /></div>
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Inwall Coin Operated Water Dispenser</div>
                     <div>This faceplate unit is perfect to fit custom make box designs for customers whom require slim fit solutions for areas with space restrictions. Perfect solution for public showers, swimming pools etc.</div>
-                    <div className='buy-now-section-in-water-dispensers'>
-                        Buy Now
-                    </div>
+                    <Link 
+                    to={'/cwbsolutions.net/products/water-dispensers/inwall-coin-operated-water-dispenser/'}
+                    className='buy-now-section-in-water-dispensers'>Buy Now</Link>
+
                 </div>
 
             </div>
@@ -57,21 +60,27 @@ const WaterDispensers = () =>{
                     <div>This Ultra Slim Water Dispenser comes with a mirror finish faceplate and count down seconds display option.
                         <p>Dimensions:L150 x W150 x 400mm</p>
                     </div>
-                    <div className='buy-now-section-in-water-dispensers'>Buy Now</div>
+                    <Link 
+                    to={'/www.cwbsolutions.net/products/water-dispensers/ultra-slim-water-dispenser'}
+                    className='buy-now-section-in-water-dispensers'>Buy Now</Link>
                 </div>
 
                 <div className='merchandise-individual-box-in-water-dispensers'>
                     <div> <img src={image} alt="" /></div>
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Cash Card Water Dispenser</div>
                     <div>This water dispenser developed primaruly for low to medium volume dispensering without requiring phone line at Car Park's Washing Bay supporting payments for additional self-service add on's.</div>
-                    <div className='buy-now-section-in-water-dispensers'>Buy Now</div>
+                    <Link 
+                    to={'/cwbsolutions.net/products/water-dispensers/cash-card-water-dispenser/'}
+                    className='buy-now-section-in-water-dispensers'>Buy Now</Link>
                 </div>
 
                 <div className='merchandise-individual-box-in-water-dispensers'>
                     <div> <img src={image} alt="" /></div>
                     <div  className='merchandise-title-individual-box-in-water-dispensers'>Cash Card and Flash Pay Combi Water Dispenser</div>
                     <div>This Combi water dispenser with latest NETS technology and modular design to support future upgrade in technology, ease transactions collections and settlement process multifunctional dispenser can be used for water, vacuum and other utilities dispense that also rings together with Cash Card & Flashpay Top Up function. Over 130 units have been home to Punggol Pasir Ris Town council for over 3 years ongoing now.</div>
-                    <div className='buy-now-section-in-water-dispensers'>Buy Now</div>
+                    <Link 
+                    to={'/www.cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}
+                    className='buy-now-section-in-water-dispensers'>Buy Now</Link>
                 </div>
             </div>
 
@@ -83,7 +92,7 @@ const WaterDispensers = () =>{
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Power Vacuums</div>
                     <div>We are distributing the worls's most powerful vacuums in the  industry. Whether you are looking for a revenue generator, to stop replacing shop-vacs or to provide your customers or residents with  great quality vacuum for free we've got options for you. All parts are quality parts from USA proven for over 20 years.</div>
                     <Link 
-                    to="#"
+                    to="/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/"
                     >Learn More</Link>
                 </div>
 

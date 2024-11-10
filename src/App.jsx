@@ -50,6 +50,12 @@ import WaterproofParkingLotProtector from './Site Pages/Products and Services/Ca
 import FullHeightTurnstile from './Site Pages/Products and Services/Car & Access Barrier Systems/Turnstile/Full Height Turnstile/Full Height Turnstile';
 import TripodTurnstile from './Site Pages/Products and Services/Car & Access Barrier Systems/Turnstile/Tripod Turnstile/Tripod Turnstile';
 import SwimmingPoolShowers from './Site Pages/Products and Services/Coin Operated Showers/Swimming Pool Showers/Swimming Pool Showers';
+import AquaSaveWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Aqua Save Water Dispenser/Aqua Save Water Dispenser';
+import CoinOperatedWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Coin Operated Water Dispenser/Coin Operated Water Dispenser';
+import InwallCoinOperatedWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Inwall Coin Operated Water Dispenser/Inwall Coin Operated Water Dispenser';
+import UltraSlimWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Ultra Slim Water Dispenser/Ultra Slim Water Dispenser';
+import CashCardWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Cash Card Water Dispenser/Cash Card Water Dispenser';
+import CashCardAndFlashPayCombiWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Cash Card and Flash Pay Combi Water Dispenser/Cash Card and Flash Pay Combi Water Dispenser';
 
 
 
@@ -121,6 +127,12 @@ function App() {
               <Route path='cwbsolutions.net/turnstile/full-height-turnstile/' element={<FullHeightTurnstile/>}></Route>
               <Route path='cwbsolutions.net/tripod-turnstile/' element={<TripodTurnstile/>}></Route>
               <Route path='cwbsolutions.net/coin-operated-shower/swimming-pool-showers/' element={<SwimmingPoolShowers/>}></Route>
+              <Route path='cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/' element={<AquaSaveWaterDispenser/>}></Route>
+              <Route path='cwbsolutions.net/coin-operated-water-dispenser/' element={<CoinOperatedWaterDispenser/>}></Route>
+              <Route path='cwbsolutions.net/products/water-dispensers/inwall-coin-operated-water-dispenser/' element={<InwallCoinOperatedWaterDispenser/>}></Route>
+              <Route path='www.cwbsolutions.net/products/water-dispensers/ultra-slim-water-dispenser' element={<UltraSlimWaterDispenser/>}></Route>
+              <Route path='cwbsolutions.net/products/water-dispensers/cash-card-water-dispenser/' element={<CashCardWaterDispenser/>}></Route>
+              <Route path='www.cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser' element={<CashCardAndFlashPayCombiWaterDispenser/>}></Route>
 
             </Routes>
         </div>

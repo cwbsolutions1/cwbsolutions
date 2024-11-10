@@ -42,7 +42,7 @@ const AirMachines = () =>{
                         <div><img src={vaccumCleaner} alt="" /></div>
                         <div className='add-ons-to-air-machines-box-title'>Commercial Power Vacuum</div>
                         <div className='add-ons-to-air-machines-box-description'>We are distributing the worls's most powerful vacuums in the  industry. Whether you are looking for a revenue generator, to stop replacing shop-vacs or to provide your customers or residents with  great quality vacuum for free we've got options for you. </div>
-                        <button>Learn More</button>
+                        <Link to={"/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/"}>Learn More</Link>
                     </div>
 
                     <div className='add-ons-to-air-machines-box'>

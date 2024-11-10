@@ -1,0 +1,11 @@
+.coin-operated-water-dispenser-container{
+    padding: 3%;
+    text-align: left;
+}
+
+@media(max-width){
+    .coin-operated-water-dispenser-container h1{
+        margin-left: 15%;
+        font-size: 2em;
+    }
+}

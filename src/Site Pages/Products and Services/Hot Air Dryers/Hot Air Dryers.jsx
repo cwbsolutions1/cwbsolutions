@@ -2,6 +2,7 @@ import './Hot Air Dryers.css'
 import wallMountBoom from './61h-ugoupdl__ac_sl1500_.jpg'
 import vaccumCleaner from './Commercial-Vacuum-CleanerPower.png'
 import airDryer from './Air_Machine.jpeg'
+import { Link } from 'react-router-dom'
 
 const HotAirDryers = () =>{
     return(
@@ -26,7 +27,7 @@ const HotAirDryers = () =>{
 
 
             <div className='add-ons-to-air-machines-container'>
-                <h6>Add On's to Air Machines</h6>
+                <h6>Add On's to Hot Air Dryers</h6>
 
                 <div className='add-ons-to-air-machines-container-grid'>
                     
@@ -34,14 +35,14 @@ const HotAirDryers = () =>{
                         <div><img src={vaccumCleaner} alt="" /></div>
                         <div className='add-ons-to-air-machines-box-title'>Commercial Power Vacuum</div>
                         <div className='add-ons-to-air-machines-box-description'>We are distributing the worls's most powerful vacuums in the  industry. Whether you are looking for a revenue generator, to stop replacing shop-vacs or to provide your customers or residents with  great quality vacuum for free we've got options for you. </div>
-                        <button>Learn More</button>
+                        <Link to="/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/">Learn More</Link>
                     </div>
 
                     <div className='add-ons-to-air-machines-box'>
                         <div><img src={airDryer} alt="" /></div>
                         <div className='add-ons-to-air-machines-box-title'>Air Machines</div>
                         <div className='add-ons-to-air-machines-box-description'>We offer a high quality stainless steel air machine for your petrol station,  detail shop, multi storey carpark  or anywhere you want to offer your customers air compression. </div>
-                        <button>Learn More</button>
+                        <Link to="/cwbsolutions.net/air-machines/">Learn More</Link>
                     </div>
 
                     <div className='add-ons-to-air-machines-box'>

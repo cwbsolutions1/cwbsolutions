@@ -1,0 +1,124 @@
+.aqua-save-water-dispenser-container{
+    padding:3%;
+    text-align: left;
+}
+
+.common-applications-section-for-water-dispenser,
+.common-features-section-for-water-dispenser{
+    background-color: rgba(232, 235, 235, 0.618);
+    padding: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    border-radius: 8px;
+}
+
+.common-applications-section-for-water-dispenser h3,
+.common-features-section-for-water-dispenser h3{
+    padding: 0.3%;
+    background:linear-gradient(135deg,rgb(217, 172, 11),rgb(241, 239, 213));
+    border-radius: 4px;
+    color: white;
+}
+
+.common-buy-now-section-for-water-dispenser{
+    display: flex;
+    height: 300px;
+    box-shadow: 0px 0px 7px rgb(203, 201, 201);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 7px;
+
+}
+
+.common-buy-now-left-block{
+    width: 40%;
+    padding: 1.5%;
+}
+
+.common-buy-now-right-block{
+    width: 60%;
+    background-color: rgba(220, 144, 3, 0.826);
+    padding: 1%;
+}
+
+.common-buy-now-right-block h6{
+    font-size: 2em;
+}
+
+.common-buy-now-right-block span{
+    display: block;
+}
+
+.price-button{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.checkout-button{
+    padding: 1.1%;
+    background-color: rgb(10, 100, 10);
+    font-size: 1.3em;
+    border-radius: 3px;
+    width: fit-content;
+    margin-top: 1.5%;
+    color: white;
+    transition: 0.5s;
+}
+
+.checkout-button:hover{
+    cursor: pointer;
+    background-color: rgba(104, 174, 0, 0.958);
+}
+
+
+.common-buy-now-left-block img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#you-mayebe-intrested-heading{
+    padding: 1%;
+    background:linear-gradient(135deg,rgb(13, 57, 91),rgb(58, 174, 241));
+    border-radius: 4px;
+    color: white;
+}
+
+.you-maybe-intrested-section-in-water-dispenser-page{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 25px;
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+
+.individual-box-intrested-section-in-water-dispenser-page{
+    aspect-ratio: 0.9;
+    box-shadow: 0px 0px 5px rgb(214, 213, 213);
+    background-color: rgba(237, 237, 237, 0.526);
+    padding: 2.5%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.individual-box-title-in-water-dispenser-page{
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.individual-box-intrested-section-in-water-dispenser-page img{
+    width: 100%; /* Full width of the box */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the box area without distortion */
+    border-radius: 3px;
+    max-width: 100%;
+}
+
+
+@media(max-width:860){
+    .aqua-save-water-dispenser-container h1{
+        margin-left: 15%;
+        font-size: 2em;
+    }
+}

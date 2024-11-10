@@ -17,5 +17,6 @@
 @media (max-width:860px){
     .nets-cash-card-and-flash-pay-container h1{
         margin-left: 15%;
+        font-size: 2em;
     }
 }

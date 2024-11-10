@@ -3,6 +3,57 @@
     text-align: left;
 }
 
+.merchandise-items-in-powerful-car-vaccums,
+.vaccum-machine-types-in-powerful-car-vaccums,
+.add-on-items-in-powerful-car-vaccums{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 25px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+
+.individual-item-box-in-powerful-car-vaccums{
+    aspect-ratio: 0.8;
+    box-shadow: 0px 0px 5px rgb(214, 213, 213);
+    background-color: rgba(237, 237, 237, 0.526);
+    padding: 2.5%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.merchandise-items-in-powerful-car-vaccums .individual-item-box-in-powerful-car-vaccums{
+    aspect-ratio: 0.6; /* Keeps each box square */
+}
+
+
+
+.individual-item-box-in-powerful-car-vaccums img{
+    width: 100%; /* Full width of the box */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the box area without distortion */
+    border-radius: 3px;
+    max-width: 100%;
+}
+
+.heading-in-individual-item-box-in-powerful-car-vaccums{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#add-on-items-heading{
+    padding: 1%;
+    background:linear-gradient(135deg,rgb(13, 57, 91),rgb(58, 174, 241));
+    border-radius: 4px;
+    color: white;
+}
+
+
 @media(max-width:860px){
     .powerful-car-vaccums-container h1{
         margin-left: 15%;
