@@ -3,7 +3,7 @@
     text-align: left;
 }
 
-@media(max-width){
+@media(max-width:860px){
     .coin-operated-water-dispenser-container h1{
         margin-left: 15%;
         font-size: 2em;
