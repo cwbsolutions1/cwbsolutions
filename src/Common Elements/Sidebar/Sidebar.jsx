@@ -65,9 +65,9 @@ const Sidebar = () => {
           Barrier and Access Control
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Vehicle License Plate Recognizer</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Car & Access Barrier Systems</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Parking and Access Control</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/vehicle-license-plate-recognizer/'} className='dropdown-item-in-sidebar' >Vehicle License Plate Recognizer</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-barrier-systems/'} className='dropdown-item-in-sidebar' >Car & Access Barrier Systems</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-barrier-systems/'} className='dropdown-item-in-sidebar'>Parking and Access Control</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 
@@ -121,7 +121,7 @@ const Sidebar = () => {
           Perimeter Fencing & Gates
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>BRC Weld Fence</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/perimeter-fencing---gates/'} className='dropdown-item-in-sidebar' >BRC Weld Fence</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
 
@@ -134,12 +134,12 @@ const Sidebar = () => {
           Vehicular Self-Service Care Products
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Automatic Car Washes</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Vending Machines</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Powerful Car Vacuums</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Air Machines</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Hot Air Dryer</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Water Dispensers</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/automatic-car-wash/'} className='dropdown-item-in-sidebar' >Automatic Car Washes</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'#'} className='dropdown-item-in-sidebar' href='#'>Vending Machines</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'} className='dropdown-item-in-sidebar' href='#'>Powerful Car Vacuums</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/air-machines/'} className='dropdown-item-in-sidebar' href='#'>Air Machines</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/hot-air-dryer/'} className='dropdown-item-in-sidebar' href='#'>Hot Air Dryer</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'} className='dropdown-item-in-sidebar' href='#'>Water Dispensers</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
 
@@ -153,8 +153,8 @@ const Sidebar = () => {
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Coin & Cash Acceptors</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>PCB Boards</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Coin Operated Showers</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/pcb-boards/'} className='dropdown-item-in-sidebar' href='#'>PCB Boards</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/coin-operated-showers'} className='dropdown-item-in-sidebar'>Coin Operated Showers</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
 
@@ -167,7 +167,7 @@ const Sidebar = () => {
           Parks & Outdoor Furniture
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Electric BBQ Pits</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/electric-bbq-pits/'} className='dropdown-item-in-sidebar' >Electric BBQ Pits</Dropdown.Item>
           <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Outdoor Furniture</Dropdown.Item>
           <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Outdoor Umbrella</Dropdown.Item>
         </Dropdown.Menu>
