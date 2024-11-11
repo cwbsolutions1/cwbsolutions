@@ -49,14 +49,14 @@ const AirMachines = () =>{
                         <div><img src={airDryer} alt="" /></div>
                         <div className='add-ons-to-air-machines-box-title'>Hot Air Dryer</div>
                         <div className='add-ons-to-air-machines-box-description'>Cut your manpower cost & increase customer satisfaction on you per car wash speed with a spot free finish with  our powerful heated air dryer. </div>
-                        <Link className='button-in-add-ons-to-air-machines-box' to={"/cwbsolutions.net/hot-air-dryer/"}>Learn More</Link>
+                        <Link to={"/cwbsolutions.net/hot-air-dryer/"}>Learn More</Link>
                     </div>
 
                     <div className='add-ons-to-air-machines-box'>
                         <div><img src={image1} alt="" /></div>
                         <div className='add-ons-to-air-machines-box-title'>All in one mini Car Wash</div>
                         <div className='add-ons-to-air-machines-box-description'>The Splash N Dash is a single bay self service all in one car wash station. The first impressive feature is the low Pressure Tire/Engine Cleaner, which uses a special cutting solution</div>
-                        <button>Learn More</button>
+                        <Link to={'/cwbsolutions.net/news/mini-car-washes/'}>Learn More</Link>
                     </div>
                 </div>
 

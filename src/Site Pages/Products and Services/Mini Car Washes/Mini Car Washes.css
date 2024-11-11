@@ -2,3 +2,42 @@
     padding: 3%;
     text-align: left;
 }
+
+#carousel-in-mini-car-washes-container{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 100%; /* Ensures the images fit within the carousel */
+    height: auto; /* Maintains image aspect ratio */
+    object-fit: cover; /* Adjusts the image to cover the container while keeping the aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+.carousle-item-in-mini-car-washes{
+    max-width: 100%;
+    width: 100%; /* Adjust the width as needed */
+}
+
+
+.applications-section-in-mini-car-washes-container,
+.features-section-in-mini-car-washes-container{
+    background-color: rgba(106, 203, 238, 0.152);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1.5%;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.applications-section-in-mini-car-washes-container h4,
+.features-section-in-mini-car-washes-container h4{
+    background-color: #0E98B0;
+    border-radius: 4px;
+    padding: 0.2%;
+    color: white;
+}
+
+
+@media(max-width:860px){
+    .mini-car-washes-container h1{
+        margin-left: 15%;
+        font-size: 2em;
+    }
+}

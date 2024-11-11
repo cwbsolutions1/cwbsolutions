@@ -49,7 +49,6 @@ const HotAirDryers = () =>{
                         <div><img src={wallMountBoom} alt="" /></div>
                         <div className='add-ons-to-air-machines-box-title'>Wall mount boom</div>
                         <div className='add-ons-to-air-machines-box-description'>Increase productivity, save  hose ware & tear and do away with messy hoses lying around on the floor by getting this wall mount boom for your hot air dryer.</div>
-                        <button>Learn More</button>
                     </div>
                 </div>
 
