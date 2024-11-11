@@ -56,6 +56,10 @@ import InwallCoinOperatedWaterDispenser from './Site Pages/Products and Services
 import UltraSlimWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Ultra Slim Water Dispenser/Ultra Slim Water Dispenser';
 import CashCardWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Cash Card Water Dispenser/Cash Card Water Dispenser';
 import CashCardAndFlashPayCombiWaterDispenser from './Site Pages/Products and Services/Water Dispensers/Cash Card and Flash Pay Combi Water Dispenser/Cash Card and Flash Pay Combi Water Dispenser';
+import PowerVac from './Site Pages/Products and Services/Powerful Car Vacuums/Power Vac/Power Vac';
+import WaterIVac from './Site Pages/Products and Services/Powerful Car Vacuums/Water I-Vac/Water I-Vac';
+import DualCommercialUltraPowerVacuumWith4Motors from './Site Pages/Products and Services/Powerful Car Vacuums/Dual Commercial Ultra Power Vacuum with 4 motors/Dual Commercial Ultra Power Vacuum with 4 motors';
+import UltraTurbonator from './Site Pages/Products and Services/Powerful Car Vacuums/Ultra Turbonator/Ultra Turbonator';
 
 
 
@@ -84,7 +88,7 @@ function App() {
               <Route path="/CWB-Solutions-Pte-Ltd/*" element={<Navigate to="/cwbsolutions.net/" replace />} />
 
               <Route path="cwbsolutions.net/" element={<Homepage />} />
-              <Route path='/engineering-solutions' element={<EngineeringSolutions/>} />
+              <Route path='/cwbsolutions.net/engineering-solutions/' element={<EngineeringSolutions/>} />
               <Route path='/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/' element={<PaymentsIntegration/>}></Route>
               <Route path='pcb-boards/' element={<PCB/>}></Route>
               <Route path='engineering-solutions/system-integration-and-product-design/' element={<SystemIntegration/>}></Route>
@@ -109,9 +113,9 @@ function App() {
               <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/' element={<PowerfulCarVaccums/>}></Route>
               <Route path='cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/' element={<ReplacementParts/>}></Route>
               <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/' element={<WaterDispensers/>}></Route>
-              <Route path='/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/' element={<CameGard/>}> </Route>
-              <Route path='/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate/' element={<NiceWilParkingBarrierGate/>}></Route>
-              <Route path='/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/' element={<AutomaticCarParkBarrierGates/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/' element={<CameGard/>}> </Route>
+              <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate/' element={<NiceWilParkingBarrierGate/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/' element={<AutomaticCarParkBarrierGates/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-traffic-barrier-with-led-signal/'element={<AutomaticTrafficBarrieWithLedSignal/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-/'element={<IntelligentCarParkingSystemManagement/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/' element={<IntelligentCarParkingSystemManagementWithLedDisplay/>}></Route>
@@ -122,7 +126,7 @@ function App() {
               <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/' element={<WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/' element={<FlapBarrier/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/' element={<RemoteControlAutomaticSmoothRunningParkingSpaceBarriers/>}></Route>
-              <Route path='www.cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier' element={<StainlessSteelRemoteControlParkingSpaceBarrier/>}></Route>
+              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier' element={<StainlessSteelRemoteControlParkingSpaceBarrier/>}></Route>
               <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/' element={<WaterproofParkingLotProtector/>}></Route>
               <Route path='cwbsolutions.net/turnstile/full-height-turnstile/' element={<FullHeightTurnstile/>}></Route>
               <Route path='cwbsolutions.net/tripod-turnstile/' element={<TripodTurnstile/>}></Route>
@@ -130,9 +134,13 @@ function App() {
               <Route path='cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/' element={<AquaSaveWaterDispenser/>}></Route>
               <Route path='cwbsolutions.net/coin-operated-water-dispenser/' element={<CoinOperatedWaterDispenser/>}></Route>
               <Route path='cwbsolutions.net/products/water-dispensers/inwall-coin-operated-water-dispenser/' element={<InwallCoinOperatedWaterDispenser/>}></Route>
-              <Route path='www.cwbsolutions.net/products/water-dispensers/ultra-slim-water-dispenser' element={<UltraSlimWaterDispenser/>}></Route>
+              <Route path='cwbsolutions.net/products/water-dispensers/ultra-slim-water-dispenser' element={<UltraSlimWaterDispenser/>}></Route>
               <Route path='cwbsolutions.net/products/water-dispensers/cash-card-water-dispenser/' element={<CashCardWaterDispenser/>}></Route>
-              <Route path='www.cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser' element={<CashCardAndFlashPayCombiWaterDispenser/>}></Route>
+              <Route path='cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser' element={<CashCardAndFlashPayCombiWaterDispenser/>}></Route>
+              <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/commercial-vacuums/' element={<PowerVac/>}></Route>
+              <Route path='cwbsolutions.net/our-products/power-vacuums/water-i-vac/' element={<WaterIVac/>}></Route>
+              <Route path='cwbsolutions.net/our-products/power-vacuums/dual-commercial-ultra-power-vacuum-with-4-motors/'element={<DualCommercialUltraPowerVacuumWith4Motors/>}></Route>
+              <Route path='cwbsolutions.net/our-products/power-vacuums/ultra-turbonator/' element={<UltraTurbonator/>}></Route>
 
             </Routes>
         </div>

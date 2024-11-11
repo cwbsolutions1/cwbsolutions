@@ -1,0 +1,79 @@
+.power-vac-container{
+    padding: 3%;
+    text-align: left;
+}
+
+.common-buy-now-section-for-power-vaccums{
+    display: flex;
+    height: fit-content;
+    max-height: 500px;
+    box-shadow: 0px 0px 7px rgb(203, 201, 201);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 7px;
+}
+
+.buy-now-configuration-select option,
+.buy-now-configuration-select {
+    background-color: aliceblue;
+    color: black;
+    padding: 0.5%;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Common buy now CSS are in Aqua Save Water Dispenser too. If u want to alter chnage the class name here and adjust*/
+.common-buy-now-left-block{
+    width: 40%;
+    padding: 1.5%;
+}
+
+.common-buy-now-right-block{
+    width: 60%;
+    background-color: rgba(220, 144, 3, 0.826);
+    padding: 1%;
+}
+
+.common-buy-now-right-block h6{
+    font-size: 2em;
+}
+
+.common-buy-now-right-block span{
+    display: block;
+}
+
+.price-button{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.checkout-button{
+    padding: 1.1%;
+    background-color: rgb(10, 100, 10);
+    font-size: 1.3em;
+    border-radius: 3px;
+    width: fit-content;
+    margin-top: 1.5%;
+    color: white;
+    transition: 0.5s;
+}
+
+.checkout-button:hover{
+    cursor: pointer;
+    background-color: rgba(104, 174, 0, 0.958);
+}
+
+
+.common-buy-now-left-block img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+@media(max-width:860px){
+    .power-vac-container h1{
+        margin-left: 15%;
+        font-size: 2em;
+    }
+}

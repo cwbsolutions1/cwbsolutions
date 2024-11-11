@@ -87,7 +87,7 @@ const NavigationBar = () => {
                                 <Link to="/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/" onClick={closeDropdowns}>Payment Integration</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="/engineering-solutions" onClick={closeDropdowns}>Engineering Solutions</Link>
+                                <Link to="/cwbsolutions.net/engineering-solutions/" onClick={closeDropdowns}>Engineering Solutions</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <Link to="pcb-boards/" onClick={closeDropdowns}>PCB Boards</Link>

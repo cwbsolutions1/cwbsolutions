@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './PageFooter.css';
+import { Link } from 'react-router-dom';
 import { Dropdown, Button, Offcanvas } from 'react-bootstrap';
 
 const PageFooter = () =>{
@@ -21,7 +22,7 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                                 Home
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item>Our Products & Services</Dropdown.Item>
+                                <Dropdown.Item><Link to={'/cwbsolutions.net/our-products-and-services/'}>Our Products & Services</Link></Dropdown.Item> 
                                 <Dropdown.Item>Engineering Solutions</Dropdown.Item>
                                 <Dropdown.Item>Industy</Dropdown.Item>
                                 <Dropdown.Item>Support & Locations</Dropdown.Item>

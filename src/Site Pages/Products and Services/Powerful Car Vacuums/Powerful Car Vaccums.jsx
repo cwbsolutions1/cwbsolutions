@@ -29,6 +29,7 @@ const PowerfulCarVaccums =()=>{
                     <div className='heading-in-individual-item-box-in-powerful-car-vaccums'>POWER VAC(WORLD MOST POWERFUL VACUUM)</div>
                     <div>This is the world's most powerful industrial grade power Vacuum. 2 & 3 motors models are available. The coin operated model is ideal for commercial car washes & grooming centers where you can earn extra self service vacuum profits after operating hours. Also ideal for HDB multistory car park & condominiums car washing bays and also comes with a water dispense and tyre air pump add-on option where you may also add a water/air hose for your residents ultimate convenience and satisfaction.
                     Comes with same specifications as the stand-alone model.</div>
+                    <Link to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/commercial-vacuums/'}>Buy Now</Link>
                 </div>
 
                 <div className='individual-item-box-in-powerful-car-vaccums'>
@@ -37,6 +38,7 @@ const PowerfulCarVaccums =()=>{
                     <div>
                     This ULTRA compact sized WATER-I-VAC is ideal for medium usage locations specifically for HDB & condominium car wash bays. It's the most cost effective Power vacuum and has only 1 motor and 1 filter bag and fits in the centre of any car wash bay or compactly wall mounted. It can either be manually operated or coin operated as shown above. A water valve with water hose may also be added to enable water dispense functions for the perfect all in car wash bay solution for basic interior and external car care function. 
                     </div>
+                    <Link to={'/cwbsolutions.net/our-products/power-vacuums/water-i-vac/'}>Buy Now</Link>
                     
                 </div>
             </div>
@@ -46,6 +48,7 @@ const PowerfulCarVaccums =()=>{
                     <div><img src={image} alt="" /></div>
                     <div className='heading-in-individual-item-box-in-powerful-car-vaccums'>Dual Commercial Ultra Power Vacuum with 4 motors</div>
                     <div>This unit is specially designed for car washes or high traffic places where you need more than 1 vacuum. As for the 4 motors (2 on each side), it can be used for 2 cars at the same time. You can also have 2 different claw type at the end of each hose, 1 nosed type and the other claw type.</div>
+                    <Link to={'/cwbsolutions.net/our-products/power-vacuums/dual-commercial-ultra-power-vacuum-with-4-motors/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-item-box-in-powerful-car-vaccums'>
@@ -53,7 +56,7 @@ const PowerfulCarVaccums =()=>{
                     <div className='heading-in-individual-item-box-in-powerful-car-vaccums'>Ultra Turbonator</div>
                     <div>The Ultra Turbonator is great solution when you want to provide your customers/residents with more services and to crete additional revenue for yourself.
                     This model allows you to charge two different prices to allow your customers to choose between 2 motor or 3 motor functions.</div>
-                    <div></div>
+                    <Link to={'/cwbsolutions.net/our-products/power-vacuums/ultra-turbonator/'}>Learn More</Link>
                 </div>
             </div>
 

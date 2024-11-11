@@ -85,7 +85,7 @@ const CarAndAccessBarrierSystems =()=>{
                         className='car-and-access-barrier-item'>Remote Control Automatic smooth running Parking Space Barriers
                         </Link>
                         <Link 
-                        to={"/www.cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier"}
+                        to={"/cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier"}
                         className='car-and-access-barrier-item'>Stainless steel Remote Control Parking Space Barrier
                         </Link>
                         <Link 

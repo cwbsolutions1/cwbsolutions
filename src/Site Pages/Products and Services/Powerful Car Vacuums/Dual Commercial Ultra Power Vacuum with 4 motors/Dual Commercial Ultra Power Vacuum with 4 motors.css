@@ -1,0 +1,36 @@
+.dual-commercial-ultra-power-vaccum-with-4-motors-container{
+    padding: 3%;
+    text-align: left;
+}
+
+.product-image-in-dual-commercial-ultra-power-vaccum-with-4-motors img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.dual-commercial-ultra-power-vaccum-features-section{
+    background-color: rgba(106, 203, 238, 0.152);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1.5%;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+
+.dual-commercial-ultra-power-vaccum-features-section h3{
+    background-color: #0E98B0;
+    border-radius: 4px;
+    padding: 0.2%;
+    color: white;
+}
+
+
+@media(max-width:860px){
+    .dual-commercial-ultra-power-vaccum-with-4-motors-container h1{
+        font-size: 2em;
+        margin-left: 15%;;
+    }
+}

@@ -61,7 +61,7 @@ const WaterDispensers = () =>{
                         <p>Dimensions:L150 x W150 x 400mm</p>
                     </div>
                     <Link 
-                    to={'/www.cwbsolutions.net/products/water-dispensers/ultra-slim-water-dispenser'}
+                    to={'/cwbsolutions.net/products/water-dispensers/ultra-slim-water-dispenser'}
                     className='buy-now-section-in-water-dispensers'>Buy Now</Link>
                 </div>
 
@@ -79,7 +79,7 @@ const WaterDispensers = () =>{
                     <div  className='merchandise-title-individual-box-in-water-dispensers'>Cash Card and Flash Pay Combi Water Dispenser</div>
                     <div>This Combi water dispenser with latest NETS technology and modular design to support future upgrade in technology, ease transactions collections and settlement process multifunctional dispenser can be used for water, vacuum and other utilities dispense that also rings together with Cash Card & Flashpay Top Up function. Over 130 units have been home to Punggol Pasir Ris Town council for over 3 years ongoing now.</div>
                     <Link 
-                    to={'/www.cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}
+                    to={'/cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}
                     className='buy-now-section-in-water-dispensers'>Buy Now</Link>
                 </div>
             </div>

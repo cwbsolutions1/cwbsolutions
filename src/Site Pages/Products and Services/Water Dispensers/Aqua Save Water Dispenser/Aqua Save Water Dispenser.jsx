@@ -77,7 +77,7 @@ const AquaSaveWaterDispenser = () =>{
                         <div>
                         This Combi water dispenser with latest NETS technology can be used for water, vacuum and other utilities dispense.
                         </div>
-                        <Link to={'/www.cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Learn More</Link>
+                        <Link to={'/cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Learn More</Link>
                     </div>
                 </div>
         </div>
