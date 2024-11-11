@@ -90,15 +90,15 @@ const NavigationBar = () => {
                                 <Link to="/cwbsolutions.net/engineering-solutions/" onClick={closeDropdowns}>Engineering Solutions</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="pcb-boards/" onClick={closeDropdowns}>PCB Boards</Link>
+                                <Link to="/cwbsolutions.net/pcb-boards/" onClick={closeDropdowns}>PCB Boards</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="engineering-solutions/system-integration-and-product-design/" onClick={closeDropdowns}>System Integration and Product Design</Link>
+                                <Link to="/cwbsolutions.net/engineering-solutions/system-integration-and-product-design/" onClick={closeDropdowns}>System Integration and Product Design</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="engineering/customised-solutions/" onClick={closeDropdowns}>Customized Solutions</Link>
+                                <Link to="/cwbsolutions.net/engineering/customised-solutions/" onClick={closeDropdowns}>Customized Solutions</Link>
                             </NavDropdown.Item>
-                            <NavDropdown.Item  ><Link to={"engineering-solutions/consultation-services/"}onClick={closeDropdowns}>Consultation Services</Link></NavDropdown.Item>
+                            <NavDropdown.Item  ><Link to={"/cwbsolutions.net/engineering-solutions/consultation-services/"}onClick={closeDropdowns}>Consultation Services</Link></NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown

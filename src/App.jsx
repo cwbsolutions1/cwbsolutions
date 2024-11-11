@@ -60,6 +60,7 @@ import PowerVac from './Site Pages/Products and Services/Powerful Car Vacuums/Po
 import WaterIVac from './Site Pages/Products and Services/Powerful Car Vacuums/Water I-Vac/Water I-Vac';
 import DualCommercialUltraPowerVacuumWith4Motors from './Site Pages/Products and Services/Powerful Car Vacuums/Dual Commercial Ultra Power Vacuum with 4 motors/Dual Commercial Ultra Power Vacuum with 4 motors';
 import UltraTurbonator from './Site Pages/Products and Services/Powerful Car Vacuums/Ultra Turbonator/Ultra Turbonator';
+import Condominiums from './Site Pages/Condominiums/Condominiums';
 
 
 
@@ -90,10 +91,10 @@ function App() {
               <Route path="cwbsolutions.net/" element={<Homepage />} />
               <Route path='/cwbsolutions.net/engineering-solutions/' element={<EngineeringSolutions/>} />
               <Route path='/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/' element={<PaymentsIntegration/>}></Route>
-              <Route path='pcb-boards/' element={<PCB/>}></Route>
-              <Route path='engineering-solutions/system-integration-and-product-design/' element={<SystemIntegration/>}></Route>
-              <Route path='engineering/customised-solutions/' element={<CustomizedSolutions/>}></Route>
-              <Route path='engineering-solutions/consultation-services/' element={<Consultation/>}></Route>
+              <Route path='cwbsolutions.net/pcb-boards/' element={<PCB/>}></Route>
+              <Route path='cwbsolutions.net/engineering-solutions/system-integration-and-product-design/' element={<SystemIntegration/>}></Route>
+              <Route path='cwbsolutions.net/engineering/customised-solutions/' element={<CustomizedSolutions/>}></Route>
+              <Route path='cwbsolutions.net/engineering-solutions/consultation-services/' element={<Consultation/>}></Route>
               <Route path='cwbsolutions.net/contact-us/' element={<ContactUs/>}></Route>
               <Route path='cwbsolutions.net/about-us/' element={<AboutUs/>}></Route>
               <Route path='cwbsolutions.net/clients/' element={<Clients/>}></Route>
@@ -141,6 +142,7 @@ function App() {
               <Route path='cwbsolutions.net/our-products/power-vacuums/water-i-vac/' element={<WaterIVac/>}></Route>
               <Route path='cwbsolutions.net/our-products/power-vacuums/dual-commercial-ultra-power-vacuum-with-4-motors/'element={<DualCommercialUltraPowerVacuumWith4Motors/>}></Route>
               <Route path='cwbsolutions.net/our-products/power-vacuums/ultra-turbonator/' element={<UltraTurbonator/>}></Route>
+              <Route path='cwbsolutions.net/industy/condominiums/' element={<Condominiums/>}></Route>
 
             </Routes>
         </div>

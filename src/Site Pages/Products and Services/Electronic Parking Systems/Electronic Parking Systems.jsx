@@ -108,7 +108,7 @@ const ElectronicParkingSystems = () => {
 
                     </div>
 
-                    <div className='parking-system-types-details-sub-box'>
+                    <div id='cwb-eps-season-controller' className='parking-system-types-details-sub-box'>
                         <p id='electronic-parking-systems-in-parking-system-types-details-sub-box'>Electronic Parking Systems</p>
                         <h4>CWB EPS Season Controller</h4>
                         <span>High quality stand alone CWB proprietary 16 bit PCB contrller with onboard memory and back up battery. Four spare relays for ease of maintenance, loaded with season EPS embedded protocol housed in a compact waterproof PVC enclosure with host port connection to PC software.</span>

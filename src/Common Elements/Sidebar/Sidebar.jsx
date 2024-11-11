@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect} from 'react';
 import { Dropdown, Button, Offcanvas } from 'react-bootstrap';
 import { ToastContainer, toast } from "react-toastify";
+import { Link } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import './Sidebar.css';
+
 
 const Sidebar = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 992);
@@ -36,7 +38,7 @@ const Sidebar = () => {
           Equipment For
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href="">Condominiums</Dropdown.Item>
+          <Dropdown.Item as={Link} to='/cwbsolutions.net/industy/condominiums/' className='dropdown-item-in-sidebar'>Condominiums</Dropdown.Item>
           <Dropdown.Item className='dropdown-item-in-sidebar' href="">Petrol Stations</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>

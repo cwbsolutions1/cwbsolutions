@@ -89,7 +89,7 @@ const PowerfulCarVaccums =()=>{
                     <div><img src={image} alt="" /></div>
                     <div className='heading-in-individual-item-box-in-powerful-car-vaccums'>All in one mini Car Wash</div>
                     <div>The Splash N Dash is a single bay self service all in one car wash station. The first impressive feature is the low Pressure Tire/Engine Cleaner, which uses a special cutting solution</div>
-                    <Link>Read More</Link>
+                    <Link to={'/cwbsolutions.net/news/mini-car-washes'}>Read More</Link>
                 </div>
             </div>
 

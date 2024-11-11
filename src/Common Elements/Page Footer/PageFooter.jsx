@@ -106,8 +106,6 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item>Power Vacuum Locations</Dropdown.Item>
                                 <Dropdown.Item>Technical Support</Dropdown.Item>
-                                <Dropdown.Item>Petrol Stations</Dropdown.Item>
-                                <Dropdown.Item>Grooming Centres</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown.Toggle>
                     </Dropdown> 

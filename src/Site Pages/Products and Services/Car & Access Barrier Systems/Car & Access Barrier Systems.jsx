@@ -51,7 +51,7 @@ const CarAndAccessBarrierSystems =()=>{
                         className='car-and-access-barrier-item'>Automated Car Parking System for Hotels & Residencies</Link>
                     </div>
                 </div>
-                <div className='car-and-access-barrier-systems-products-navigation-box'>
+                <div id='swing-arm-barrier-section' className='car-and-access-barrier-systems-products-navigation-box'>
                     <h4>Swing Arm Barriers</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
@@ -77,7 +77,7 @@ const CarAndAccessBarrierSystems =()=>{
                         
                     </div>
                 </div>
-                <div className='car-and-access-barrier-systems-products-navigation-box'>
+                <div id='parking-lot-barriers-section' className='car-and-access-barrier-systems-products-navigation-box'>
                     <h4>Parking Lot Barriers</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
