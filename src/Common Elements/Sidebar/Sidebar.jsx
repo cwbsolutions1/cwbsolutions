@@ -39,7 +39,7 @@ const Sidebar = () => {
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item as={Link} to='/cwbsolutions.net/industy/condominiums/' className='dropdown-item-in-sidebar'>Condominiums</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href="">Petrol Stations</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/industy/equipment-for-petrol-stations/'} className='dropdown-item-in-sidebar' >Petrol Stations</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 

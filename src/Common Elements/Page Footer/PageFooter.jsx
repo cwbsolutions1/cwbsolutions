@@ -22,12 +22,12 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                                 Home
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item><Link to={'/cwbsolutions.net/our-products-and-services/'}>Our Products & Services</Link></Dropdown.Item> 
-                                <Dropdown.Item>Engineering Solutions</Dropdown.Item>
+                                <Dropdown.Item>Our Products & Services</Dropdown.Item> 
+                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/engineering-solutions/'}>Engineering Solutions</Dropdown.Item>
                                 <Dropdown.Item>Industy</Dropdown.Item>
                                 <Dropdown.Item>Support & Locations</Dropdown.Item>
                                 <Dropdown.Item>Clients</Dropdown.Item>
-                                <Dropdown.Item>Contact Us</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/contact-us'}>Contact Us</Dropdown.Item>
                                 <Dropdown.Item>Water Dispenser Locations</Dropdown.Item>
                                 <Dropdown.Item>Perimeter Fencing & Gates</Dropdown.Item>
                                 <Dropdown.Item>Outdoor Umbrellas</Dropdown.Item>
@@ -88,7 +88,7 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Industy   
                                 <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                    <Dropdown.Item>Condominiums</Dropdown.Item>
+                                    <Dropdown.Item as={Link}to={'/cwbsolutions.net/industy/condominiums/'}>Condominiums</Dropdown.Item>
                                     <Dropdown.Item>HDB MSCP</Dropdown.Item>
                                     <Dropdown.Item>Petrol Stations</Dropdown.Item>
                                     <Dropdown.Item>Grooming Centres</Dropdown.Item>

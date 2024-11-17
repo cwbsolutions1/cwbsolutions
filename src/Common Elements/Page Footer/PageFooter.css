@@ -4,6 +4,16 @@
     margin-bottom: 0;
 }
 
+.page-footer-container a{
+    color: white;
+    font-weight: 100;
+    transition: 0.3s;
+}
+
+.page-footer-container a:hover{
+    color: rgb(0, 0, 0);
+}
+
 .page-footer-lower-section {
     display: flex;                 /* Make it a flex container */
     background-color: #182a3e;

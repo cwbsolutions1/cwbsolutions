@@ -61,6 +61,7 @@ import WaterIVac from './Site Pages/Products and Services/Powerful Car Vacuums/W
 import DualCommercialUltraPowerVacuumWith4Motors from './Site Pages/Products and Services/Powerful Car Vacuums/Dual Commercial Ultra Power Vacuum with 4 motors/Dual Commercial Ultra Power Vacuum with 4 motors';
 import UltraTurbonator from './Site Pages/Products and Services/Powerful Car Vacuums/Ultra Turbonator/Ultra Turbonator';
 import Condominiums from './Site Pages/Condominiums/Condominiums';
+import PetrolStations from './Site Pages/Petrol Stations/Petrol Stations';
 
 
 
@@ -143,6 +144,7 @@ function App() {
               <Route path='cwbsolutions.net/our-products/power-vacuums/dual-commercial-ultra-power-vacuum-with-4-motors/'element={<DualCommercialUltraPowerVacuumWith4Motors/>}></Route>
               <Route path='cwbsolutions.net/our-products/power-vacuums/ultra-turbonator/' element={<UltraTurbonator/>}></Route>
               <Route path='cwbsolutions.net/industy/condominiums/' element={<Condominiums/>}></Route>
+              <Route path='cwbsolutions.net/industy/equipment-for-petrol-stations/' element={<PetrolStations/>}></Route>
 
             </Routes>
         </div>
