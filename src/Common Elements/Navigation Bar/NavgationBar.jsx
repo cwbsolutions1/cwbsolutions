@@ -144,6 +144,8 @@ const NavigationBar = () => {
 
                             <NavDropdown.Item><Link to={"cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/"}onClick={closeDropdowns}>Replacement Parts</Link></NavDropdown.Item>
 
+                            <NavDropdown.Item><Link to={"/cwbsolutions.net/key-and-storage-management-system/"}onClick={closeDropdowns}>Key and Storage Management</Link></NavDropdown.Item>
+
                             {/*
                               <NavDropdown.Item><Link to={"#"}onClick={closeDropdowns}>Outdoor Furniture</Link></NavDropdown.Item>
                             */}

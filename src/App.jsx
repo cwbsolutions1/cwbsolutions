@@ -63,6 +63,10 @@ import UltraTurbonator from './Site Pages/Products and Services/Powerful Car Vac
 import Condominiums from './Site Pages/Condominiums/Condominiums';
 import PetrolStations from './Site Pages/Petrol Stations/Petrol Stations';
 import RoadHumps from './Site Pages/Road Humps/Road Humps';
+import KeyAndStorageManagementSystems from './Site Pages/Key and Storage Management Systems/Key and Storage Management Systems';
+import IqBoxCabinetSeries from './Site Pages/Key and Storage Management Systems/IQ Box Cabinet Series/IQ Box Cabinet Series';
+import IqWallCabinetSeries from './Site Pages/Key and Storage Management Systems/IQ Wall Cabinet Series/IQ Wall Cabinet Series';
+import IqKeySafeSeries from './Site Pages/Key and Storage Management Systems/IQ Key Safe Series/IQ Key Safe Series';
 
 
 
@@ -147,6 +151,10 @@ function App() {
               <Route path='cwbsolutions.net/industy/condominiums/' element={<Condominiums/>}></Route>
               <Route path='cwbsolutions.net/industy/equipment-for-petrol-stations/' element={<PetrolStations/>}></Route>
               <Route path='cwbsolutions.net/road-humps/' element={<RoadHumps/>}></Route>
+              <Route path='cwbsolutions.net/key-and-storage-management-system/' element={<KeyAndStorageManagementSystems/>}></Route>
+              <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/' element={<IqBoxCabinetSeries/>}></Route>
+              <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/' element={<IqWallCabinetSeries/>}></Route>
+              <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/' element={<IqKeySafeSeries/>}></Route>
 
             </Routes>
         </div>

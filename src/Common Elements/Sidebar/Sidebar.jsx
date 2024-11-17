@@ -80,9 +80,9 @@ const Sidebar = () => {
           Key and Storage Management System
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>IQ Key Safe Series</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>IQ Wall Cabinet Series</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>IQ Box Cabinet Series</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'} className='dropdown-item-in-sidebar'>IQ Key Safe Series</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'} className='dropdown-item-in-sidebar'>IQ Wall Cabinet Series</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'} className='dropdown-item-in-sidebar' >IQ Box Cabinet Series</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>    
 

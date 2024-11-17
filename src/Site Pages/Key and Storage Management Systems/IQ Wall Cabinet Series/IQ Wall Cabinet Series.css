@@ -1,0 +1,12 @@
+.iq-wall-cabinet-series-container{
+    padding: 3%;
+    text-align: left;
+}
+
+
+@media(max-width:860px){
+    .iq-wall-cabinet-series-container h1{
+        font-size: 2em;
+        margin-left: 15%;
+    }
+}
