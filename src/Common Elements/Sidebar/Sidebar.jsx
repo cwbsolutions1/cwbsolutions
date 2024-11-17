@@ -95,7 +95,7 @@ const Sidebar = () => {
           Road Safety Products
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Road Humps</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/road-humps'} className='dropdown-item-in-sidebar' >Road Humps</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>       
 
