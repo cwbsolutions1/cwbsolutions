@@ -67,6 +67,7 @@ import KeyAndStorageManagementSystems from './Site Pages/Key and Storage Managem
 import IqBoxCabinetSeries from './Site Pages/Key and Storage Management Systems/IQ Box Cabinet Series/IQ Box Cabinet Series';
 import IqWallCabinetSeries from './Site Pages/Key and Storage Management Systems/IQ Wall Cabinet Series/IQ Wall Cabinet Series';
 import IqKeySafeSeries from './Site Pages/Key and Storage Management Systems/IQ Key Safe Series/IQ Key Safe Series';
+import SolarPoweredStuds from './Site Pages/Road Accessories/Solar Powered Studs/Solar Powered Studs';
 
 
 
@@ -155,6 +156,7 @@ function App() {
               <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/' element={<IqBoxCabinetSeries/>}></Route>
               <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/' element={<IqWallCabinetSeries/>}></Route>
               <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/' element={<IqKeySafeSeries/>}></Route>
+              <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/' element={<SolarPoweredStuds/>}></Route>
 
             </Routes>
         </div>

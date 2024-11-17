@@ -108,7 +108,7 @@ const Sidebar = () => {
           Road Accessories
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Solar Powered Studs</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/'} className='dropdown-item-in-sidebar' >Solar Powered Studs</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>    
 

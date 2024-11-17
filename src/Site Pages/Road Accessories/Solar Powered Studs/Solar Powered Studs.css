@@ -1,0 +1,15 @@
+.solar-powered-studs-container{
+    padding: 3%;
+    text-align: left;
+}
+
+.product-image-in-solar-powered-studs-container img{
+    max-width: 100%;
+}
+
+@media(max-width:860px){
+    .solar-powered-studs-container h1{
+        margin-left: 3%;
+        font-size: 2em;
+    }
+}
