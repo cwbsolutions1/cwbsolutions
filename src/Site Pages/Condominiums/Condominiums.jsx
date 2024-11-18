@@ -1,6 +1,12 @@
 import './Condominiums.css'
 import image from './png-transparent-add-image-icon.png'
 import image2 from './ai-nuclear-energy-background-future-innovation-disruptive-technology.jpg'
+import speedBumpImage from '../Road Humps/Thermo plastic road hump.png'
+import chainLinkFenceImage from '../Products and Services/Perimeter Fencing & Gates/commercial-fence-barb-selvage.jpg'
+import pvcCoatedChainLink from '../Products and Services/Perimeter Fencing & Gates/PVC-Coated-Chain-Link-Mesh.jpg'
+import brcFencingImage from '../Products and Services/Perimeter Fencing & Gates/BRC-fence-mp4.png'
+import solarPoweredStud from '../Road Accessories/Solar Powered Studs/solar-studs.jpg'
+import ivacImage from '../Home Page/Images/I-Vac.png'
 import { HashLink as Link } from 'react-router-hash-link';
 
 
@@ -33,12 +39,12 @@ const Condominiums = () =>{
 
                 
                 <div className='title-in-fullscreen-product-display-in-condominiums'> Solar Road Studs - High powered LED</div>
-                <div><div><img src={image2} alt="" /></div></div>
+                <div><div><img src={solarPoweredStud} alt="" /></div></div>
                 <div>Solar road studs are flashing solar cell powered LED maintenance-free lighting devices used in road construction to delineate road edges and centrelines. Embedded in the road surface, they are an electronic improvement on the traditional cat eyes in that they may give drivers more than a thirty-second reaction window compared with about 3 seconds for conventional reflective devices. The intense brightness of the LEDs makes them easily visible at distances of about 900m under favourable conditions.</div>
 
                 
                 <div className='title-in-fullscreen-product-display-in-condominiums'> WATER-I-VAC WATER & VACUUM ALL IN ONE COIN OPERATED MACHINE</div>
-                <div><div><img src={image2} alt="" /></div></div>
+                <div><div><img src={ivacImage} alt="" /></div></div>
                 <div>This ULTRA compact sized WATER-I-VAC provides industrial grade powerful Vacuum & Water dispensing in an all in one car care machine to provide long maintenance free years of a full service wash bay while generating a sustainable revenue stream $1-$2 from per Vacuum usage and 20-40 cents per water usage. Both water and vacuum can be used at the same time. Upon inserting a coin the large respective countdown LCD screen on an attractive bright yellow with designer outdoor sticker visuals gives an unique satisfaction to residences & car owners. Ideal for medium self-service usage locations at condominiums car parks, workshops, public(HDB), and private residential car wash bays. <br /><br />The Water-I-Vac is the most cost effective & power efficient vacuum  and has only 1 motor and 1 filter bag and fits in the centre of any car wash bay or compactly wall mounted. It can either be manually operated or coin operated as shown above. A water valve with water hose may also be added to enable water dispense functions for the perfect all in car wash bay solution for basic interior and external car care function. </div>
             </div>
 
@@ -60,7 +66,7 @@ const Condominiums = () =>{
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
-                    <div><img src={image} alt="" /></div>
+                    <div><img src={speedBumpImage} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Speed Bumps</div>
                     <div>Designed to slow traffic in all areas where high speeds can be dangerous.</div>
                     
@@ -109,21 +115,21 @@ const Condominiums = () =>{
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
-                    <div><img src={image} alt="" /></div>
+                    <div><img src={pvcCoatedChainLink} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>PVC Coated Chain Link Fence Gate</div>
                     <div>1.0m wide by 1.8m or custom high  single/ double leaf PCV Coated  chain link swing gate </div>
                     <Link to={'/cwbsolutions.net/perimeter-fencing---gates/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
-                    <div><img src={image} alt="" /></div>
+                    <div><img src={chainLinkFenceImage} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Chain Link Fence</div>
                     <div>1.8m or custom hight PVC coated chain link fence- Supply only or Supply & Install with or without concrete kerb.</div>
                     <Link to={'/cwbsolutions.net/perimeter-fencing---gates/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
-                    <div><img src={image} alt="" /></div>
+                    <div><img src={brcFencingImage} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>BRC Weldfence Gate</div>
                     <div>BRC Weldfence is manufactured from high tensile strength steel wires that are welded together to provide accurate panel & mesh dimensions.</div>
                     <Link to={'/cwbsolutions.net/perimeter-fencing---gates/'}>Learn More</Link>

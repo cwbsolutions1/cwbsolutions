@@ -136,11 +136,11 @@ const Sidebar = () => {
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item as={Link} to={'/cwbsolutions.net/automatic-car-wash/'} className='dropdown-item-in-sidebar' >Automatic Car Washes</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'#'} className='dropdown-item-in-sidebar' href='#'>Vending Machines</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'} className='dropdown-item-in-sidebar' href='#'>Powerful Car Vacuums</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/air-machines/'} className='dropdown-item-in-sidebar' href='#'>Air Machines</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/hot-air-dryer/'} className='dropdown-item-in-sidebar' href='#'>Hot Air Dryer</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'} className='dropdown-item-in-sidebar' href='#'>Water Dispensers</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'#'} className='dropdown-item-in-sidebar'>Vending Machines</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'} className='dropdown-item-in-sidebar'>Powerful Car Vacuums</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/air-machines/'} className='dropdown-item-in-sidebar'>Air Machines</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/hot-air-dryer/'} className='dropdown-item-in-sidebar'>Hot Air Dryer</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'} className='dropdown-item-in-sidebar'>Water Dispensers</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
 
