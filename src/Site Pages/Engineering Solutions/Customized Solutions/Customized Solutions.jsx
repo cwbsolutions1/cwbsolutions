@@ -3,6 +3,7 @@ import animation from '../Customized Solutions/Animation - 1730456035960.json';
 import Lottie from 'lottie-react';
 import { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
+import Swal from 'sweetalert2'
 
 const CustomizedSolutions = () => {
     const [formData, setFormData] = useState({
@@ -24,31 +25,59 @@ const CustomizedSolutions = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) =>{
         e.preventDefault();
 
-        // Show success notification
-        toast.success("Successfully Saved!", {
-            position: "top-right",
-            autoClose: 4500,
-            hideProgressBar: false,
-            pauseOnHover: true,
-            draggable: false,
-            progress: undefined,
-        });
+        const dataToSend ={
+            ...formData,
+            access_key: "0690b938-867b-496a-84a2-4439df31fde8",
+        }
 
-        // Reset form data
-        setFormData({
-            customerName: '',
-            email: '',
-            contactNumber: '',
-            address: '',
-            companyName: '',
-            businessField: '',
-            requirement: '',
-            message: ''
-        });
-    };
+        try{
+            const res = await fetch("https://api.web3forms.com/submit",{
+                method:"POST",
+                headers:{
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+                body: JSON.stringify(dataToSend),
+            });
+            const result = await res.json();
+
+            if (result.success) {
+                Swal.fire({
+                  title: "Done!",
+                  text: "Successfully Submitted!",
+                  icon: "success"
+                });
+                setFormData({
+                    customerName: '',
+                    email: '',
+                    contactNumber: '',
+                    address: '',
+                    companyName: '',
+                    businessField: '',
+                    requirement: '',
+                    message: ''
+                });
+              } else {
+                Swal.fire({
+                  icon: "Error",
+                  title: "Oops...",
+                  text: "Please Try Again!"
+                });
+              }
+        }
+        catch (error){
+            console.error("Error submitting form:", error);
+            Swal.fire({
+                icon: "Error",
+                title: "Oops...",
+                text: "Something went wrong!"
+              });
+        }
+
+    }
 
     return (
         <div className='customized-solutions-container'>

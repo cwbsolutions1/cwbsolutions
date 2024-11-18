@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { Link } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import './Sidebar.css';
+import Swal from 'sweetalert2'
 
 
 const Sidebar = () => {
@@ -231,7 +232,11 @@ const Sidebar = () => {
         const result = await res.json();
   
         if (result.success) {
-          toast.success("Successfully submitted!");
+          Swal.fire({
+            title: "Done!",
+            text: "Successfully Submitted!",
+            icon: "success"
+          });
           setFormData({
             customerName: "",
             companyName: "",
@@ -240,11 +245,19 @@ const Sidebar = () => {
             description: "",
           });
         } else {
-          toast.error("Failed to submit. Please try again.");
+          Swal.fire({
+            icon: "Error",
+            title: "Oops...",
+            text: "Please Try Again!"
+          });
         }
       } catch (error) {
         console.error("Error submitting form:", error);
-        toast.error("An error occurred. Please try again.");
+        Swal.fire({
+          icon: "Error",
+          title: "Oops...",
+          text: "Something went wrong!"
+        });
       }
     };
 

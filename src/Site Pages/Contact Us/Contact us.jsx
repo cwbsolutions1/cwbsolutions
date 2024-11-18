@@ -3,31 +3,61 @@ import animation from '../Contact Us/Animation - 1730478173174.json'
 import './Contact us.css'
 import { ToastContainer, toast } from "react-toastify";
 import React, { useState, useEffect } from 'react';
+import Swal from 'sweetalert2'
 
 const ContactUs = () =>{
 
-    const handleSubmit = (e) =>{
+    const handleSubmit = async (e) =>{
         e.preventDefault();
 
+        const dataToSend ={
+            ...formData,
+            access_key: "0690b938-867b-496a-84a2-4439df31fde8",
+        }
 
-        toast.success("Successfully Saved ", {
-            position: "top-right",
-            autoClose: 4500, // Auto close after 3 seconds
-            hideProgressBar: false,
-            pauseOnHover: true,
-            draggable: false,
-            progress: undefined,
+        try{
+            const res = await fetch("https://api.web3forms.com/submit",{
+                method:"POST",
+                headers:{
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+                body: JSON.stringify(dataToSend),
+            });
+            const result = await res.json();
 
-        });
+            if (result.success) {
+                Swal.fire({
+                  title: "Done!",
+                  text: "Successfully Submitted!",
+                  icon: "success"
+                });
+                setFormData({
+                  customerName: "",
+                  companyName: "",
+                  email: "",
+                  contactNumber: "",
+                  description: "",
+                });
+              } else {
+                Swal.fire({
+                  icon: "Error",
+                  title: "Oops...",
+                  text: "Please Try Again!"
+                });
+              }
+        }
+        catch (error){
+            console.error("Error submitting form:", error);
+            Swal.fire({
+                icon: "Error",
+                title: "Oops...",
+                text: "Something went wrong!"
+              });
+        }
 
-        setFormData({
-            customerName:'',
-            companyName:'',
-            email:'',
-            contactNumber:'',
-            description:''
-        })
     }
+
     const [formData,setFormData] = useState ({
         customerName:'',
         companyName:'',
