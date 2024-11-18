@@ -2,7 +2,6 @@ import './Customized Solutions.css';
 import animation from '../Customized Solutions/Animation - 1730456035960.json';
 import Lottie from 'lottie-react';
 import { useState } from 'react';
-import { toast, ToastContainer } from 'react-toastify';
 import Swal from 'sweetalert2'
 
 const CustomizedSolutions = () => {
@@ -25,8 +24,11 @@ const CustomizedSolutions = () => {
         }));
     };
 
+    const [loading, setLoading] = useState(false);
+
     const handleSubmit = async (e) =>{
         e.preventDefault();
+        setLoading(true); // Start loading
 
         const dataToSend ={
             ...formData,
@@ -43,6 +45,7 @@ const CustomizedSolutions = () => {
                 body: JSON.stringify(dataToSend),
             });
             const result = await res.json();
+            setLoading(false); // Stop loading after response
 
             if (result.success) {
                 Swal.fire({
@@ -70,6 +73,7 @@ const CustomizedSolutions = () => {
         }
         catch (error){
             console.error("Error submitting form:", error);
+            setLoading(false); // Stop loading if there's an error
             Swal.fire({
                 icon: "Error",
                 title: "Oops...",
@@ -101,98 +105,111 @@ const CustomizedSolutions = () => {
                 <p>Please feel free to contact us by filling the simple form below may you require customised engineering solutions and quotations for your unique business needs.</p>
             </div>
 
-            <div className='customized-solutions-form'>
-                <ToastContainer />
-                <form onSubmit={handleSubmit}>
-                    <label htmlFor="customerName">Contact Person <span style={{color:'red'}}>*</span></label>
+            <div style={{ position: "relative" }}>
+                {/* Dimming Overlay */}
+                {loading && (
+                    <div className="loading-overlay">
+                        <div className="spinner"></div>
+                    </div>
+                )}
+
+                <div className="customized-solutions-form">
+                    <form onSubmit={handleSubmit}>
+                    <label htmlFor="customerName">
+                        Contact Person <span style={{ color: "red" }}>*</span>
+                    </label>
                     <input
                         type="text"
-                        id='customerName'
-                        name='customerName'
+                        id="customerName"
+                        name="customerName"
                         value={formData.customerName}
                         onChange={handleChange}
                         placeholder="Enter Contact Person's Name"
                         required
                     />
 
-                    <label htmlFor="email">Email Address <span style={{color:'red'}}>*</span></label>
+                    <label htmlFor="email">
+                        Email Address <span style={{ color: "red" }}>*</span>
+                    </label>
                     <input
                         type="email"
-                        id='email'
-                        name='email'
+                        id="email"
+                        name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder='Enter Your Email'
+                        placeholder="Enter Your Email"
                         required
                     />
 
-                    <label htmlFor="contactNumber">Contact Number <span style={{color:'red'}}>*</span></label>
+                    <label htmlFor="contactNumber">
+                        Contact Number <span style={{ color: "red" }}>*</span>
+                    </label>
                     <input
                         type="text"
-                        id='contactNumber'
-                        name='contactNumber'
+                        id="contactNumber"
+                        name="contactNumber"
                         value={formData.contactNumber}
                         onChange={handleChange}
-                        placeholder='Enter Your Contact Number'
+                        placeholder="Enter Your Contact Number"
                         required
                     />
 
-                    <label htmlFor="address">Address </label>
+                    <label htmlFor="address">Address</label>
                     <input
                         type="text"
-                        id='address'
-                        name='address'
+                        id="address"
+                        name="address"
                         value={formData.address}
                         onChange={handleChange}
-                        placeholder='Enter Your Address'
-                        
+                        placeholder="Enter Your Address"
                     />
 
                     <label htmlFor="companyName">Company Name</label>
                     <input
                         type="text"
-                        id='companyName'
-                        name='companyName'
+                        id="companyName"
+                        name="companyName"
                         value={formData.companyName}
                         onChange={handleChange}
-                        placeholder='Enter Company Name'
-                        
+                        placeholder="Enter Company Name"
                     />
 
-                    <label htmlFor="businessField">Business Field <span style={{color:'red'}}>*</span></label>
+                    <label htmlFor="businessField">
+                        Business Field <span style={{ color: "red" }}>*</span>
+                    </label>
                     <input
                         type="text"
-                        id='businessField'
-                        name='businessField'
+                        id="businessField"
+                        name="businessField"
                         value={formData.businessField}
                         onChange={handleChange}
-                        placeholder='Enter Business Field'
+                        placeholder="Enter Business Field"
                         required
                     />
 
                     <label htmlFor="requirement">Requirement</label>
                     <textarea
-                        id='requirement'
-                        name='requirement'
+                        id="requirement"
+                        name="requirement"
                         value={formData.requirement}
                         onChange={handleChange}
-                        placeholder='Enter Requirement'
-                      
+                        placeholder="Enter Requirement"
                     />
 
                     <label htmlFor="message">Message</label>
                     <textarea
-                        id='message'
-                        name='message'
+                        id="message"
+                        name="message"
                         value={formData.message}
                         onChange={handleChange}
-                        placeholder='Enter Message'
-                        
+                        placeholder="Enter Message"
                     />
 
-                    <button type='submit'>Submit</button>
-                </form>
+                    <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
+
         </div>
     );
 }
