@@ -210,28 +210,43 @@ const Sidebar = () => {
         }));
     }
 
-    const handleSubmit = (e) =>{
-        e.preventDefault();
-
-
-        toast.success("Successfully Saved ", {
-            position: "top-right",
-            autoClose: 4500, // Auto close after 3 seconds
-            hideProgressBar: false,
-            pauseOnHover: true,
-            draggable: false,
-            progress: undefined,
-
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+  
+      // Prepare the data for API submission
+      const dataToSend = {
+        ...formData,
+        access_key: "0690b938-867b-496a-84a2-4439df31fde8", // Replace with your actual access key
+      };
+  
+      try {
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(dataToSend),
         });
-
-        setFormData({
-            customerName:'',
-            companyName:'',
-            email:'',
-            contactNumber:'',
-            description:''
-        })
-    }
+        const result = await res.json();
+  
+        if (result.success) {
+          toast.success("Successfully submitted!");
+          setFormData({
+            customerName: "",
+            companyName: "",
+            email: "",
+            contactNumber: "",
+            description: "",
+          });
+        } else {
+          toast.error("Failed to submit. Please try again.");
+        }
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        toast.error("An error occurred. Please try again.");
+      }
+    };
 
     return (
         <form className='maintenence-reporting-form' onSubmit={handleSubmit} action="">
