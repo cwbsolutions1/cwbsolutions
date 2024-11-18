@@ -53,7 +53,7 @@ const Sidebar = () => {
           Our Products and Services
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar' href='#'>Car washing and car wash bays equipment</Dropdown.Item>
+          <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products-and-services/'} className='dropdown-item-in-sidebar'>Car Washing and Car Wash Bays Equipment</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 

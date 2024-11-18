@@ -1,0 +1,33 @@
+.car-washing-and-car-wash-bays-equipment-container{
+    text-align: left;
+    padding: 3%;
+}
+
+.products-in-car-washing-and-car-wash-bays-equipment{
+    display: grid;
+    grid-template-columns: repeat();
+}
+
+.products-in-car-washing-and-car-wash-bays-equipment a{
+    background: linear-gradient(135deg,rgb(0, 140, 255),rgb(174, 221, 255));
+    margin: 0.5%;
+    padding: 0.8%;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.3em;
+    transition: 0.4s;
+    width: 80%;
+    font-weight: 250;
+}
+
+.products-in-car-washing-and-car-wash-bays-equipment >a:hover{
+    background: linear-gradient(135deg,rgb(0, 140, 255),rgb(20, 143, 232));
+    color: rgb(219, 219, 219);
+}
+
+@media(max-width:860px){
+    .car-washing-and-car-wash-bays-equipment-container h1{
+        margin-right: 15%;
+        font-size: 2em;
+    }
+}
