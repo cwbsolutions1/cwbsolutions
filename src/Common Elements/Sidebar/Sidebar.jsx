@@ -211,8 +211,10 @@ const Sidebar = () => {
         }));
     }
 
+    const [loading, setLoading] = useState(false);
     const handleSubmit = async (e) => {
       e.preventDefault();
+      setLoading(true); // Start loading
   
       // Prepare the data for API submission
       const dataToSend = {
@@ -230,6 +232,7 @@ const Sidebar = () => {
           body: JSON.stringify(dataToSend),
         });
         const result = await res.json();
+        setLoading(false); // Stop loading after response
   
         if (result.success) {
           Swal.fire({
@@ -253,6 +256,7 @@ const Sidebar = () => {
         }
       } catch (error) {
         console.error("Error submitting form:", error);
+        setLoading(false); // Stop loading after response
         Swal.fire({
           icon: "Error",
           title: "Oops...",
@@ -261,64 +265,74 @@ const Sidebar = () => {
       }
     };
 
+
     return (
+      <div style={{ position: "relative" }}>
+        {/* Dimming Overlay */}
+        {loading && (
+          <div className="loading-overlay">
+              <div className="spinner"></div>
+          </div>
+        )}
+
         <form className='maintenence-reporting-form' onSubmit={handleSubmit} action="">
-            <h5>Maintainance Reporting</h5>
-            <label htmlFor="customerName">Contact Name <span style={{color:'red'}}> *</span></label>
-            <input 
-            type="text"
-            name='customerName'
-            id='customerName' 
-            value={formData.customerName}
-            onChange={handleChange}
-            required
-            placeholder='Enter Your Name' />
+          <h5>Maintainance Reporting</h5>
+          <label htmlFor="customerName">Contact Name <span style={{color:'red'}}> *</span></label>
+          <input 
+          type="text"
+          name='customerName'
+          id='customerName' 
+          value={formData.customerName}
+          onChange={handleChange}
+          required
+          placeholder='Enter Your Name' />
 
-            <label htmlFor="Companyname">Company Name</label>
-            <input type="text" 
-            name='companyName'
-            id='companyName'
-            value={formData.companyName}
-            onChange={handleChange}
-            placeholder='Enter Company Name' />
+          <label htmlFor="Companyname">Company Name</label>
+          <input type="text" 
+          name='companyName'
+          id='companyName'
+          value={formData.companyName}
+          onChange={handleChange}
+          placeholder='Enter Company Name' />
 
-            <label htmlFor="email">Email<span style={{color:'red'}}> *</span></label>
-            <input 
-            type="email"
-            name='email'
-            id='email'
-            value={formData.email} 
-            onChange={handleChange}
-            required
-            placeholder='Enter Your Email' />
+          <label htmlFor="email">Email<span style={{color:'red'}}> *</span></label>
+          <input 
+          type="email"
+          name='email'
+          id='email'
+          value={formData.email} 
+          onChange={handleChange}
+          required
+          placeholder='Enter Your Email' />
 
-            <label htmlFor="contactNumber">Contact Number<span style={{color:'red'}}> *</span></label>
-            <input type="text" 
-            name="contactNumber" 
-            id="contactNumber" 
-            value={formData.contactNumber}
-            onChange={handleChange}
-            required
-            placeholder='Enter Your Contact Number'/>
+          <label htmlFor="contactNumber">Contact Number<span style={{color:'red'}}> *</span></label>
+          <input type="text" 
+          name="contactNumber" 
+          id="contactNumber" 
+          value={formData.contactNumber}
+          onChange={handleChange}
+          required
+          placeholder='Enter Your Contact Number'/>
 
-            <label htmlFor="description">Description<span style={{color:'red'}}> *</span></label>
-            <textarea 
-            name="description" 
-            id="description" 
-            value={formData.description}
-            onChange={handleChange}
-            required
-            placeholder='Enter Description'></textarea>
+          <label htmlFor="description">Description<span style={{color:'red'}}> *</span></label>
+          <textarea 
+          name="description" 
+          id="description" 
+          value={formData.description}
+          onChange={handleChange}
+          required
+          placeholder='Enter Description'></textarea>
 
-            <div>
-            Simply fill out the contact form above and we will get back to you as soon as we can.
-            </div>
+          <div>
+          Simply fill out the contact form above and we will get back to you as soon as we can.
+          </div>
 
-            <button
-            type='submit' className='submit-button-in-sidebar'>
-                Submit
-            </button>
+          <button
+          type='submit' className='submit-button-in-sidebar'>
+              Submit
+          </button>
         </form>
+      </div>
     )
   }
 

@@ -7,8 +7,11 @@ import Swal from 'sweetalert2'
 
 const ContactUs = () =>{
 
+    const [loading, setLoading] = useState(false);
+
     const handleSubmit = async (e) =>{
         e.preventDefault();
+        setLoading(true); // Start loading
 
         const dataToSend ={
             ...formData,
@@ -25,6 +28,7 @@ const ContactUs = () =>{
                 body: JSON.stringify(dataToSend),
             });
             const result = await res.json();
+            setLoading(false); // Stop loading after response
 
             if (result.success) {
                 Swal.fire({
@@ -49,6 +53,7 @@ const ContactUs = () =>{
         }
         catch (error){
             console.error("Error submitting form:", error);
+            setLoading(false); // Stop loading after response
             Swal.fire({
                 icon: "Error",
                 title: "Oops...",
@@ -107,58 +112,68 @@ const ContactUs = () =>{
 
             <h5>Or you can fill out the form below and we will get back to you as soon as we can</h5>
 
-            <form className='maintenence-reporting-form ' id='contact-us-form' onSubmit={handleSubmit} action="">
-            <label htmlFor="customerName">Contact Name <span style={{color:'red'}}> *</span></label>
-            <input 
-            type="text"
-            name='customerName'
-            id='customerName' 
-            value={formData.customerName}
-            onChange={handleChange}
-            required
-            placeholder='Enter Your Name' />
+            <div style={{ position: "relative" }}>
 
-            <label htmlFor="Companyname">Company Name</label>
-            <input type="text" 
-            name='companyName'
-            id='companyName'
-            value={formData.companyName}
-            onChange={handleChange}
-            placeholder='Enter Company Name' />
+                {/* Dimming Overlay */}
+                {loading && (
+                    <div className="loading-overlay">
+                        <div className="spinner"></div>
+                    </div>
+                )}
 
-            <label htmlFor="email">Email<span style={{color:'red'}}> *</span></label>
-            <input 
-            type="email"
-            name='email'
-            id='email'
-            value={formData.email} 
-            onChange={handleChange}
-            required
-            placeholder='Enter Your Email' />
+                <form className='maintenence-reporting-form ' id='contact-us-form' onSubmit={handleSubmit} action="">
+                    <label htmlFor="customerName">Contact Name <span style={{color:'red'}}> *</span></label>
+                    <input 
+                    type="text"
+                    name='customerName'
+                    id='customerName' 
+                    value={formData.customerName}
+                    onChange={handleChange}
+                    required
+                    placeholder='Enter Your Name' />
 
-            <label htmlFor="contactNumber">Contact Number<span style={{color:'red'}}> *</span></label>
-            <input type="text" 
-            name="contactNumber" 
-            id="contactNumber" 
-            value={formData.contactNumber}
-            onChange={handleChange}
-            required
-            placeholder='Enter Your Contact Number'/>
+                    <label htmlFor="Companyname">Company Name</label>
+                    <input type="text" 
+                    name='companyName'
+                    id='companyName'
+                    value={formData.companyName}
+                    onChange={handleChange}
+                    placeholder='Enter Company Name' />
 
-            <label htmlFor="description">Description<span style={{color:'red'}}> *</span></label>
-            <textarea 
-            name="description" 
-            id="description" 
-            value={formData.description}
-            onChange={handleChange}
-            required
-            placeholder='Enter Description'></textarea>
+                    <label htmlFor="email">Email<span style={{color:'red'}}> *</span></label>
+                    <input 
+                    type="email"
+                    name='email'
+                    id='email'
+                    value={formData.email} 
+                    onChange={handleChange}
+                    required
+                    placeholder='Enter Your Email' />
 
-            <button
-            type='submit' className='submit-button-in-sidebar'>
-                Submit
-            </button>
-        </form>
+                    <label htmlFor="contactNumber">Contact Number<span style={{color:'red'}}> *</span></label>
+                    <input type="text" 
+                    name="contactNumber" 
+                    id="contactNumber" 
+                    value={formData.contactNumber}
+                    onChange={handleChange}
+                    required
+                    placeholder='Enter Your Contact Number'/>
+
+                    <label htmlFor="description">Description<span style={{color:'red'}}> *</span></label>
+                    <textarea 
+                    name="description" 
+                    id="description" 
+                    value={formData.description}
+                    onChange={handleChange}
+                    required
+                    placeholder='Enter Description'></textarea>
+
+                    <button
+                    type='submit' className='submit-button-in-sidebar'>
+                        Submit
+                    </button>
+                </form>
+            </div>
 
 
         </div>
