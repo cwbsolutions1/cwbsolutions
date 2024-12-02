@@ -84,7 +84,7 @@ const NavigationBar = () => {
                             show={dropdownOpen.engineeringSolutions || (!isSmallScreen && dropdownOpen.engineeringSolutions)}
                         >
                             <NavDropdown.Item>
-                                <Link to="/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/" onClick={closeDropdowns}>Payment Integration</Link>
+                                <Link to="cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/" onClick={closeDropdowns}>Payment Integration</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <Link to="/cwbsolutions.net/engineering-solutions/" onClick={closeDropdowns}>Engineering Solutions</Link>

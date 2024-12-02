@@ -39,8 +39,20 @@ const Sidebar = () => {
           Equipment For
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to='/cwbsolutions.net/industy/condominiums/' className='dropdown-item-in-sidebar'onClick={handleClose} >Condominiums</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/industy/equipment-for-petrol-stations/'} className='dropdown-item-in-sidebar'onClick={handleClose} >Petrol Stations</Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to='/cwbsolutions.net/industy/condominiums/' 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            >Condominiums
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/industy/equipment-for-petrol-stations/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            >Petrol Stations
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 
@@ -53,7 +65,13 @@ const Sidebar = () => {
           Our Products and Services
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products-and-services/'} className='dropdown-item-in-sidebar'onClick={handleClose}>Car Washing and Car Wash Bays Equipment</Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/our-products-and-services/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >Car Washing and Car Wash Bays Equipment
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 
@@ -66,9 +84,26 @@ const Sidebar = () => {
           Barrier and Access Control
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/vehicle-license-plate-recognizer/'} className='dropdown-item-in-sidebar'onClick={handleClose} >Vehicle License Plate Recognizer</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-barrier-systems/'} className='dropdown-item-in-sidebar'onClick={handleClose} >Car & Access Barrier Systems</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-barrier-systems/'} className='dropdown-item-in-sidebar'onClick={handleClose}>Parking and Access Control</Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/vehicle-license-plate-recognizer/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            >Vehicle License Plate Recognizer
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/car-barrier-systems/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >Car & Access Barrier Systems
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/car-barrier-systems/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}>Parking and Access Control
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 
@@ -81,9 +116,27 @@ const Sidebar = () => {
           Key and Storage Management System
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'} className='dropdown-item-in-sidebar'onClick={handleClose}>IQ Key Safe Series</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'} className='dropdown-item-in-sidebar'onClick={handleClose}>IQ Wall Cabinet Series</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'} className='dropdown-item-in-sidebar'onClick={handleClose} >IQ Box Cabinet Series</Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >IQ Key Safe Series
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >IQ Wall Cabinet Series
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >IQ Box Cabinet Series
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>    
 
@@ -96,7 +149,12 @@ const Sidebar = () => {
           Road Safety Products
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/road-humps'} className='dropdown-item-in-sidebar'onClick={handleClose} >Road Humps</Dropdown.Item>
+          <Dropdown.Item 
+          as={Link} to={'/cwbsolutions.net/road-humps'} 
+          className='dropdown-item-in-sidebar'
+          onClick={handleClose} 
+          >Road Humps
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>       
 
@@ -109,7 +167,12 @@ const Sidebar = () => {
           Road Accessories
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/'} className='dropdown-item-in-sidebar'onClick={handleClose} >Solar Powered Studs</Dropdown.Item>
+          <Dropdown.Item 
+          as={Link} 
+          to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/'} className='dropdown-item-in-sidebar'
+          onClick={handleClose} 
+          >Solar Powered Studs
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>    
 
@@ -122,7 +185,13 @@ const Sidebar = () => {
           Perimeter Fencing & Gates
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/perimeter-fencing---gates/'} className='dropdown-item-in-sidebar'onClick={handleClose} >BRC Weld Fence</Dropdown.Item>
+          <Dropdown.Item 
+          as={Link} 
+          to={'/cwbsolutions.net/perimeter-fencing---gates/'} 
+          className='dropdown-item-in-sidebar'
+          onClick={handleClose} 
+          >BRC Weld Fence
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
 
@@ -135,12 +204,48 @@ const Sidebar = () => {
           Vehicular Self-Service Care Products
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/automatic-car-wash/'} className='dropdown-item-in-sidebar'onClick={handleClose} >Automatic Car Washes</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'#'} className='dropdown-item-in-sidebar'onClick={handleClose}>Vending Machines</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'} className='dropdown-item-in-sidebar'onClick={handleClose}>Powerful Car Vacuums</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/air-machines/'} className='dropdown-item-in-sidebar'onClick={handleClose}>Air Machines</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/hot-air-dryer/'} className='dropdown-item-in-sidebar'onClick={handleClose}>Hot Air Dryer</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'} className='dropdown-item-in-sidebar'onClick={handleClose}>Water Dispensers</Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/automatic-car-wash/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            >Automatic Car Washes
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'#'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >Vending Machines
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >Powerful Car Vacuums
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/air-machines/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >Air Machines
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/hot-air-dryer/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >Hot Air Dryer
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} 
+            to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >Water Dispensers
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
 
@@ -153,9 +258,24 @@ const Sidebar = () => {
           Electronic & Engineering Products & Services
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar'onClick={handleClose} href='#'>Coin & Cash Acceptors</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/pcb-boards/'} className='dropdown-item-in-sidebar'onClick={handleClose} href='#'>PCB Boards</Dropdown.Item>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/coin-operated-showers'} className='dropdown-item-in-sidebar'onClick={handleClose}>Coin Operated Showers</Dropdown.Item>
+          <Dropdown.Item 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            href='#'
+            >Coin & Cash Acceptors
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} to={'/cwbsolutions.net/pcb-boards/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >PCB Boards
+          </Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} to={'/cwbsolutions.net/coin-operated-showers'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose}
+            >Coin Operated Showers
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
 
@@ -165,12 +285,28 @@ const Sidebar = () => {
         show={openDropdown === 'parksFurniture'}
       >
         <Dropdown.Toggle className="custom-sidebar-button">
+
           Parks & Outdoor Furniture
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item as={Link} to={'/cwbsolutions.net/electric-bbq-pits/'} className='dropdown-item-in-sidebar'onClick={handleClose} >Electric BBQ Pits</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar'onClick={handleClose} href='#'>Outdoor Furniture</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar'onClick={handleClose} href='#'>Outdoor Umbrella</Dropdown.Item>
+          <Dropdown.Item 
+            as={Link} to={'/cwbsolutions.net/electric-bbq-pits/'} 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            >Electric BBQ Pits
+          </Dropdown.Item>
+          <Dropdown.Item 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            href='#'
+            >Outdoor Furniture
+          </Dropdown.Item>
+          <Dropdown.Item 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            href='#'
+            >Outdoor Umbrella
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>  
 
@@ -183,9 +319,24 @@ const Sidebar = () => {
           Home
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
-          <Dropdown.Item className='dropdown-item-in-sidebar'onClick={handleClose} href='#'>TEN FALCONS- Furniture & Furnishings</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar'onClick={handleClose} href='#'>TEN BEARS- Consumer Lifestyle Trend Store</Dropdown.Item>
-          <Dropdown.Item className='dropdown-item-in-sidebar'onClick={handleClose} href='#'>RHINE CONSULTANTS- Marketing, Desgining & IT </Dropdown.Item>
+          <Dropdown.Item 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            href='#'
+            >TEN FALCONS- Furniture & Furnishings
+          </Dropdown.Item>
+          <Dropdown.Item 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            href='#'
+            >TEN BEARS- Consumer Lifestyle Trend Store
+          </Dropdown.Item>
+          <Dropdown.Item 
+            className='dropdown-item-in-sidebar'
+            onClick={handleClose} 
+            href='#'
+            >RHINE CONSULTANTS- Marketing, Desgining & IT 
+          </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown> 
 
@@ -215,6 +366,7 @@ const Sidebar = () => {
     const handleSubmit = async (e) => {
       e.preventDefault();
       setLoading(true); // Start loading
+      
   
       // Prepare the data for API submission
       const dataToSend = {
@@ -233,7 +385,7 @@ const Sidebar = () => {
         });
         const result = await res.json();
         setLoading(false); // Stop loading after response
-  
+        
         if (result.success) {
           Swal.fire({
             title: "Done!",
@@ -247,6 +399,7 @@ const Sidebar = () => {
             contactNumber: "",
             description: "",
           });
+
         } else {
           Swal.fire({
             icon: "Error",
@@ -328,7 +481,7 @@ const Sidebar = () => {
           </div>
 
           <button
-          type='submit' className='submit-button-in-sidebar'>
+          type='submit' onClick={handleClose} className='submit-button-in-sidebar'>
               Submit
           </button>
         </form>

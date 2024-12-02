@@ -17,7 +17,7 @@ const CarAndAccessBarrierSystems =()=>{
 
 
             <div className='car-and-access-barrier-systems-products-navigation-container'>
-                <div className='car-and-access-barrier-systems-products-navigation-box'>
+                <div id='automatic-car-park-barrier-gate-section' className='car-and-access-barrier-systems-products-navigation-box'>
                     <h4>Automatic Car Park Barrier Gates</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
@@ -36,7 +36,7 @@ const CarAndAccessBarrierSystems =()=>{
                         className='car-and-access-barrier-item'>Automatic Traffic Barrier With LED Signal</Link>
                     </div>
                 </div>
-                <div className='car-and-access-barrier-systems-products-navigation-box'>
+                <div id='intelligent-car-parking-systems' className='car-and-access-barrier-systems-products-navigation-box'>
                     <h4>Intelligent Car Parking System</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
@@ -95,7 +95,7 @@ const CarAndAccessBarrierSystems =()=>{
 
                     </div>
                 </div>
-                <div className='car-and-access-barrier-systems-products-navigation-box'>
+                <div id='turnstiles' className='car-and-access-barrier-systems-products-navigation-box'>
                     <h4>Turnstile</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 

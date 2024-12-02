@@ -40,30 +40,30 @@ const EngineeringSolutions = () => {
 
             <div className='engineering-solutions-category'>
                 <div>
-                    <div>Barrier Systems</div>
+                    <Link id='link-item' to={'/cwbsolutions.net/car-barrier-systems/'}>Barrier Systems</Link>
                     <div>Booking Systems</div>
                 </div>
                 <div>
-                    <div>Customised Solutions</div>
-                    <div>Customised BBQ Pits</div>
+                    <Link id='link-item' to={'/cwbsolutions.net/engineering/customised-solutions/'}>Customised Solutions</Link>
+                    <Link id='link-item' to={'/cwbsolutions.net/electric-bbq-pits/'}>Customised BBQ Pits</Link>
                 </div>
                 <div>
-                    <Link id='link-item' to={"/engineering-solutions/consultation-services/"}>Consultation Services</Link>
+                    <Link id='link-item' to={"/cwbsolutions.net/engineering-solutions/consultation-services/"}>Consultation Services</Link>
                     <div>Payment Modules
                         <p> Coin, Cash Card/Flash Pay, Top Up</p>
                     </div>
                 </div>
                 <div>
-                    <Link id='link-item' to={"/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/"}>
+                    <Link id='link-item' to={"/cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/"}>
                         <div>Payment Integration
                             <p>Ezy link, NETS</p>
                         </div>
                     </Link>
                     
-                    <Link id='link-item' to={"/pcb-boards/"}>PCB Boards</Link>
+                    <Link id='link-item' to={"/cwbsolutions.net/pcb-boards/"}>PCB Boards</Link>
                 </div>
                 <div>
-                    <Link id='link-item' to={"/engineering-solutions/system-integration-and-product-design/"}>System integration & Product Design</Link>
+                    <Link id='link-item' to={"/cwbsolutions.net/engineering-solutions/system-integration-and-product-design/"}>System integration & Product Design</Link>
                     <div>
                         Parking Guidence System (PGS)
                         <p>GSM modules</p>

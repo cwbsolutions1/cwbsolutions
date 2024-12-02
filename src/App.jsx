@@ -98,7 +98,7 @@ function App() {
 
               <Route path="cwbsolutions.net/" element={<Homepage />} />
               <Route path='/cwbsolutions.net/engineering-solutions/' element={<EngineeringSolutions/>} />
-              <Route path='/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/' element={<PaymentsIntegration/>}></Route>
+              <Route path='cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/' element={<PaymentsIntegration/>}></Route>
               <Route path='cwbsolutions.net/pcb-boards/' element={<PCB/>}></Route>
               <Route path='cwbsolutions.net/engineering-solutions/system-integration-and-product-design/' element={<SystemIntegration/>}></Route>
               <Route path='cwbsolutions.net/engineering/customised-solutions/' element={<CustomizedSolutions/>}></Route>
