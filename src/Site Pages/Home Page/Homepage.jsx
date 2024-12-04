@@ -6,9 +6,21 @@ import image2 from '../Home Page/Images/Image2.png'
 import ivac from '../Home Page/Images/I-Vac.png'
 import electricBBQ from '../Home Page/Images/Electric BBQ Pit.jpeg'
 import electricBBQDescription from '../Home Page/Images/Electric BBQ Pit Description.jpeg'
+import noise from '../../SSC Products/Noise Barriers/noise_03.jpg'
+import guardrail from '../../SSC Products/Guard Rails/guardrail_06.jpg'
+import crashCushion from '../../SSC Products/Crash Cushion/crash_06.jpg'
+import solarStructure from '../../SSC Products/Solar Structures/solar.jpg'
+import coilCentre from '../../SSC Products/Coil Centre/coils.jpg'
+import hv2 from '../../SSC Products/HV2/hv2_01.jpg'
+import ironBarrier from '../../SSC Products/Ironman Barrier/ironman-01.jpg'
+import steelBollard from '../../SSC Products/Steel Bollards/steel-03.jpg'
+import cappilaryTubeMats from '../../SSC Products/Capillary Tube Mats/capillary_01.png'
+
 
 
 const Homepage = () =>{
+
+
     return(
         <div className='Homepage-container'>
 
@@ -23,7 +35,7 @@ const Homepage = () =>{
                     CWB manufactures it's proprietary products ranging from <Link to={'/cwbsolutions.net/pcb-boards/'}>PCB boards</Link>, EPS system, <Link to={'/cwbsolutions.net/coin-operated-water-dispenser/'}>Coin operated water dispensers</Link>, <Link to={'/cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Cash-Card operated water dispensers</Link>, <Link to={'/cwbsolutions.net/coin-operated-showers'}>Coin Operated Showers</Link>, <Link to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Powerful Car Vacuums</Link>, <Link to={'/cwbsolutions.net/air-machines/'}>Air Machines</Link>, <Link to={'/cwbsolutions.net/hot-air-dryer/'}>Hot Air Dryers</Link>, <Link to={'/cwbsolutions.net/automatic-car-wash/'}>Automatic Car Washes</Link> to <Link to={'/cwbsolutions.net/car-barrier-systems/'}>automated parking barrier & gantry systems</Link>
 
                     <br /> <br />
-                    We are <Link to={'/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/'}>System Integrators for NETS, EZ Link & NERA</Link>  and are working with MHI for unique parking solutions.
+                    We are <Link to={'/cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/'}>System Integrators for NETS, EZ Link & NERA</Link>  and are working with MHI for unique parking solutions.
                     If you are looking to add Cashless payments to your products, you are in good hands.
                 </div>
 
@@ -81,6 +93,98 @@ const Homepage = () =>{
                         </iframe>
                     </div>
                 </div>
+
+            </div>
+
+            <div className='ssc-products-section-in-homepage'>
+                <h2>Road Safety & Temporary Construction Products</h2>
+
+                <div className="ssc-products-in-homepage">
+                
+                        <div className='individual-product-container'>
+                            <img src={noise} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Noise Barriers</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+
+                        <div className='individual-product-container'>
+                            <img src={guardrail} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Guardrail</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+
+                        <div className='individual-product-container'>
+                            <img src={crashCushion} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Crash Cushion</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+
+                        <div className='individual-product-container'>
+                            <img src={solarStructure} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Solar Structure</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+
+                        <div className='individual-product-container'>
+                            <img src={coilCentre} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Coil Centre</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+
+                        <div className='individual-product-container'>
+                            <img src={hv2} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>HV2</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+
+                        <div className='individual-product-container'>
+                            <img src={ironBarrier} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Ironman Barrier</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+
+                        <div className='individual-product-container'>
+                            <img src={steelBollard} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Steel Bollards</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+
+                        <div className='individual-product-container'>
+                            <img src={cappilaryTubeMats} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Capillary Tube Mats for Heating
+                                & Cooling Systems</span>
+                                <button>Learn More</button>
+                            </div>
+                        </div>
+                    
+                </div>
+
 
             </div>
 

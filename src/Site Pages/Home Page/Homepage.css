@@ -5,7 +5,8 @@
 
 }
 
-.product-section-in-homepage{
+.product-section-in-homepage,
+.ssc-products-section-in-homepage{
     text-align: left;
     padding: 3%;
     border-width: 1px;
@@ -78,6 +79,83 @@
 }
 
 
+.ssc-products-in-homepage{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+
+.individual-product-container{
+    position: relative; /* Needed to position the overlay relative to this parent container */
+    max-width:fit-content;
+    max-height: fit-content;
+    margin: 3%;
+    transition: 0.35s;
+
+}
+
+.individual-product-container img{
+    object-fit: cover;
+    border-radius: 5px;
+    height: 300px;
+    width: 350px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.individual-product-container-overlay{
+    position: absolute;
+    top: 0; /* Start at the top */
+    left: 0; /* Start at the left */
+    width: 100%; /* Cover the full width of the container */
+    height: 100%; /* Cover the full height of the container */
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.32s;
+}
+
+
+.individual-product-container-overlay button{
+    display: block;
+    background-color: rgba(108, 108, 196, 0.837);
+    margin: 4%;
+    opacity: 0;
+    transition: 0.5s;
+    padding: 1%;
+    font-weight: 100;
+    border-radius: 3px;
+}
+  
+.ssc-product-name {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 2em;
+    transform: 0.5s;
+  }
+
+.individual-product-container:hover{
+    transform: scale(1.05);
+}
+
+.individual-product-container:hover .ssc-product-name {
+    font-weight: 400;
+}
+
+.individual-product-container:hover .individual-product-container-overlay button{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.individual-product-container:hover .individual-product-container-overlay{
+    background: rgba(0, 0, 0, 0.15); /* Semi-transparent black overlay */
+}
+
+
 
 @media (max-width:860px){
 
@@ -86,6 +164,9 @@
     }
     .product-visuals-in-homepage {
         flex-direction: column; /* Stack items on top of each other in mobile view */
+    }
+    .individual-product-container-overlay button{
+        opacity: 1;
     }
     
   }
