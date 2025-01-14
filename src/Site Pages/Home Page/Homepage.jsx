@@ -15,6 +15,7 @@ import hv2 from '../../SSC Products/HV2/hv2_01.jpg'
 import ironBarrier from '../../SSC Products/Ironman Barrier/ironman-01.jpg'
 import steelBollard from '../../SSC Products/Steel Bollards/steel-03.jpg'
 import cappilaryTubeMats from '../../SSC Products/Capillary Tube Mats/capillary_01.png'
+import cableTray from '../../SSC Products/Cable Tray/cable_cable_try.jpg'
 
 
 
@@ -182,6 +183,15 @@ const Homepage = () =>{
                                 <button>Learn More</button>
                             </div>
                         </div>
+
+                        <div className='individual-product-container'>
+                            <img src={cableTray} alt="" />
+
+                            <div className='individual-product-container-overlay'>
+                                <span className='ssc-product-name'>Cable Tray</span>
+                                <Link to={'/cwbsolutions.net/sscproducts/cable-tray/'}><button>Learn More</button></Link>
+                            </div>
+                        </div>
                     
                 </div>
 
@@ -271,13 +281,7 @@ const Homepage = () =>{
             </div>
         
 
-            
-
-
-
-
-
-
+        
 
 
         </div>

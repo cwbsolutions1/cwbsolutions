@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import NavigationBar from './Common Elements/Navigation Bar/NavgationBar';
 import PageFooter from './Common Elements/Page Footer/PageFooter';
@@ -69,6 +70,7 @@ import IqWallCabinetSeries from './Site Pages/Key and Storage Management Systems
 import IqKeySafeSeries from './Site Pages/Key and Storage Management Systems/IQ Key Safe Series/IQ Key Safe Series';
 import SolarPoweredStuds from './Site Pages/Road Accessories/Solar Powered Studs/Solar Powered Studs';
 import CarWashingAndCarWashBaysEquipment from './Site Pages/Car washing and Car Wash bays equipment/Car washing and Car Wash bays equipment';
+import CableTray from './SSC Products/Cable Tray/CableTray';
 
 
 
@@ -94,7 +96,7 @@ function App() {
         <div className='main-content-container-right-section'>
             <Routes>
               
-              <Route path="/CWB-Solutions-Pte-Ltd/*" element={<Navigate to="/cwbsolutions.net/" replace />} />
+              <Route path="/" element={<Navigate to="/cwbsolutions.net/" replace />} />
 
               <Route path="cwbsolutions.net/" element={<Homepage />} />
               <Route path='/cwbsolutions.net/engineering-solutions/' element={<EngineeringSolutions/>} />
@@ -159,11 +161,20 @@ function App() {
               <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/' element={<IqKeySafeSeries/>}></Route>
               <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/' element={<SolarPoweredStuds/>}></Route>
               <Route path='cwbsolutions.net/our-products-and-services/' element={<CarWashingAndCarWashBaysEquipment/>}></Route>
+              <Route path='cwbsolutions.net/sscproducts/cable-tray/' element={<CableTray/>}></Route>
 
             </Routes>
         </div>
 
       </div>
+
+    <Link to={"http://cwbsolutions.net/"}>
+      <div className="old-weblink">
+          <p>Old Website</p>
+      </div>
+      </Link>
+
+
 
       <div>
       <PageFooter />
