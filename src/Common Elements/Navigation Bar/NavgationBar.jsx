@@ -63,7 +63,7 @@ const NavigationBar = () => {
         >
             <Container fluid>
                 <Navbar.Brand href="#">
-                    <Link to="cwbsolutions.net/">
+                    <Link to="cwbsolutions.net">
                         <img className={`navigation-bar-cwb-logo ${isExpanded ? 'logo-expand' : ''}`} src={CWBLogo} alt="CWB Solutions Logo" onClick={closeDropdowns} />
                     </Link>
                 </Navbar.Brand>
