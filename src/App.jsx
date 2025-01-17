@@ -170,7 +170,7 @@ function App() {
 
     <Link to={"http://cwbsolutions.net/"}>
       <div className="old-weblink">
-          <p>Old Website</p>
+          <p style={{color:"white"}}>Old Website</p>
       </div>
       </Link>
 
