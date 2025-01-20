@@ -96,9 +96,7 @@ function App() {
         <div className='main-content-container-right-section'>
             <Routes>
               
-              <Route path="cwbsolutions" element={<Navigate to="/cwbsolutions.net" replace />} />
-
-              <Route path="cwbsolutions.net" element={<Homepage />} />
+              <Route path="/" element={<Homepage />} />
               <Route path='/cwbsolutions.net/engineering-solutions/' element={<EngineeringSolutions/>} />
               <Route path='cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/' element={<PaymentsIntegration/>}></Route>
               <Route path='cwbsolutions.net/pcb-boards/' element={<PCB/>}></Route>

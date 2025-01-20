@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: 'cwbsolutions', // Add this line
+  base: '/', // This will set the base to the root of the domain
 });
+
 
 
