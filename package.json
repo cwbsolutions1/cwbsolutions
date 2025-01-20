@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "homepage": "https://cwbsolutions1.github.io/cwbsolutions"
+    "homepage": "https://cwbsolutions1.github.io/"
+
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
