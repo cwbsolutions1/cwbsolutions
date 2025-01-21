@@ -103,9 +103,7 @@ const ContactUs = () =>{
                 <span>Address</span>
                 <p>5 CHUAN HOE AVE, SINGAPORE 549817</p>
                 <span>TEL</span>
-                <p><a href="tel:+6565423745">(+65) 6542 3745</a></p>
-                <span>24/7 Technical Support</span>
-                <p><a href="tel:+6591110311">(+65) 9111 0311</a></p>
+                <p><a href="tel:+6588084169">(+65) 8808 4169</a></p>
                 <span>E-Mail</span>
                 <p><a href="mailto:info@cwbsolutions.net">info@cwbsolutions.net</a></p>
             </div>

@@ -433,10 +433,7 @@ const Sidebar = () => {
           <h4>Contact Us</h4>
 
           <p>Tel</p>
-          <span><a href="tel:+6565423745">(+65) 6542 3745</a></span>
-
-          <p>24/7 Technical Support</p>
-          <span><a href="tel:+6591110311">(+65) 9111 0311</a></span>
+          <span><a href="tel:+6588084169">(+65) 8808 4169</a></span>
 
           <p>E-mail</p>
           <span><a href="mailto:info@cwbsolutions.net">info@cwbsolutions.net</a></span>
