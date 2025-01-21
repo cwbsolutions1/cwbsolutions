@@ -428,6 +428,21 @@ const Sidebar = () => {
           </div>
         )}
 
+
+        <div className='contact-us-in-sidebar'>
+          <h4>Contact Us</h4>
+
+          <p>Tel</p>
+          <span><a href="tel:+6565423745">(+65) 6542 3745</a></span>
+
+          <p>24/7 Technical Support</p>
+          <span><a href="tel:+6591110311">(+65) 9111 0311</a></span>
+
+          <p>E-mail</p>
+          <span><a href="mailto:info@cwbsolutions.net">info@cwbsolutions.net</a></span>
+
+        </div>
+
         <form className='maintenence-reporting-form' onSubmit={handleSubmit} action="">
           <h5>Maintainance Reporting</h5>
           <label htmlFor="customerName">Contact Name <span style={{color:'red'}}> *</span></label>

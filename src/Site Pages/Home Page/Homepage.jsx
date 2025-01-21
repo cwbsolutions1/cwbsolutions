@@ -97,6 +97,16 @@ const Homepage = () =>{
 
             </div>
 
+
+            <div className='product-section-in-homepage'>
+                <h2>Booking and Reserving a Parking Lot</h2>
+
+                <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XrSuINROOKE?si=fBxNDofU9sQ4T6SV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+            </div>
+
             <div className='ssc-products-section-in-homepage'>
                 <h2>Road Safety & Temporary Construction Products</h2>
 
@@ -268,6 +278,7 @@ const Homepage = () =>{
 
                 <div>
                 <iframe 
+                    id='sembawang-park-bbq'
                     style={{marginTop:"10px"}}
                     width="100%" 
                     height="315" 

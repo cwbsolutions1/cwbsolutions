@@ -39,6 +39,18 @@
     width: 100%;
 }
 
+#parking-lot-video {
+    border-radius: 20px;
+    width: 50%;
+}
+
+#sembawang-park-bbq{
+    border-radius: 20px;
+    width: 50%;
+}
+
+
+
 .iot-products{
     display: flex;
     flex-wrap: wrap;
