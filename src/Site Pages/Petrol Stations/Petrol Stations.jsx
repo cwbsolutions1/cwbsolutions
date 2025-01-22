@@ -16,28 +16,28 @@ const PetrolStations = () =>{
                     <div><img src={powerVaccumImage} alt="" /></div>
                     <div className='title-in-petrol-stations-products-individual-box'>Power Vaccums</div>
                     <div>This is the world's most powerful industrial grade power Vacuum. 2 & 3 motors models are available.</div>
-                    <Link to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Learn More</Link>
+                    <Link to={'/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Learn More</Link>
                 </div>
 
                 <div className='petrol-stations-products-individual-box'>
                     <div><img src={airMachineImage} alt="" /></div>
                     <div className='title-in-petrol-stations-products-individual-box'>Air Machines</div>
                     <div>We offer a wide range of high quality stainless steel air machines.</div>
-                    <Link to={'/cwbsolutions.net/air-machines/'}>Learn More</Link>
+                    <Link to={'/air-machines/'}>Learn More</Link>
                 </div>
 
                 <div className='petrol-stations-products-individual-box'>
                     <div><img src={hotAirDryerImage} alt="" /></div>
                     <div className='title-in-petrol-stations-products-individual-box'>Hot Air Dryers</div>
                     <div>Cut your manpower cost & increase customer satisfaction on you per car wash speed with a spot free finish with  our powerful heated air dryer.</div>
-                    <Link to={'/cwbsolutions.net/hot-air-dryer/'}>Learn More</Link>
+                    <Link to={'/hot-air-dryer/'}>Learn More</Link>
                 </div>
 
                 <div className='petrol-stations-products-individual-box'>
                     <div><img src={carWashImage} alt="" /></div>
                     <div className='title-in-petrol-stations-products-individual-box'>Automatic Car Wash System</div>
                     <div>The unit is dependable and easy to maintain with built in features that save on operating costs.</div>
-                    <Link to={'/cwbsolutions.net/automatic-car-wash/'}>Learn More</Link>
+                    <Link to={'/automatic-car-wash/'}>Learn More</Link>
                 </div>
             </div>
 

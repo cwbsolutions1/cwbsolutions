@@ -41,7 +41,7 @@ const DualCommercialUltraPowerVacuumWith4Motors = () =>{
                         Replacement Hose 
                         </div>
                         <div>J E adams Hoses are of the highest quality available 6 different colours and lengths of 15 ,25 & 50 feet </div>
-                        <Link to={'/cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers'}>Learn More</Link>
+                        <Link to={'/replacement-parts-for-vacuums-water-dispensers'}>Learn More</Link>
 
                     </div>
 
@@ -53,7 +53,7 @@ const DualCommercialUltraPowerVacuumWith4Motors = () =>{
                         <div>
                         Cut your manpower cost & increase customer satisfaction on you per car wash speed with a spot free finish with  our powerful heated air dryer.
                         </div>
-                        <Link to={'/cwbsolutions.net/hot-air-dryer'}>Learn More</Link>
+                        <Link to={'/hot-air-dryer'}>Learn More</Link>
                     </div>
 
                     <div className='individual-box-intrested-section-in-water-dispenser-page'>
@@ -64,7 +64,7 @@ const DualCommercialUltraPowerVacuumWith4Motors = () =>{
                         <div>
                         We manufacture, sell, repair and maintain different types of water dispensers: coin operated, cash card operated and aqua save water dispensers
                         </div>
-                        <Link to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers'}>Learn More</Link>
+                        <Link to={'/car-washing-and-car-wash-bays-equipment/water-dispensers'}>Learn More</Link>
                     </div>
 
                     <div className='individual-box-intrested-section-in-water-dispenser-page'>
@@ -75,7 +75,7 @@ const DualCommercialUltraPowerVacuumWith4Motors = () =>{
                         <div>
                         The Splash N Dash is a single bay self service all in one car wash station.The first impressive feature is the low Pressure Tire/Engine Cleaner, which uses a special cutting solution
                         </div>
-                        <Link to={'/cwbsolutions.net/news/mini-car-washes'}>Learn More</Link>
+                        <Link to={'/news/mini-car-washes'}>Learn More</Link>
                     </div>
                 </div>
 

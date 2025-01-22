@@ -35,14 +35,14 @@ const HotAirDryers = () =>{
                         <div><img src={vaccumCleaner} alt="" /></div>
                         <div className='add-ons-to-air-machines-box-title'>Commercial Power Vacuum</div>
                         <div className='add-ons-to-air-machines-box-description'>We are distributing the worls's most powerful vacuums in the  industry. Whether you are looking for a revenue generator, to stop replacing shop-vacs or to provide your customers or residents with  great quality vacuum for free we've got options for you. </div>
-                        <Link to="/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/">Learn More</Link>
+                        <Link to="/car-washing-and-car-wash-bays-equipment/power-vacuums/">Learn More</Link>
                     </div>
 
                     <div className='add-ons-to-air-machines-box'>
                         <div><img src={airDryer} alt="" /></div>
                         <div className='add-ons-to-air-machines-box-title'>Air Machines</div>
                         <div className='add-ons-to-air-machines-box-description'>We offer a high quality stainless steel air machine for your petrol station,  detail shop, multi storey carpark  or anywhere you want to offer your customers air compression. </div>
-                        <Link to="/cwbsolutions.net/air-machines/">Learn More</Link>
+                        <Link to="/air-machines/">Learn More</Link>
                     </div>
 
                     <div className='add-ons-to-air-machines-box'>

@@ -105,14 +105,14 @@ const MiniCarWashes = () =>{
                 <div><img src={image} alt="" /></div>
                 <div className='heading-in-individual-item-box-in-powerful-car-vaccums'>Hot Air Dryer</div>
                 <div>Cut your manpower cost & increase customer satisfaction on you per car wash speed with a spot free finish with  our powerful heated air dryer. </div>
-                <Link to={'/cwbsolutions.net/hot-air-dryer/'}>Read More</Link>
+                <Link to={'/hot-air-dryer/'}>Read More</Link>
             </div>
 
             <div className='individual-item-box-in-powerful-car-vaccums'>
                 <div><img src={image} alt="" /></div>
                 <div className='heading-in-individual-item-box-in-powerful-car-vaccums'>Air Machines</div>
                 <div>We offer a high quality stainless steel air machine for your petrol station,  detail shop, multi storey carpark  or anywhere you want to offer your customers air compression. </div>
-                <Link to={"/cwbsolutions.net/air-machines"}>Read More</Link>
+                <Link to={"/air-machines"}>Read More</Link>
                 <div></div>
             </div>
 

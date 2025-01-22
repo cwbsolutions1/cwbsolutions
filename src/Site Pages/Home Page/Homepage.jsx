@@ -33,10 +33,10 @@ const Homepage = () =>{
                     <p>CWB is a fledging system integration engineering firm providing a wide range of products and solutions for commercial and residential buildings specifically related to car parking and automation industries. We also manufacture, supply, distribute and maintain self service machines related to car washes & car grooming companies, car washing bays, petrol stations, multi storey car parks etc. <br /><br />Our engineering practice integrates in-depth knowledge of technology platforms and profound understanding of business needs for building automation & automobile industry: EPS system, car park  barriers and accessories, condominium security systems, access control systems, key press and storage management system, washing bays set up, self service & car wash equipment inclusive of petrol stations etc. We also have our own in-house research & development division that scopes and develop proprietary hardware such as our own PCB controllers, firmware and database softwares that are Wi-Fi and Network ready able to handle most small and mid scale developments for solutions for today and tomorrow. </p>
 
 
-                    CWB manufactures it's proprietary products ranging from <Link to={'/cwbsolutions.net/pcb-boards/'}>PCB boards</Link>, EPS system, <Link to={'/cwbsolutions.net/coin-operated-water-dispenser/'}>Coin operated water dispensers</Link>, <Link to={'/cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Cash-Card operated water dispensers</Link>, <Link to={'/cwbsolutions.net/coin-operated-showers'}>Coin Operated Showers</Link>, <Link to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Powerful Car Vacuums</Link>, <Link to={'/cwbsolutions.net/air-machines/'}>Air Machines</Link>, <Link to={'/cwbsolutions.net/hot-air-dryer/'}>Hot Air Dryers</Link>, <Link to={'/cwbsolutions.net/automatic-car-wash/'}>Automatic Car Washes</Link> to <Link to={'/cwbsolutions.net/car-barrier-systems/'}>automated parking barrier & gantry systems</Link>
+                    CWB manufactures it's proprietary products ranging from <Link to={'/pcb-boards/'}>PCB boards</Link>, EPS system, <Link to={'/coin-operated-water-dispenser/'}>Coin operated water dispensers</Link>, <Link to={'/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Cash-Card operated water dispensers</Link>, <Link to={'/coin-operated-showers'}>Coin Operated Showers</Link>, <Link to={'/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Powerful Car Vacuums</Link>, <Link to={'/air-machines/'}>Air Machines</Link>, <Link to={'/hot-air-dryer/'}>Hot Air Dryers</Link>, <Link to={'/automatic-car-wash/'}>Automatic Car Washes</Link> to <Link to={'/car-barrier-systems/'}>automated parking barrier & gantry systems</Link>
 
                     <br /> <br />
-                    We are <Link to={'/cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/'}>System Integrators for NETS, EZ Link & NERA</Link>  and are working with MHI for unique parking solutions.
+                    We are <Link to={'/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/'}>System Integrators for NETS, EZ Link & NERA</Link>  and are working with MHI for unique parking solutions.
                     If you are looking to add Cashless payments to your products, you are in good hands.
                 </div>
 
@@ -199,7 +199,7 @@ const Homepage = () =>{
 
                             <div className='individual-product-container-overlay'>
                                 <span className='ssc-product-name'>Cable Tray</span>
-                                <Link to={'/cwbsolutions.net/sscproducts/cable-tray/'}><button>Learn More</button></Link>
+                                <Link to={'/sscproducts/cable-tray/'}><button>Learn More</button></Link>
                             </div>
                         </div>
                     

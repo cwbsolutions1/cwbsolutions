@@ -28,7 +28,7 @@ const CoinOperatedShowers =() =>{
             <div className='box-for-applicatios-installation-in-coin-operated-showers'>
                 <h4>Applications</h4>
                 <ul type="square">
-                    <li>Our coin operated showers are great a solution for public or commercial showers at <Link to={'/cwbsolutions.net/coin-operated-shower/swimming-pool-showers/'}>swimming pools</Link></li>
+                    <li>Our coin operated showers are great a solution for public or commercial showers at <Link to={'/coin-operated-shower/swimming-pool-showers/'}>swimming pools</Link></li>
                     <li>sporting amenities</li>
                     <li>commercial centres</li>
                     <li>public showers at parks</li>
@@ -82,7 +82,7 @@ const CoinOperatedShowers =() =>{
                     <div className='add-on-section-individual-box-title-in-coin-operated-showers'>Coin Operated Water Dispenser</div>
                     <div>This easy to maintain, sturdy, cost effective, full stainless steel water dispenser contains an extra protective door with lock for public areas. This model has a proven track record in most HDB car parks for almost 10 years now.</div>
                     <Link 
-                    to="/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/"
+                    to="/car-washing-and-car-wash-bays-equipment/water-dispensers/"
                     >Learn More</Link>
                 </div>
 
@@ -91,7 +91,7 @@ const CoinOperatedShowers =() =>{
                     <div className='add-on-section-individual-box-title-in-coin-operated-showers'>Aqua Save Water Dispenser</div>
                     <div>This compact  machine, ideal for public locations might cost slightly more but gives you the security peace of mind of knowing your collection remains yours. </div>
                     <Link 
-                    to="/cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/"
+                    to="/products/water-dispensers/aqua-save-water-dispenser/"
                     >Learn More</Link>
                 </div>
 
@@ -100,7 +100,7 @@ const CoinOperatedShowers =() =>{
                     <div className='add-on-section-individual-box-title-in-coin-operated-showers'>Cash Card Water Dispenser</div>
                     <div>This water dispenser developed primarily for low to medium volume dispensering without requiring phone line at Car Park's Washing Bay supporting payments for additional self-service add on's.</div>
                     <Link 
-                    to="/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers#Cash-Card-and-Flash-Pay-Combi-Water-Dispenser"
+                    to="/car-washing-and-car-wash-bays-equipment/water-dispensers#Cash-Card-and-Flash-Pay-Combi-Water-Dispenser"
                     >Learn More</Link>
                 </div>
 
@@ -109,7 +109,7 @@ const CoinOperatedShowers =() =>{
                     <div className='add-on-section-individual-box-title-in-coin-operated-showers'>Cash Card and Flash Pay Combi Water Dispenser</div>
                     <div>This Combi water dispenser with latest NETS technology can be used for water, vacuum and other utilities dispense. </div>
                     <Link 
-                    to="/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers#Cash-Card-and-Flash-Pay-Combi-Water-Dispenser"
+                    to="/car-washing-and-car-wash-bays-equipment/water-dispensers#Cash-Card-and-Flash-Pay-Combi-Water-Dispenser"
                     >Learn More</Link>
                 </div>
             </div>

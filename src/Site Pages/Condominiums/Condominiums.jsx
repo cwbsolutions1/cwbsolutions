@@ -55,14 +55,14 @@ const Condominiums = () =>{
                     <div> <img src={image} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Season Parking Electonic Parking Systems</div>
                     <div>Full, Semi or Vehicle acess EPS systems for convenience of car park operator.</div>
-                    <Link to={"/cwbsolutions.net/parking-and-access-control/electronic-parking-systems#cwb-eps-season-controller"}>Learn More</Link>
+                    <Link to={"/parking-and-access-control/electronic-parking-systems#cwb-eps-season-controller"}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div> <img src={image} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Automatic Car Barriers</div>
                     <div>Wide range of automatic car parking gates.</div>
-                    <Link to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/'}>Learn More</Link>
+                    <Link to={'/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
@@ -76,63 +76,63 @@ const Condominiums = () =>{
                     <div><img src={image} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Parking Lot Barriers</div>
                     <div>Wide range of cheap and effective parking space barriers.</div>
-                    <Link to={'/cwbsolutions.net/car-barrier-systems/#parking-lot-barriers-section'}>Learn More</Link>
+                    <Link to={'/car-barrier-systems/#parking-lot-barriers-section'}>Learn More</Link>
                 </div>
                 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div><img src={image} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Swing Arm Barriers</div>
                     <div>Cheap and effective swing arm barriers.</div>
-                    <Link to={'/cwbsolutions.net/car-barrier-systems/#swing-arm-barrier-section'}>Learn More</Link>
+                    <Link to={'/car-barrier-systems/#swing-arm-barrier-section'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div><img src={image} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Electric BBQ Pits</div>
                     <div>Innovative electric BBQ Pits can complete your park or resting area.</div>
-                    <Link to={'/cwbsolutions.net/electric-bbq-pits/'}>Learn More</Link>
+                    <Link to={'/electric-bbq-pits/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div><img src={image} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Water Dispensers</div>
                     <div>Coin operated water dispensers for washing bays.</div>
-                    <Link to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'}>Learn More</Link>
+                    <Link to={'/car-washing-and-car-wash-bays-equipment/water-dispensers/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div><img src={image} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Coin Operated Shower</div>
                     <div>Best water saving and profit generating solution for public places.</div>
-                    <Link to={'/cwbsolutions.net/coin-operated-showers'}>Learn More</Link>
+                    <Link to={'/coin-operated-showers'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div><img src={image} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Power vacuums</div>
                     <div>Wide range of Powerful vacuums or water & vacuum coin operated machines.</div>
-                    <Link to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Learn More</Link>
+                    <Link to={'/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div><img src={pvcCoatedChainLink} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>PVC Coated Chain Link Fence Gate</div>
                     <div>1.0m wide by 1.8m or custom high  single/ double leaf PCV Coated  chain link swing gate </div>
-                    <Link to={'/cwbsolutions.net/perimeter-fencing---gates/'}>Learn More</Link>
+                    <Link to={'/perimeter-fencing---gates/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div><img src={chainLinkFenceImage} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>Chain Link Fence</div>
                     <div>1.8m or custom hight PVC coated chain link fence- Supply only or Supply & Install with or without concrete kerb.</div>
-                    <Link to={'/cwbsolutions.net/perimeter-fencing---gates/'}>Learn More</Link>
+                    <Link to={'/perimeter-fencing---gates/'}>Learn More</Link>
                 </div>
 
                 <div className='individual-product-box-in-products-for-condos'>
                     <div><img src={brcFencingImage} alt="" /></div>
                     <div className='individual-product-title-box-in-products-for-condos'>BRC Weldfence Gate</div>
                     <div>BRC Weldfence is manufactured from high tensile strength steel wires that are welded together to provide accurate panel & mesh dimensions.</div>
-                    <Link to={'/cwbsolutions.net/perimeter-fencing---gates/'}>Learn More</Link>
+                    <Link to={'/perimeter-fencing---gates/'}>Learn More</Link>
                 </div>
 
             </div>

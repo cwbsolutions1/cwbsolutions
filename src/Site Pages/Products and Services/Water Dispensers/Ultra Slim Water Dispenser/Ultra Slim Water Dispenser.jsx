@@ -57,7 +57,7 @@ const UltraSlimWaterDispenser = () =>{
                         <div>
                         This easy to maintain, sturdy, cost effective, full stainless steel water dispenser contains an extra protective door with lock for public areas. This model has a proven track record in most HDB car parks for almost 10 years now.
                         </div>
-                        <Link to={'/cwbsolutions.net/coin-operated-water-dispenser/'}>Learn More</Link>
+                        <Link to={'/coin-operated-water-dispenser/'}>Learn More</Link>
 
                     </div>
 
@@ -69,7 +69,7 @@ const UltraSlimWaterDispenser = () =>{
                         <div>
                         This compact  machine, ideal for public locations might cost slightly more but gives you the security peace of mind of knowing your collection remains yours
                         </div>
-                        <Link to={'/cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/aqua-save-water-dispenser/'}>Learn More</Link>
                     </div>
 
                     <div className='individual-box-intrested-section-in-water-dispenser-page'>
@@ -79,7 +79,7 @@ const UltraSlimWaterDispenser = () =>{
                         </div>This water dispenser developed primarily for low to medium volume dispensering without requiring phone line at Car Park's Washing Bay supporting payments for additional self-service add on's.<div>
                         
                         </div>
-                        <Link to={'/cwbsolutions.net/products/water-dispensers/cash-card-water-dispenser/'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/cash-card-water-dispenser/'}>Learn More</Link>
                     </div>
 
                     <div className='individual-box-intrested-section-in-water-dispenser-page'>
@@ -88,7 +88,7 @@ const UltraSlimWaterDispenser = () =>{
                         Cash Card and Flash Pay Combi Water Dispenser
                         </div>
                         <div>This Combi water dispenser with latest NETS technology can be used for water, vacuum and other utilities dispense. </div>
-                        <Link to={'/cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Learn More</Link>
                     </div>
                 </div>
 

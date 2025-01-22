@@ -34,9 +34,9 @@ const KeyAndStorageManagementSystems = () =>{
             <p>If you are dealing with storing keys or personal stuff of big group of people, it's obvious that your keys should be stored in a safe place and used by right person. It's important to control keys and users, track key usage and always have up-to-date information about keys.</p>
 
             <div className='key-and-storage-management-products-container'>
-                <Link to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'}>IQ Safe Series</Link>
-                <Link to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}>IQ Wall Cabinet Series</Link>
-                <Link to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'}>IQ Box Cabinet Series</Link>
+                <Link to={'/our-products/key-and-storage-management-system/iqkeysafe-series/'}>IQ Safe Series</Link>
+                <Link to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}>IQ Wall Cabinet Series</Link>
+                <Link to={'/our-products/key-and-storage-management-system/iqboxcabinet-series/'}>IQ Box Cabinet Series</Link>
                 {/*<Link>IQ Storage Cabinet Series</Link> */}
             </div>
 

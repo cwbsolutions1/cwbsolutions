@@ -41,14 +41,14 @@ const Sidebar = () => {
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
             as={Link} 
-            to='/cwbsolutions.net/industy/condominiums/' 
+            to='/industy/condominiums/' 
             className='dropdown-item-in-sidebar'
             onClick={handleClose} 
             >Condominiums
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/industy/equipment-for-petrol-stations/'} 
+            to={'/industy/equipment-for-petrol-stations/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose} 
             >Petrol Stations
@@ -67,7 +67,7 @@ const Sidebar = () => {
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/our-products-and-services/'} 
+            to={'/our-products-and-services/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >Car Washing and Car Wash Bays Equipment
@@ -86,21 +86,21 @@ const Sidebar = () => {
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/vehicle-license-plate-recognizer/'} 
+            to={'/vehicle-license-plate-recognizer/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose} 
             >Vehicle License Plate Recognizer
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/car-barrier-systems/'} 
+            to={'/car-barrier-systems/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >Car & Access Barrier Systems
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/car-barrier-systems/'} 
+            to={'/car-barrier-systems/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}>Parking and Access Control
           </Dropdown.Item>
@@ -118,21 +118,21 @@ const Sidebar = () => {
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'} 
+            to={'/our-products/key-and-storage-management-system/iqkeysafe-series/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >IQ Key Safe Series
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'} 
+            to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >IQ Wall Cabinet Series
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'} 
+            to={'/our-products/key-and-storage-management-system/iqboxcabinet-series/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >IQ Box Cabinet Series
@@ -150,7 +150,7 @@ const Sidebar = () => {
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
-          as={Link} to={'/cwbsolutions.net/road-humps'} 
+          as={Link} to={'/road-humps'} 
           className='dropdown-item-in-sidebar'
           onClick={handleClose} 
           >Road Humps
@@ -169,7 +169,7 @@ const Sidebar = () => {
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
           as={Link} 
-          to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/'} className='dropdown-item-in-sidebar'
+          to={'/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/'} className='dropdown-item-in-sidebar'
           onClick={handleClose} 
           >Solar Powered Studs
           </Dropdown.Item>
@@ -187,7 +187,7 @@ const Sidebar = () => {
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
           as={Link} 
-          to={'/cwbsolutions.net/perimeter-fencing---gates/'} 
+          to={'/perimeter-fencing---gates/'} 
           className='dropdown-item-in-sidebar'
           onClick={handleClose} 
           >BRC Weld Fence
@@ -206,7 +206,7 @@ const Sidebar = () => {
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/automatic-car-wash/'} 
+            to={'/automatic-car-wash/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose} 
             >Automatic Car Washes
@@ -220,28 +220,28 @@ const Sidebar = () => {
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'} 
+            to={'/car-washing-and-car-wash-bays-equipment/power-vacuums/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >Powerful Car Vacuums
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/air-machines/'} 
+            to={'/air-machines/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >Air Machines
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/hot-air-dryer/'} 
+            to={'/hot-air-dryer/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >Hot Air Dryer
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'} 
+            to={'/car-washing-and-car-wash-bays-equipment/water-dispensers/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >Water Dispensers
@@ -265,13 +265,13 @@ const Sidebar = () => {
             >Coin & Cash Acceptors
           </Dropdown.Item>
           <Dropdown.Item 
-            as={Link} to={'/cwbsolutions.net/pcb-boards/'} 
+            as={Link} to={'/pcb-boards/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >PCB Boards
           </Dropdown.Item>
           <Dropdown.Item 
-            as={Link} to={'/cwbsolutions.net/coin-operated-showers'} 
+            as={Link} to={'/coin-operated-showers'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}
             >Coin Operated Showers
@@ -290,7 +290,7 @@ const Sidebar = () => {
         </Dropdown.Toggle>
         <Dropdown.Menu id='sidebar-dropdown-menu'>
           <Dropdown.Item 
-            as={Link} to={'/cwbsolutions.net/electric-bbq-pits/'} 
+            as={Link} to={'/electric-bbq-pits/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose} 
             >Electric BBQ Pits

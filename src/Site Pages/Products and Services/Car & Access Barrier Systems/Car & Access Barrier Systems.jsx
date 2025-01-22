@@ -21,18 +21,18 @@ const CarAndAccessBarrierSystems =()=>{
                     <h4>Automatic Car Park Barrier Gates</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
+                        to={'/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates'}
                         className='car-and-access-barrier-item'>CAME Barrier Gates
                         </Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate/'}
+                        to={'/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate'}
                         className='car-and-access-barrier-item'>NICE WIL Parking Barrier Gate
                         </Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/'}
+                        to={'/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates'}
                         className='car-and-access-barrier-item'>Automatic Car Park Barrier Gates</Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-traffic-barrier-with-led-signal/'}
+                        to={'/barrier-systems/automatic-car-park-barrier-gates/automatic-traffic-barrier-with-led-signal'}
                         className='car-and-access-barrier-item'>Automatic Traffic Barrier With LED Signal</Link>
                     </div>
                 </div>
@@ -40,14 +40,14 @@ const CarAndAccessBarrierSystems =()=>{
                     <h4>Intelligent Car Parking System</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
-                        to={"/cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-/"}className='car-and-access-barrier-item'>Intelligent Car Parking System Management
+                        to={"/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-"}className='car-and-access-barrier-item'>Intelligent Car Parking System Management
                         </Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/'}
+                        to={'/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display'}
                         className='car-and-access-barrier-item'>Intelligent Car Parking System Management with LED Display
                         </Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--/'}
+                        to={'/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--'}
                         className='car-and-access-barrier-item'>Automated Car Parking System for Hotels & Residencies</Link>
                     </div>
                 </div>
@@ -55,23 +55,23 @@ const CarAndAccessBarrierSystems =()=>{
                     <h4>Swing Arm Barriers</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate/'}
+                        to={'/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate'}
                         className='car-and-access-barrier-item'>Stainless steel Automatic Single Arm Swing Gate</Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/'}
+                        to={'/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions'}
                         className='car-and-access-barrier-item'>Smart Swing Security Arm Barrier for Hotel Community Financial Institutions
                         </Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/'}
+                        to={'/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier'}
                         className='car-and-access-barrier-item'>Access control Time attendance Versatile Stainless Steel Flap Swing Arm Barrier
                         </Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/'}
+                        to={'/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers'}
                         className='car-and-access-barrier-item'
                         >Waterproof stainless steel LAN Sock pedestrian barrier gate Swing barriers
                         </Link>
                         <Link 
-                        to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/'}
+                        to={'/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)'}
                         className='car-and-access-barrier-item'>Flap Barrier (Speed Gate)
                         </Link>
                         
@@ -81,15 +81,15 @@ const CarAndAccessBarrierSystems =()=>{
                     <h4>Parking Lot Barriers</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
-                        to={"/cwbsolutions.net/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/"}
+                        to={"/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-"}
                         className='car-and-access-barrier-item'>Remote Control Automatic smooth running Parking Space Barriers
                         </Link>
                         <Link 
-                        to={"/cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier"}
+                        to={"/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier"}
                         className='car-and-access-barrier-item'>Stainless steel Remote Control Parking Space Barrier
                         </Link>
                         <Link 
-                        to={"/cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/"}
+                        to={"/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector"}
                         className='car-and-access-barrier-item'>Waterproof Parking Lot Protector
                         </Link>
 
@@ -99,11 +99,11 @@ const CarAndAccessBarrierSystems =()=>{
                     <h4>Turnstile</h4>
                     <div className='car-and-access-barrier-systems-products-navigation-box-sub-headings'>
                         <Link 
-                        to={"/cwbsolutions.net/turnstile/full-height-turnstile/"}
+                        to={"/turnstile/full-height-turnstile"}
                         className='car-and-access-barrier-item'>Full Height Turnstile
                         </Link>
                         <Link
-                        to={'/cwbsolutions.net/tripod-turnstile/'}
+                        to={'/tripod-turnstile'}
                         className='car-and-access-barrier-item'>Tripod Turnstile
                         </Link>
                     </div>

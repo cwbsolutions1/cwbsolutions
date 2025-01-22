@@ -53,7 +53,7 @@ const CashCardWaterDispenser = () =>{
                         <div>
                         This easy to maintain, sturdy, cost effective, full stainless steel water dispenser contains an extra protective door with lock for public areas. This model has a proven track record in most HDB car parks for almost 10 years now.
                         </div>
-                        <Link to={'#'}>Learn More</Link>
+                        <Link to={'/coin-operated-water-dispenser'}>Learn More</Link>
 
                     </div>
 
@@ -65,7 +65,7 @@ const CashCardWaterDispenser = () =>{
                         <div>
                         This compact  machine, ideal for public locations might cost slightly more but gives you the security peace of mind of knowing your collection remains yours
                         </div>
-                        <Link to={'#'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/aqua-save-water-dispenser'}>Learn More</Link>
                     </div>
 
                     <div className='individual-box-intrested-section-in-water-dispenser-page'>
@@ -75,7 +75,7 @@ const CashCardWaterDispenser = () =>{
                         </div>This faceplate unit is perfect to fit custom make box designs for customers whom require slim fit solutions for areas with space restrictions. Perfect solution for public showers, swimming pools etc.<div>
                         
                         </div>
-                        <Link to={'#'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/inwall-coin-operated-water-dispenser'}>Learn More</Link>
                     </div>
 
                     <div className='individual-box-intrested-section-in-water-dispenser-page'>
@@ -84,7 +84,7 @@ const CashCardWaterDispenser = () =>{
                         Cash Card and Flash Pay Combi Water Dispenser
                         </div>
                         <div>This Combi water dispenser with latest NETS technology can be used for water, vacuum and other utilities dispense. </div>
-                        <Link to={'#'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Learn More</Link>
                     </div>
                 </div>
 

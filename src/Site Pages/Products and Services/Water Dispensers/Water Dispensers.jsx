@@ -24,7 +24,7 @@ const WaterDispensers = () =>{
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Coin Operated Water Dispenser</div>
                     <div>This easy to maintain, sturdy, cost effective, full stainless steel water dispenser contains an extra protective door with lock for public areas. This model has a proven track record in most HDB car parks for almost 10 years now.</div>
                     <Link 
-                    to={"/cwbsolutions.net/coin-operated-water-dispenser/"}
+                    to={"/coin-operated-water-dispenser/"}
                     className='buy-now-section-in-water-dispensers'>Buy Now</Link>
 
                 </div>
@@ -34,7 +34,7 @@ const WaterDispensers = () =>{
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Aqua Save Water Dispenser</div>
                     <div>This compact  machine, ideal for public locations might cost slightly more but gives you the security peace of mind of knowing your collection remains yours.</div>
                     <Link 
-                    to={'/cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/'}
+                    to={'/products/water-dispensers/aqua-save-water-dispenser/'}
                     className='buy-now-section-in-water-dispensers'>Buy Now</Link>
 
                 </div>
@@ -44,7 +44,7 @@ const WaterDispensers = () =>{
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Inwall Coin Operated Water Dispenser</div>
                     <div>This faceplate unit is perfect to fit custom make box designs for customers whom require slim fit solutions for areas with space restrictions. Perfect solution for public showers, swimming pools etc.</div>
                     <Link 
-                    to={'/cwbsolutions.net/products/water-dispensers/inwall-coin-operated-water-dispenser/'}
+                    to={'/products/water-dispensers/inwall-coin-operated-water-dispenser/'}
                     className='buy-now-section-in-water-dispensers'>Buy Now</Link>
 
                 </div>
@@ -61,7 +61,7 @@ const WaterDispensers = () =>{
                         <p>Dimensions:L150 x W150 x 400mm</p>
                     </div>
                     <Link 
-                    to={'/cwbsolutions.net/products/water-dispensers/ultra-slim-water-dispenser'}
+                    to={'/products/water-dispensers/ultra-slim-water-dispenser'}
                     className='buy-now-section-in-water-dispensers'>Buy Now</Link>
                 </div>
 
@@ -70,7 +70,7 @@ const WaterDispensers = () =>{
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Cash Card Water Dispenser</div>
                     <div>This water dispenser developed primaruly for low to medium volume dispensering without requiring phone line at Car Park's Washing Bay supporting payments for additional self-service add on's.</div>
                     <Link 
-                    to={'/cwbsolutions.net/products/water-dispensers/cash-card-water-dispenser/'}
+                    to={'/products/water-dispensers/cash-card-water-dispenser/'}
                     className='buy-now-section-in-water-dispensers'>Buy Now</Link>
                 </div>
 
@@ -79,7 +79,7 @@ const WaterDispensers = () =>{
                     <div  className='merchandise-title-individual-box-in-water-dispensers'>Cash Card and Flash Pay Combi Water Dispenser</div>
                     <div>This Combi water dispenser with latest NETS technology and modular design to support future upgrade in technology, ease transactions collections and settlement process multifunctional dispenser can be used for water, vacuum and other utilities dispense that also rings together with Cash Card & Flashpay Top Up function. Over 130 units have been home to Punggol Pasir Ris Town council for over 3 years ongoing now.</div>
                     <Link 
-                    to={'/cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}
+                    to={'/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}
                     className='buy-now-section-in-water-dispensers'>Buy Now</Link>
                 </div>
             </div>
@@ -92,7 +92,7 @@ const WaterDispensers = () =>{
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Power Vacuums</div>
                     <div>We are distributing the worls's most powerful vacuums in the  industry. Whether you are looking for a revenue generator, to stop replacing shop-vacs or to provide your customers or residents with  great quality vacuum for free we've got options for you. All parts are quality parts from USA proven for over 20 years.</div>
                     <Link 
-                    to="/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/"
+                    to="/car-washing-and-car-wash-bays-equipment/power-vacuums/"
                     >Learn More</Link>
                 </div>
 
@@ -101,7 +101,7 @@ const WaterDispensers = () =>{
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Car Wash Hoses</div>
                     <div>You want to increase the usage of your water dispensers or just need to replace the hose in your car wash or your power vacuum? We can provide you with vacuum and water dispenser hoses and accessories. Different colors,  sizes & lengths  available.</div>
                     <Link 
-                    to="/cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/"
+                    to="/replacement-parts-for-vacuums-water-dispensers/"
                     >Learn More</Link>
                 </div>
 
@@ -110,7 +110,7 @@ const WaterDispensers = () =>{
                     <div className='merchandise-title-individual-box-in-water-dispensers'>Weep Trigger Gun</div>
                     <div>Extra durable, industries most cost effective weep trigger gun from USA for use with retractable water hose either with normal HDB water pressure to give pressures up to 60 PSI or for use at Car Washes connected  to a pressure washer or compressor pump.</div>
                     <Link 
-                    to="/cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/"
+                    to="/replacement-parts-for-vacuums-water-dispensers/"
                     >Learn More</Link>
                 </div>
             </div>

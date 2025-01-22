@@ -23,16 +23,16 @@ const PageFooter = () =>{
                                 Home
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item>Our Products & Services</Dropdown.Item> 
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/engineering-solutions/'}>Engineering Solutions</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/engineering-solutions/'}>Engineering Solutions</Dropdown.Item>
                                 <Dropdown.Item>Industy</Dropdown.Item>
                                 <Dropdown.Item>Support & Locations</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/clients/'}>Clients</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/contact-us/'}>Contact Us</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/water-dispenser-locations/'}>Water Dispenser Locations</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/perimeter-fencing---gates/'}>Perimeter Fencing & Gates</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/clients/'}>Clients</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/contact-us/'}>Contact Us</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/water-dispenser-locations/'}>Water Dispenser Locations</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/perimeter-fencing---gates/'}>Perimeter Fencing & Gates</Dropdown.Item>
                                 <Dropdown.Item>Outdoor Umbrellas</Dropdown.Item>
                                 <Dropdown.Item>Outdoor Furniture</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/road-humps'}>Road Humps</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/road-humps'}>Road Humps</Dropdown.Item>
                                 <Dropdown.Item>Vending Machines</Dropdown.Item>
                                 <Dropdown.Item>bd1d5a47bfb6.html</Dropdown.Item>
                                 <Dropdown.Item>c</Dropdown.Item>
@@ -49,12 +49,12 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Our Products and Services   
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/key-and-storage-management-system/'}>Key and Storage Management System</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/key-and-storage-management-system/'}>Key and Storage Management System</Dropdown.Item>
                                 <Dropdown.Item>Self service equipment for petrol stations</Dropdown.Item>
                                 <Dropdown.Item>Road Safety Products</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/'}>Solar Powered Studs</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/coin-operated-showers'}>Coin Operated Showers</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/'}>Replacement parts</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/'}>Solar Powered Studs</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/coin-operated-showers'}>Coin Operated Showers</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/replacement-parts-for-vacuums-water-dispensers/'}>Replacement parts</Dropdown.Item>
                                 <Dropdown.Item>Coin & Cash Acceptor</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown.Toggle>
@@ -69,13 +69,13 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Engineering Solutions  
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item as={Link} to={'cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/'}>Payments Integration</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/'}>Payments Integration</Dropdown.Item>
                                 <Dropdown.Item>Payment Modules</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-barrier-systems/'}>Car & Access Barrier Systems</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/pcb-boards/'}>PCB Boards</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/engineering-solutions/system-integration-and-product-design/'}>System Integration and Product Design</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/engineering/customised-solutions/'}>Customised Solutions</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/engineering-solutions/consultation-services/'}>Consultation Services</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/car-barrier-systems/'}>Car & Access Barrier Systems</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/pcb-boards/'}>PCB Boards</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/engineering-solutions/system-integration-and-product-design/'}>System Integration and Product Design</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/engineering/customised-solutions/'}>Customised Solutions</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/engineering-solutions/consultation-services/'}>Consultation Services</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown.Toggle>
                     </Dropdown>
@@ -88,7 +88,7 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Industy   
                                 <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                    <Dropdown.Item as={Link}to={'/cwbsolutions.net/industy/condominiums/'}>Condominiums</Dropdown.Item>
+                                    <Dropdown.Item as={Link}to={'/industy/condominiums/'}>Condominiums</Dropdown.Item>
                                     <Dropdown.Item>HDB MSCP</Dropdown.Item>
                                     <Dropdown.Item>Petrol Stations</Dropdown.Item>
                                     <Dropdown.Item>Grooming Centres</Dropdown.Item>
@@ -104,7 +104,7 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Support & Locations
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/power-vacuum-locations/'}>Power Vacuum Locations</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/power-vacuum-locations/'}>Power Vacuum Locations</Dropdown.Item>
                                 <Dropdown.Item>Technical Support</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown.Toggle>
@@ -119,9 +119,9 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Perimeter Fencing & Gates
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/perimeter-fencing---gates/'}>BRC WELDFENCE</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/perimeter-fencing---gates/'}>Concertina wires</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/perimeter-fencing---gates/'}>PVC Coated Chain Link Fence</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/perimeter-fencing---gates/'}>BRC WELDFENCE</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/perimeter-fencing---gates/'}>Concertina wires</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/perimeter-fencing---gates/'}>PVC Coated Chain Link Fence</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown.Toggle>
                     </Dropdown>
@@ -134,9 +134,9 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Key and Storage Management System
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'}>IQ Key Safe series</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}>IQ Wall Cabinet series</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'}>IQ BoxCabinet series</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/our-products/key-and-storage-management-system/iqkeysafe-series/'}>IQ Key Safe series</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}>IQ Wall Cabinet series</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/our-products/key-and-storage-management-system/iqboxcabinet-series/'}>IQ BoxCabinet series</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown.Toggle>
                     </Dropdown>
@@ -154,11 +154,11 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Self Service Equipment for Petrol Stations
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/news/mini-car-washes/'}>Mini Car Washes</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Powerful Car Vacuums</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/hot-air-dryer/'}>Hot Air Dryer</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/automatic-car-wash/'}>Automatic Car Washes</Dropdown.Item>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/air-machines/'}>Air Machines</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/news/mini-car-washes/'}>Mini Car Washes</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/car-washing-and-car-wash-bays-equipment/power-vacuums/'}>Powerful Car Vacuums</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/hot-air-dryer/'}>Hot Air Dryer</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/automatic-car-wash/'}>Automatic Car Washes</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/air-machines/'}>Air Machines</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown.Toggle>
                     </Dropdown>
@@ -172,7 +172,7 @@ const PageFooter = () =>{
                         <Dropdown.Toggle id='dropdown-toggle-button-in-footer'>
                             Coin Operated Showers
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
-                                <Dropdown.Item as={Link} to={'/cwbsolutions.net/coin-operated-shower/swimming-pool-showers/'}>Swimming Pool Showers</Dropdown.Item>
+                                <Dropdown.Item as={Link} to={'/coin-operated-shower/swimming-pool-showers/'}>Swimming Pool Showers</Dropdown.Item>
                             </Dropdown.Menu>
                         </Dropdown.Toggle>
                     </Dropdown>
@@ -200,13 +200,13 @@ const PageFooter = () =>{
                             <Dropdown.Menu  id='dropdown-menu-in-footer'>
                                 <Dropdown.Item 
                                     as={Link} 
-                                    to={'/cwbsolutions.net/car-barrier-systems/#automatic-car-park-barrier-gate-section'}
+                                    to={'/car-barrier-systems/#automatic-car-park-barrier-gate-section'}
                                     >Automatic Car Park Barrier Gates
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/car-barrier-systems/#intelligent-car-parking-systems'}
+                                    to={'/car-barrier-systems/#intelligent-car-parking-systems'}
                                     >Intelligent Car Parking System
                                 </Dropdown.Item>
 
@@ -216,19 +216,19 @@ const PageFooter = () =>{
 
                                 <Dropdown.Item 
                                     as={Link}
-                                    to={'/cwbsolutions.net/car-barrier-systems/#swing-arm-barrier-section'}
+                                    to={'/car-barrier-systems/#swing-arm-barrier-section'}
                                     >Swing Arm Barriers
                                 </Dropdown.Item>
 
                                 <Dropdown.Item 
                                     as={Link} 
-                                    to={'/cwbsolutions.net/car-barrier-systems/#turnstiles'}
+                                    to={'/car-barrier-systems/#turnstiles'}
                                     >Turnstile
                                 </Dropdown.Item>
 
                                 <Dropdown.Item 
                                     as={Link}
-                                    to={'/cwbsolutions.net/car-barrier-systems/#parking-lot-barriers-section'}
+                                    to={'/car-barrier-systems/#parking-lot-barriers-section'}
                                     >Parking Lot Barrier
                                 </Dropdown.Item>
 
@@ -246,7 +246,7 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item 
                                     as={Link} 
-                                    to={'/cwbsolutions.net/electric-bbq-pits/'}
+                                    to={'/electric-bbq-pits/'}
                                     >Electric BBQ Pits
                                 </Dropdown.Item>
 
@@ -277,35 +277,35 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item 
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
+                                    to={'/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
                                     IQ Key Safe 40
 
                                 </Dropdown.Item>
 
                                 <Dropdown.Item 
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
+                                    to={'/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
                                     IQ Key Safe 160
 
                                 </Dropdown.Item>
 
                                 <Dropdown.Item 
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
+                                    to={'/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
                                     IQ Key Safe 210r
 
                                 </Dropdown.Item>
 
                                 <Dropdown.Item 
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
+                                    to={'/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
                                     IQ Key Safe 265
 
                                 </Dropdown.Item>
 
                                 <Dropdown.Item 
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
+                                    to={'/our-products/key-and-storage-management-system/iqkeysafe-series/'}>
                                     IQ Key Safe 400
 
                                 </Dropdown.Item>
@@ -326,43 +326,43 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
                                     >IQ Wall Cabinet 50
                                 </Dropdown.Item>
                                 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
                                     >IQ Wall Cabinet 80
                                 </Dropdown.Item>
                                 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
                                     >IQ Wall Cabinet 100
                                 </Dropdown.Item>
                                 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
                                     >IQ Wall Cabinet 160
                                 </Dropdown.Item>
                                 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
                                     >IQ Wall Cabinet 200
                                 </Dropdown.Item>
                                 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
                                     >IQ Wall Cabinet 300
                                 </Dropdown.Item>
                                 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqwallcabinet-series/'}
                                     >IQ Wall Cabinet 400
                                 </Dropdown.Item>
                                 
@@ -380,25 +380,25 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqboxcabinet-series/'}
                                     >IQ Box Cabinet 12
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqboxcabinet-series/'}
                                     >IQ Box Cabinet 20
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqboxcabinet-series/'}
                                     >IQ Box Cabinet 30
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/'}
+                                    to={'/our-products/key-and-storage-management-system/iqboxcabinet-series/'}
                                     >IQ Box Cabinet 44
                                 </Dropdown.Item>
 
@@ -431,31 +431,31 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/car-barrier-systems/'}
+                                    to={'/car-barrier-systems/'}
                                     >Parking and Access Control
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/'}
+                                    to={'/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/'}
                                     >Automatic Car Park Barrier Gates
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-traffic-barrier-with-led-signal/'}
+                                    to={'/barrier-systems/automatic-car-park-barrier-gates/automatic-traffic-barrier-with-led-signal/'}
                                     >Automatic Traffic barrier with LED signal
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
+                                    to={'/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
                                     >CAME Barrier Gates
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate/'}
+                                    to={'/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate/'}
                                     >NICE WIL Parking Barrier Gate
                                 </Dropdown.Item>
 
@@ -473,19 +473,19 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-/'}
+                                    to={'/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-/'}
                                     >Intelligent Car Parking System Management
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/'}
+                                    to={'/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/'}
                                     >Intelligent Car Parking System Management with LED Display
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--/'}
+                                    to={'/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--/'}
                                     >Automated car parking system for Hotels & residenses
                                 </Dropdown.Item>
 
@@ -503,31 +503,31 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/'}
+                                    to={'/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/'}
                                     >Smart Swing Security Arm Barrier for Hotel Community Financial Institutions
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate/'}
+                                    to={'/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate/'}
                                     >Stainless steel Automatic Single Arm Swing Gate
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/'}
+                                    to={'/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/'}
                                     >Access control Time attendance Versatile Stainless Steel Flap Swing Arm Barrier
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/'}
+                                    to={'/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/'}
                                     >Waterproof stainless steel LAN Sock pedestrian barrier gate Swing barriers
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/'}
+                                    to={'/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/'}
                                     >Flap Barrier (Speed Gate)
                                 </Dropdown.Item>
 
@@ -545,13 +545,13 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/turnstile/full-height-turnstile/'}
+                                    to={'/turnstile/full-height-turnstile/'}
                                     >Full Height Turnstile
                                     </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/tripod-turnstile/'}
+                                    to={'/tripod-turnstile/'}
                                     >Tripod Turnstile
                                     </Dropdown.Item>
 
@@ -572,19 +572,19 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/'}
+                                    to={'/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/'}
                                     >Remote Control Automatic smooth running Parking Space Barriers
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier'}
+                                    to={'/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier'}
                                     >Stainless steel Remote Control Parking Space Barrier
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/'}
+                                    to={'/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/'}
                                     >Waterproof Parking Lot Protector
                                 </Dropdown.Item>
 
@@ -602,7 +602,7 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'}
+                                    to={'/car-washing-and-car-wash-bays-equipment/water-dispensers/'}
                                     >Water Dispensers
                                 </Dropdown.Item>
                                 <Dropdown.Item
@@ -612,7 +612,7 @@ const PageFooter = () =>{
                                 </Dropdown.Item>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/'}
+                                    to={'/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/'}
                                     >Waterproof Parking Lot Protector
                                 </Dropdown.Item>
                             </Dropdown.Menu>
@@ -629,7 +629,7 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/vehicle-license-plate-recognizer/'}
+                                    to={'/vehicle-license-plate-recognizer/'}
                                     >Vehicle License Plate Recognizer
                                 </Dropdown.Item>
 
@@ -641,7 +641,7 @@ const PageFooter = () =>{
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/parking-and-access-control/electronic-parking-systems/'}
+                                    to={'/parking-and-access-control/electronic-parking-systems/'}
                                     >Electronic Parking Systems
                                 </Dropdown.Item>
 
@@ -659,25 +659,25 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
+                                    to={'/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
                                     >CAME GARD
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
+                                    to={'/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
                                     >CAME GARD 4
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
+                                    to={'/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
                                     >CAME GARD 8
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
+                                    to={'/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/'}
                                     >CAME GARD 12
                                 </Dropdown.Item>
 
@@ -695,31 +695,31 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/'}
+                                    to={'/car-washing-and-car-wash-bays-equipment/water-dispensers/'}
                                     >Coin Operated Water Dispenser
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/'}
+                                    to={'/products/water-dispensers/aqua-save-water-dispenser/'}
                                     >Aqua Save Water Dispenser
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/products/water-dispensers/inwall-coin-operated-water-dispenser/'}
+                                    to={'/products/water-dispensers/inwall-coin-operated-water-dispenser/'}
                                     >Inwall Coin Operated Water Dispenser
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers#Cash-Card-and-Flash-Pay-Combi-Water-Dispenser'}
+                                    to={'/car-washing-and-car-wash-bays-equipment/water-dispensers#Cash-Card-and-Flash-Pay-Combi-Water-Dispenser'}
                                     >Cash Card and Flash Pay Combi Water Dispenser
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link}
-                                    to={'/cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers#Cash-Card-and-Flash-Pay-Combi-Water-Dispenser'}
+                                    to={'/car-washing-and-car-wash-bays-equipment/water-dispensers#Cash-Card-and-Flash-Pay-Combi-Water-Dispenser'}
                                     >Cash Card Water Dispenser
                                 </Dropdown.Item>
 
@@ -752,19 +752,19 @@ const PageFooter = () =>{
                             <Dropdown.Menu id='dropdown-menu-in-footer'>
                                 <Dropdown.Item 
                                     as={Link}
-                                    to={'/cwbsolutions.net/parking-and-access-control/electronic-parking-systems/#semi-electronic-parking-system'}
+                                    to={'/parking-and-access-control/electronic-parking-systems/#semi-electronic-parking-system'}
                                     >Semi Electronic Parking System
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link} 
-                                    to={'/cwbsolutions.net/parking-and-access-control/electronic-parking-systems/#full-electronic-parking-system'}
+                                    to={'/parking-and-access-control/electronic-parking-systems/#full-electronic-parking-system'}
                                     >Full Electronic Parking System
                                 </Dropdown.Item>
 
                                 <Dropdown.Item
                                     as={Link} 
-                                    to={'/cwbsolutions.net/parking-and-access-control/electronic-parking-systems/#vehicle-access-control-system'}
+                                    to={'/parking-and-access-control/electronic-parking-systems/#vehicle-access-control-system'}
                                     >Vehicle Access Control System
                                 </Dropdown.Item>
 

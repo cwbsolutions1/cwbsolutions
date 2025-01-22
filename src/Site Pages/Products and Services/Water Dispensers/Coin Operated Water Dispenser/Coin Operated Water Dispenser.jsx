@@ -54,7 +54,7 @@ const CoinOperatedWaterDispenser = () =>{
                         Inwall Coin Operated Water Dispenser
                         </div>
                         <div>This faceplate unit is perfect to fit custom make box designs for customers whom require slim fit solutions for areas with space restrictions. Perfect solution for public showers, swimming pools etc.</div>
-                        <Link to={'/cwbsolutions.net/products/water-dispensers/inwall-coin-operated-water-dispenser/'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/inwall-coin-operated-water-dispenser/'}>Learn More</Link>
 
                     </div>
 
@@ -65,7 +65,7 @@ const CoinOperatedWaterDispenser = () =>{
                         </div>This compact  machine, ideal for public locations might cost slightly more but gives you the security peace of mind of knowing your collection remains yours.<div>
                         
                         </div>
-                        <Link to={'/cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/aqua-save-water-dispenser/'}>Learn More</Link>
                     </div>
 
                     <div className='individual-box-intrested-section-in-water-dispenser-page'>
@@ -75,7 +75,7 @@ const CoinOperatedWaterDispenser = () =>{
                         </div>This water dispenser developed primarily for low to medium volume dispensering without requiring phone line at Car Park's Washing Bay supporting payments for additional self-service add on's.<div>
                         
                         </div>
-                        <Link to={'/cwbsolutions.net/products/water-dispensers/cash-card-water-dispenser/'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/cash-card-water-dispenser/'}>Learn More</Link>
                     </div>
 
                     <div className='individual-box-intrested-section-in-water-dispenser-page'>
@@ -84,7 +84,7 @@ const CoinOperatedWaterDispenser = () =>{
                         Cash Card and Flash Pay Combi Water Dispenser
                         </div>
                         <div>This Combi water dispenser with latest NETS technology can be used for water, vacuum and other utilities dispense.</div>
-                        <Link to={'/cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Learn More</Link>
+                        <Link to={'/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser'}>Learn More</Link>
                     </div>
                 </div>
 

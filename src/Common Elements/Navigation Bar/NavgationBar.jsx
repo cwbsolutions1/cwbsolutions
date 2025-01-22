@@ -84,21 +84,21 @@ const NavigationBar = () => {
                             show={dropdownOpen.engineeringSolutions || (!isSmallScreen && dropdownOpen.engineeringSolutions)}
                         >
                             <NavDropdown.Item>
-                                <Link to="cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/" onClick={closeDropdowns}>Payment Integration</Link>
+                                <Link to="/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/" onClick={closeDropdowns}>Payment Integration</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="/cwbsolutions.net/engineering-solutions/" onClick={closeDropdowns}>Engineering Solutions</Link>
+                                <Link to="/engineering-solutions/" onClick={closeDropdowns}>Engineering Solutions</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="/cwbsolutions.net/pcb-boards/" onClick={closeDropdowns}>PCB Boards</Link>
+                                <Link to="/pcb-boards/" onClick={closeDropdowns}>PCB Boards</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="/cwbsolutions.net/engineering-solutions/system-integration-and-product-design/" onClick={closeDropdowns}>System Integration and Product Design</Link>
+                                <Link to="/engineering-solutions/system-integration-and-product-design/" onClick={closeDropdowns}>System Integration and Product Design</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="/cwbsolutions.net/engineering/customised-solutions/" onClick={closeDropdowns}>Customized Solutions</Link>
+                                <Link to="/engineering/customised-solutions/" onClick={closeDropdowns}>Customized Solutions</Link>
                             </NavDropdown.Item>
-                            <NavDropdown.Item  ><Link to={"/cwbsolutions.net/engineering-solutions/consultation-services/"}onClick={closeDropdowns}>Consultation Services</Link></NavDropdown.Item>
+                            <NavDropdown.Item  ><Link to={"/engineering-solutions/consultation-services/"}onClick={closeDropdowns}>Consultation Services</Link></NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown
@@ -110,41 +110,41 @@ const NavigationBar = () => {
                             onClick={() => toggleDropdown('productsServices')} // Toggle on click for small screens
                             show={dropdownOpen.productsServices || (!isSmallScreen && dropdownOpen.productsServices)}
                         >
-                            <NavDropdown.Item> <Link to={"cwbsolutions.net/vehicle-license-plate-recognizer/"}onClick={closeDropdowns}>Vehicle License Plate Recognizer</Link>
+                            <NavDropdown.Item> <Link to={"/vehicle-license-plate-recognizer/"}onClick={closeDropdowns}>Vehicle License Plate Recognizer</Link>
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/parking-and-access-control/electronic-parking-systems/"}onClick={closeDropdowns}>Electronic Parking Systems</Link>
+                            <NavDropdown.Item><Link to={"/parking-and-access-control/electronic-parking-systems/"}onClick={closeDropdowns}>Electronic Parking Systems</Link>
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/car-barrier-systems/"}onClick={closeDropdowns}>Car & Access Barrier Systems</Link>
+                            <NavDropdown.Item><Link to={"/car-barrier-systems/"}onClick={closeDropdowns}>Car & Access Barrier Systems</Link>
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/perimeter-fencing---gates/"}onClick={closeDropdowns}>Perimeter Fencing & Gates</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/perimeter-fencing---gates/"}onClick={closeDropdowns}>Perimeter Fencing & Gates</Link></NavDropdown.Item>
 
-                            <NavDropdown.Item onClick={closeDropdowns}><Link to={"cwbsolutions.net/automatic-car-wash/"}>Automatic Car Washes</Link>
+                            <NavDropdown.Item onClick={closeDropdowns}><Link to={"/automatic-car-wash/"}>Automatic Car Washes</Link>
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/air-machines/"} onClick={closeDropdowns}>Air Machines</Link>
+                            <NavDropdown.Item><Link to={"/air-machines/"} onClick={closeDropdowns}>Air Machines</Link>
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/electric-bbq-pits/"} onClick={closeDropdowns}>Electric BBQ Pits</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/electric-bbq-pits/"} onClick={closeDropdowns}>Electric BBQ Pits</Link></NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/news/mini-car-washes/"}onClick={closeDropdowns}>Mini Car Washes</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/news/mini-car-washes/"}onClick={closeDropdowns}>Mini Car Washes</Link></NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/"}onClick={closeDropdowns}>Water Dispensers</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/car-washing-and-car-wash-bays-equipment/water-dispensers/"}onClick={closeDropdowns}>Water Dispensers</Link></NavDropdown.Item>
 
-                            <NavDropdown.Item ><Link to={"cwbsolutions.net/coin-operated-showers"} onClick={closeDropdowns}>Coin Operated Showers</Link>
+                            <NavDropdown.Item ><Link to={"/coin-operated-showers"} onClick={closeDropdowns}>Coin Operated Showers</Link>
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/hot-air-dryer/"} onClick={closeDropdowns}>Hot Air Dryers</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/hot-air-dryer/"} onClick={closeDropdowns}>Hot Air Dryers</Link></NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/"}onClick={closeDropdowns}>NETS CashCard and FlashPay</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/engineering/payment-modules/nets-cashcard-and-flashpay/"}onClick={closeDropdowns}>NETS CashCard and FlashPay</Link></NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/"}onClick={closeDropdowns}>Powerful Car Vacuums</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/car-washing-and-car-wash-bays-equipment/power-vacuums/"}onClick={closeDropdowns}>Powerful Car Vacuums</Link></NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/"}onClick={closeDropdowns}>Replacement Parts</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/replacement-parts-for-vacuums-water-dispensers/"}onClick={closeDropdowns}>Replacement Parts</Link></NavDropdown.Item>
 
-                            <NavDropdown.Item><Link to={"/cwbsolutions.net/key-and-storage-management-system/"}onClick={closeDropdowns}>Key and Storage Management</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={"/key-and-storage-management-system/"}onClick={closeDropdowns}>Key and Storage Management</Link></NavDropdown.Item>
 
                             {/*
                               <NavDropdown.Item><Link to={"#"}onClick={closeDropdowns}>Outdoor Furniture</Link></NavDropdown.Item>
@@ -161,14 +161,14 @@ const NavigationBar = () => {
                             onClick={() => toggleDropdown('supportLocations')} // Toggle on click for small screens
                             show={dropdownOpen.supportLocations || (!isSmallScreen && dropdownOpen.supportLocations)}
                         >
-                            <NavDropdown.Item ><Link to={"cwbsolutions.net/water-dispenser-locations/"} onClick={closeDropdowns}>Water Dispenser Locations</Link></NavDropdown.Item>
-                            <NavDropdown.Item ><Link to={"cwbsolutions.net/power-vacuum-locations/"} onClick={closeDropdowns}>Power Vacuum Locations</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to={"/water-dispenser-locations/"} onClick={closeDropdowns}>Water Dispenser Locations</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to={"/power-vacuum-locations/"} onClick={closeDropdowns}>Power Vacuum Locations</Link></NavDropdown.Item>
                             <NavDropdown.Item href="#" onClick={closeDropdowns}>Technical Support</NavDropdown.Item>
                         </NavDropdown>
 
-                        <Nav.Link onClick={closeDropdowns} id='client' as={Link} to={"cwbsolutions.net/clients/"}>Clients</Nav.Link>
-                        <Nav.Link onClick={closeDropdowns} id='contact-us' as={Link} to="cwbsolutions.net/about-us/">About Us</Nav.Link>
-                        <Nav.Link onClick={closeDropdowns} id='contact-us' as={Link} to="cwbsolutions.net/contact-us">Contact Us</Nav.Link>
+                        <Nav.Link onClick={closeDropdowns} id='client' as={Link} to={"/clients/"}>Clients</Nav.Link>
+                        <Nav.Link onClick={closeDropdowns} id='contact-us' as={Link} to="/about-us/">About Us</Nav.Link>
+                        <Nav.Link onClick={closeDropdowns} id='contact-us' as={Link} to="/contact-us">Contact Us</Nav.Link>
                         
                     </Nav>
                 </Navbar.Collapse>

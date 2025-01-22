@@ -97,76 +97,76 @@ function App() {
             <Routes>
               
               <Route path="/" element={<Homepage />} />
-              <Route path='/cwbsolutions.net/engineering-solutions/' element={<EngineeringSolutions/>} />
-              <Route path='cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/' element={<PaymentsIntegration/>}></Route>
-              <Route path='cwbsolutions.net/pcb-boards/' element={<PCB/>}></Route>
-              <Route path='cwbsolutions.net/engineering-solutions/system-integration-and-product-design/' element={<SystemIntegration/>}></Route>
-              <Route path='cwbsolutions.net/engineering/customised-solutions/' element={<CustomizedSolutions/>}></Route>
-              <Route path='cwbsolutions.net/engineering-solutions/consultation-services/' element={<Consultation/>}></Route>
-              <Route path='cwbsolutions.net/contact-us/' element={<ContactUs/>}></Route>
-              <Route path='cwbsolutions.net/about-us/' element={<AboutUs/>}></Route>
-              <Route path='cwbsolutions.net/clients/' element={<Clients/>}></Route>
-              <Route path='cwbsolutions.net/power-vacuum-locations/' element={<PowerVaccumLocations/>}></Route>
-              <Route path='cwbsolutions.net/water-dispenser-locations/' element={<WaterDispenserLocations/>}></Route>
-              <Route path='cwbsolutions.net/vehicle-license-plate-recognizer/' element={<VehicleLicensePlateRecognizer/>}></Route>
-              <Route path='cwbsolutions.net/parking-and-access-control/electronic-parking-systems/' element={<ElectronicParkingSystems/>}></Route>
-              <Route path='cwbsolutions.net/air-machines/' element={<AirMachines/>}></Route>
-              <Route path='cwbsolutions.net/automatic-car-wash/' element={<AutomaticCarWashes/>}></Route>
-              <Route path='cwbsolutions.net/car-barrier-systems/' element={<CarAndAccessBarrierSystems/>}></Route>
-              <Route path='cwbsolutions.net/coin-operated-showers' element={<CoinOperatedShowers/>}></Route>
-              <Route path='cwbsolutions.net/electric-bbq-pits/' element={<ElectricBBQPits/>}></Route>
-              <Route path='cwbsolutions.net/hot-air-dryer/'element={<HotAirDryers/>}></Route>
-              <Route path='cwbsolutions.net/news/mini-car-washes/' element={<MiniCarWashes/>}></Route>
-              <Route path='cwbsolutions.net/engineering/payment-modules/nets-cashcard-and-flashpay/' element={<NETSCashCardAndFlashPay/>}></Route>
-              <Route path='cwbsolutions.net/perimeter-fencing---gates/' element={<PerimeterFencingAndGates/>}></Route>
-              <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/' element={<PowerfulCarVaccums/>}></Route>
-              <Route path='cwbsolutions.net/replacement-parts-for-vacuums-water-dispensers/' element={<ReplacementParts/>}></Route>
-              <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/water-dispensers/' element={<WaterDispensers/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/' element={<CameGard/>}> </Route>
-              <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate/' element={<NiceWilParkingBarrierGate/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/' element={<AutomaticCarParkBarrierGates/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/automatic-car-park-barrier-gates/automatic-traffic-barrier-with-led-signal/'element={<AutomaticTrafficBarrieWithLedSignal/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-/'element={<IntelligentCarParkingSystemManagement/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/' element={<IntelligentCarParkingSystemManagementWithLedDisplay/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--/' element={<AutomatedCarParkingSystemForHotelsAndResidencies/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate/' element={<StainlessSteelAutomaticSingleArmSwingGate/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/' element={<SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/' element={<AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier></AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/' element={<WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/' element={<FlapBarrier/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/' element={<RemoteControlAutomaticSmoothRunningParkingSpaceBarriers/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier' element={<StainlessSteelRemoteControlParkingSpaceBarrier/>}></Route>
-              <Route path='cwbsolutions.net/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/' element={<WaterproofParkingLotProtector/>}></Route>
-              <Route path='cwbsolutions.net/turnstile/full-height-turnstile/' element={<FullHeightTurnstile/>}></Route>
-              <Route path='cwbsolutions.net/tripod-turnstile/' element={<TripodTurnstile/>}></Route>
-              <Route path='cwbsolutions.net/coin-operated-shower/swimming-pool-showers/' element={<SwimmingPoolShowers/>}></Route>
-              <Route path='cwbsolutions.net/products/water-dispensers/aqua-save-water-dispenser/' element={<AquaSaveWaterDispenser/>}></Route>
-              <Route path='cwbsolutions.net/coin-operated-water-dispenser/' element={<CoinOperatedWaterDispenser/>}></Route>
-              <Route path='cwbsolutions.net/products/water-dispensers/inwall-coin-operated-water-dispenser/' element={<InwallCoinOperatedWaterDispenser/>}></Route>
-              <Route path='cwbsolutions.net/products/water-dispensers/ultra-slim-water-dispenser' element={<UltraSlimWaterDispenser/>}></Route>
-              <Route path='cwbsolutions.net/products/water-dispensers/cash-card-water-dispenser/' element={<CashCardWaterDispenser/>}></Route>
-              <Route path='cwbsolutions.net/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser' element={<CashCardAndFlashPayCombiWaterDispenser/>}></Route>
-              <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/power-vacuums/commercial-vacuums/' element={<PowerVac/>}></Route>
-              <Route path='cwbsolutions.net/our-products/power-vacuums/water-i-vac/' element={<WaterIVac/>}></Route>
-              <Route path='cwbsolutions.net/our-products/power-vacuums/dual-commercial-ultra-power-vacuum-with-4-motors/'element={<DualCommercialUltraPowerVacuumWith4Motors/>}></Route>
-              <Route path='cwbsolutions.net/our-products/power-vacuums/ultra-turbonator/' element={<UltraTurbonator/>}></Route>
-              <Route path='cwbsolutions.net/industy/condominiums/' element={<Condominiums/>}></Route>
-              <Route path='cwbsolutions.net/industy/equipment-for-petrol-stations/' element={<PetrolStations/>}></Route>
-              <Route path='cwbsolutions.net/road-humps/' element={<RoadHumps/>}></Route>
-              <Route path='cwbsolutions.net/key-and-storage-management-system/' element={<KeyAndStorageManagementSystems/>}></Route>
-              <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqboxcabinet-series/' element={<IqBoxCabinetSeries/>}></Route>
-              <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqwallcabinet-series/' element={<IqWallCabinetSeries/>}></Route>
-              <Route path='cwbsolutions.net/our-products/key-and-storage-management-system/iqkeysafe-series/' element={<IqKeySafeSeries/>}></Route>
-              <Route path='cwbsolutions.net/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/' element={<SolarPoweredStuds/>}></Route>
-              <Route path='cwbsolutions.net/our-products-and-services/' element={<CarWashingAndCarWashBaysEquipment/>}></Route>
-              <Route path='cwbsolutions.net/sscproducts/cable-tray/' element={<CableTray/>}></Route>
+              <Route path='/engineering-solutions/' element={<EngineeringSolutions/>} />
+              <Route path='/engineering/payment-modules/nets-cashcard-and-flashpay/ez-link-/payments-integration/' element={<PaymentsIntegration/>}></Route>
+              <Route path='/pcb-boards/' element={<PCB/>}></Route>
+              <Route path='/engineering-solutions/system-integration-and-product-design/' element={<SystemIntegration/>}></Route>
+              <Route path='/engineering/customised-solutions/' element={<CustomizedSolutions/>}></Route>
+              <Route path='/engineering-solutions/consultation-services/' element={<Consultation/>}></Route>
+              <Route path='/contact-us/' element={<ContactUs/>}></Route>
+              <Route path='/about-us/' element={<AboutUs/>}></Route>
+              <Route path='/clients/' element={<Clients/>}></Route>
+              <Route path='/power-vacuum-locations/' element={<PowerVaccumLocations/>}></Route>
+              <Route path='/water-dispenser-locations/' element={<WaterDispenserLocations/>}></Route>
+              <Route path='/vehicle-license-plate-recognizer/' element={<VehicleLicensePlateRecognizer/>}></Route>
+              <Route path='/parking-and-access-control/electronic-parking-systems/' element={<ElectronicParkingSystems/>}></Route>
+              <Route path='/air-machines/' element={<AirMachines/>}></Route>
+              <Route path='/automatic-car-wash/' element={<AutomaticCarWashes/>}></Route>
+              <Route path='/car-barrier-systems/' element={<CarAndAccessBarrierSystems/>}></Route>
+              <Route path='/coin-operated-showers' element={<CoinOperatedShowers/>}></Route>
+              <Route path='/electric-bbq-pits/' element={<ElectricBBQPits/>}></Route>
+              <Route path='/hot-air-dryer/'element={<HotAirDryers/>}></Route>
+              <Route path='/news/mini-car-washes/' element={<MiniCarWashes/>}></Route>
+              <Route path='/engineering/payment-modules/nets-cashcard-and-flashpay/' element={<NETSCashCardAndFlashPay/>}></Route>
+              <Route path='/perimeter-fencing---gates/' element={<PerimeterFencingAndGates/>}></Route>
+              <Route path='/car-washing-and-car-wash-bays-equipment/power-vacuums/' element={<PowerfulCarVaccums/>}></Route>
+              <Route path='/replacement-parts-for-vacuums-water-dispensers/' element={<ReplacementParts/>}></Route>
+              <Route path='/car-washing-and-car-wash-bays-equipment/water-dispensers/' element={<WaterDispensers/>}></Route>
+              <Route path='/barrier-systems/automatic-car-park-barrier-gates/came-barrier-gates/' element={<CameGard/>}> </Route>
+              <Route path='/barrier-systems/automatic-car-park-barrier-gates/nice-wil-parking-barrier-gate/' element={<NiceWilParkingBarrierGate/>}></Route>
+              <Route path='/barrier-systems/automatic-car-park-barrier-gates/automatic-car-park-barrier-gates/' element={<AutomaticCarParkBarrierGates/>}></Route>
+              <Route path='/barrier-systems/automatic-car-park-barrier-gates/automatic-traffic-barrier-with-led-signal/'element={<AutomaticTrafficBarrieWithLedSignal/>}></Route>
+              <Route path='/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-/'element={<IntelligentCarParkingSystemManagement/>}></Route>
+              <Route path='/barrier-systems/intelligent-car-parking-system/intelligent-car-parking-system-management-with-led-display/' element={<IntelligentCarParkingSystemManagementWithLedDisplay/>}></Route>
+              <Route path='/barrier-systems/intelligent-car-parking-system/automated-car-parking-system-for-hotels---residenses--/' element={<AutomatedCarParkingSystemForHotelsAndResidencies/>}></Route>
+              <Route path='/barrier-systems/swing-arm-barriers/stainless-steel-automatic-single-arm-swing-gate/' element={<StainlessSteelAutomaticSingleArmSwingGate/>}></Route>
+              <Route path='/barrier-systems/swing-arm-barriers/smart-swing-security-arm-barrier-for-hotel-community-financial-institutions/' element={<SmartSwingSecurityArmBarrierForHotelCommunityFinancialInstitutions/>}></Route>
+              <Route path='/barrier-systems/swing-arm-barriers/access-control-time-attendance-versatile-stainless-steel-flap-swing-arm-barrier/' element={<AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier></AccessControlTimeAttendanceVersatileStainlessSteelFlapSwingArmBarrier>}></Route>
+              <Route path='/barrier-systems/swing-arm-barriers/waterproof-stainless-steel-lan-sock-pedestrian-barrier-gate-swing-barriers/' element={<WaterproofStainlessSteelLanSockPedestrianBarrierGateSwingBarriers/>}></Route>
+              <Route path='/barrier-systems/swing-arm-barriers/flap-barrier-(speed-gate)/' element={<FlapBarrier/>}></Route>
+              <Route path='/barrier-systems/parking-space-barrier/remote-control-automatic-smooth-running-parking-space-barriers-/' element={<RemoteControlAutomaticSmoothRunningParkingSpaceBarriers/>}></Route>
+              <Route path='/barrier-systems/parking-space-barrier/stainless-steel-remote-control-parking-space-barrier' element={<StainlessSteelRemoteControlParkingSpaceBarrier/>}></Route>
+              <Route path='/barrier-systems/parking-space-barrier/waterproof-parking-lot-protector/' element={<WaterproofParkingLotProtector/>}></Route>
+              <Route path='/turnstile/full-height-turnstile/' element={<FullHeightTurnstile/>}></Route>
+              <Route path='/tripod-turnstile/' element={<TripodTurnstile/>}></Route>
+              <Route path='/coin-operated-shower/swimming-pool-showers/' element={<SwimmingPoolShowers/>}></Route>
+              <Route path='/products/water-dispensers/aqua-save-water-dispenser/' element={<AquaSaveWaterDispenser/>}></Route>
+              <Route path='/coin-operated-water-dispenser/' element={<CoinOperatedWaterDispenser/>}></Route>
+              <Route path='/products/water-dispensers/inwall-coin-operated-water-dispenser/' element={<InwallCoinOperatedWaterDispenser/>}></Route>
+              <Route path='/products/water-dispensers/ultra-slim-water-dispenser' element={<UltraSlimWaterDispenser/>}></Route>
+              <Route path='/products/water-dispensers/cash-card-water-dispenser/' element={<CashCardWaterDispenser/>}></Route>
+              <Route path='/products/water-dispensers/cash-card-and-flash-pay-combi-water-dispenser' element={<CashCardAndFlashPayCombiWaterDispenser/>}></Route>
+              <Route path='/car-washing-and-car-wash-bays-equipment/power-vacuums/commercial-vacuums/' element={<PowerVac/>}></Route>
+              <Route path='/our-products/power-vacuums/water-i-vac/' element={<WaterIVac/>}></Route>
+              <Route path='/our-products/power-vacuums/dual-commercial-ultra-power-vacuum-with-4-motors/'element={<DualCommercialUltraPowerVacuumWith4Motors/>}></Route>
+              <Route path='/our-products/power-vacuums/ultra-turbonator/' element={<UltraTurbonator/>}></Route>
+              <Route path='/industy/condominiums/' element={<Condominiums/>}></Route>
+              <Route path='/industy/equipment-for-petrol-stations/' element={<PetrolStations/>}></Route>
+              <Route path='/road-humps/' element={<RoadHumps/>}></Route>
+              <Route path='/key-and-storage-management-system/' element={<KeyAndStorageManagementSystems/>}></Route>
+              <Route path='/our-products/key-and-storage-management-system/iqboxcabinet-series/' element={<IqBoxCabinetSeries/>}></Route>
+              <Route path='/our-products/key-and-storage-management-system/iqwallcabinet-series/' element={<IqWallCabinetSeries/>}></Route>
+              <Route path='/our-products/key-and-storage-management-system/iqkeysafe-series/' element={<IqKeySafeSeries/>}></Route>
+              <Route path='/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/' element={<SolarPoweredStuds/>}></Route>
+              <Route path='/our-products-and-services/' element={<CarWashingAndCarWashBaysEquipment/>}></Route>
+              <Route path='/sscproducts/cable-tray/' element={<CableTray/>}></Route>
 
             </Routes>
         </div>
 
       </div>
 
-    <Link to={"http://old.cwbsolutions.net/"}>
+    <Link to={"http://old./"}>
       <div className="old-weblink">
           <p style={{color:"white"}}>Old Website</p>
       </div>
