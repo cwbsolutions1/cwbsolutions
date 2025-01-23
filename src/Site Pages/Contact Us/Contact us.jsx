@@ -100,8 +100,10 @@ const ContactUs = () =>{
             </div>
 
             <div className='contact-us-information'>
-                <span>Address</span>
+                <span>OFFICIAL REGISTERED & POSTAL ADDRESS</span>
                 <p>5 CHUAN HOE AVE, SINGAPORE 549817</p>
+                <span>WORKSHOP AND OPERATIONS ADDRESS</span>
+                <p>970 TOA PAYOH NORTH #04-16 SINGAPORE 318992</p>
                 <span>TEL</span>
                 <p><a href="tel:+6588084169">(+65) 8808 4169</a></p>
                 <span>E-Mail</span>
