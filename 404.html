@@ -2,27 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=/" />
     <script>
-      // Base path of your app on GitHub Pages
-      const base = '/cwbsolutions2';
-
-      // Get the current path
-      const currentPath = window.location.pathname;
-
-      // Ensure the path starts with the base path
-      if (!currentPath.startsWith(base)) {
-        // Redirect to the base path if not already included
-        window.location.replace(`${base}${currentPath}`);
-      } else {
-        // Remove extra occurrences of the base path in case of duplication
-        const cleanPath = currentPath.replace(new RegExp(`^(${base})+`), base);
-        // Redirect to the cleaned path
-        window.location.replace(cleanPath);
-      }
+      // Catch all non-existent paths and redirect to the root path where React Router will handle it
+      window.location.replace("/");
     </script>
   </head>
-  <body>
-    <h1>Redirecting...</h1>
-  </body>
+  <body></body>
 </html>
