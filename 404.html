@@ -2,11 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=/" />
+    <title>Redirecting...</title>
     <script>
-      // Catch all non-existent paths and redirect to the root path where React Router will handle it
-      window.location.replace("/index.html");
+      // Redirect to the root path
+      const redirectPath = window.location.pathname;
+      const target = redirectPath.replace('/index.html', '');
+      window.location.replace(`/${target}`);
     </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
 </html>
