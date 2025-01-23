@@ -71,6 +71,8 @@ import IqKeySafeSeries from './Site Pages/Key and Storage Management Systems/IQ 
 import SolarPoweredStuds from './Site Pages/Road Accessories/Solar Powered Studs/Solar Powered Studs';
 import CarWashingAndCarWashBaysEquipment from './Site Pages/Car washing and Car Wash bays equipment/Car washing and Car Wash bays equipment';
 import CableTray from './SSC Products/Cable Tray/CableTray';
+import ParkingandAccessControl from './Site Pages/Products and Services/Parking and Access Control/Parking and Access Control';
+import LongRangeReader from './Site Pages/Products and Services/Parking and Access Control/Long Range Reader/Long Range Reader';
 
 
 
@@ -160,6 +162,8 @@ function App() {
               <Route path='/car-washing-and-car-wash-bays-equipment/our-products/solar-powered-studs/' element={<SolarPoweredStuds/>}></Route>
               <Route path='/our-products-and-services/' element={<CarWashingAndCarWashBaysEquipment/>}></Route>
               <Route path='/sscproducts/cable-tray/' element={<CableTray/>}></Route>
+              <Route path='/parking-and-access-control/' element={<ParkingandAccessControl/>}></Route>
+              <Route path='/parking-and-access-control/long-range-reader-for-personnel-or-vehickle-access/' element={<LongRangeReader/>}></Route>
 
             </Routes>
         </div>

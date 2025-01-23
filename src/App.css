@@ -45,31 +45,6 @@ body, html {
 
 
 
-.old-weblink {
-  width: 70px;
-  height: 70px;
-  background: linear-gradient(275deg, rgb(31, 89, 172),rgb(8, 204, 230));
-  border-radius: 50%;
-  position: fixed;
-  top: 87%;
-  left: 96.5%;
-  transform: translateX(-50%);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: 0.4S;
-  font-weight: 300;
-}
-
-.old-weblink:hover{
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  font-size: 1.2em;
-  color: rgb(37, 114, 114);
-}
-
-
-
-
 @media (max-width:860px){
 
   .main-content-container{

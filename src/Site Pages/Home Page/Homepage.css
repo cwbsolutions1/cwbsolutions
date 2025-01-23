@@ -49,7 +49,10 @@
     width: 50%;
 }
 
-
+#Booking-and-reserving-youtube-video{
+    border-radius: 8px;
+    width: 50%;
+}
 
 .iot-products{
     display: flex;
@@ -188,6 +191,13 @@
         color: rgb(255, 255, 255);
         font-size: 1.2rem;
         font-weight: 400;
-      }
+    }
+    #sembawang-park-bbq{
+        width: 100%;
+    }
+    
+    #Booking-and-reserving-youtube-video{
+        width: 100%;
+    }
     
   }

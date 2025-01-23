@@ -100,7 +100,7 @@ const Sidebar = () => {
           </Dropdown.Item>
           <Dropdown.Item 
             as={Link} 
-            to={'/car-barrier-systems/'} 
+            to={'/parking-and-access-control/'} 
             className='dropdown-item-in-sidebar'
             onClick={handleClose}>Parking and Access Control
           </Dropdown.Item>

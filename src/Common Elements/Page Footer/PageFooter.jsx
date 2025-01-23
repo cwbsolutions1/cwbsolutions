@@ -777,6 +777,7 @@ const PageFooter = () =>{
 
             <div className='page-footer-lower-section'>
                 All rights reserved by CWB Solutions PTE LTD (2008-2025)
+                <Link style={{marginLeft:"5px"}} to={"http://old.cwbsolutions.net/"}>Old Website</Link>
             </div>
         </div>
     );

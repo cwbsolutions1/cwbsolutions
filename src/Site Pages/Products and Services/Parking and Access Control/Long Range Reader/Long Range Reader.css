@@ -1,0 +1,30 @@
+.long-range-reader-container{
+    padding: 3%;
+    text-align: left;
+}
+
+.long-range-reader-features-container{
+    margin-top: 5%;
+    font-size: 0.85em;
+    padding: 2%;
+    background-color: rgba(155, 220, 234, 0.508);
+    margin-top: 6px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.long-range-reader-features-container h6{
+    background-color: rgb(56, 192, 215);
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-size: 1.7em;
+}
+
+@media (max-width:860px){
+    .long-range-reader-container h1{
+        margin-left: 15%;
+        font-size: 2.2em;
+        margin-bottom: 5%;
+    }
+}
