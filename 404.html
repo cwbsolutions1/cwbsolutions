@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      // The base path of your app on GitHub Pages
+      // Base path of your app on GitHub Pages
       const base = '/cwbsolutions2';
 
-      // Get the current path and remove the base if it already exists
-      let redirectPath = window.location.pathname;
+      // Get the current path
+      const currentPath = window.location.pathname;
 
-      if (redirectPath.startsWith(base)) {
-        redirectPath = redirectPath.slice(base.length);
+      // Ensure the path starts with the base path
+      if (!currentPath.startsWith(base)) {
+        // Redirect to the base path if not already included
+        window.location.replace(`${base}${currentPath}`);
+      } else {
+        // Remove extra occurrences of the base path in case of duplication
+        const cleanPath = currentPath.replace(new RegExp(`^(${base})+`), base);
+        // Redirect to the cleaned path
+        window.location.replace(cleanPath);
       }
-
-      // Construct the target URL and redirect
-      const target = `${base}${redirectPath}`.replace(/\/+/g, '/'); // Prevent duplicate slashes
-      window.location.replace(target);
     </script>
   </head>
   <body>
