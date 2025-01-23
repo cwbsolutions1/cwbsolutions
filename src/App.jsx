@@ -79,7 +79,7 @@ function App() {
 
   return (
 
-    <Router>
+    <Router basename="/">
       <ScrollUp />
     <div className="app-container">
 
