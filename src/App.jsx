@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { BrowserRouter, Link } from 'react-router-dom'
 import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import NavigationBar from './Common Elements/Navigation Bar/NavgationBar';
 import PageFooter from './Common Elements/Page Footer/PageFooter';
@@ -79,7 +79,7 @@ function App() {
 
   return (
 
-    <Router basename="/">
+    <BrowserRouter basename="/">
       <ScrollUp />
     <div className="app-container">
 
@@ -182,7 +182,7 @@ function App() {
 
     </div>
     
-    </Router>
+    </BrowserRouter>
   );
 }
 

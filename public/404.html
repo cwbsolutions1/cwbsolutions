@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="refresh" content="0; url=/" />
     <script>
-      // Catch all non-existent paths and redirect to the root path where React Router will handle it
-      window.location.replace("/");
+      // Handle SPA routing on GitHub Pages
+      (function () {
+        var l = window.location;
+        var newUrl = l.protocol + "//" + l.hostname + l.pathname.split("/").slice(0, 1).join("/") + "/?/" + l.pathname.slice(1);
+        
+        // Correct the query string and path parts
+        newUrl = newUrl.replace(/&/g, '~and~');
+        
+        // Redirect to the fixed URL
+        window.location.replace(newUrl);
+      })();
     </script>
   </head>
   <body></body>
