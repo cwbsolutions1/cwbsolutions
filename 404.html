@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      // Get the current path
-      const redirectPath = window.location.pathname;
-      
-      // Add your repository name as the basename
-      const base = '/cwbsolutions2'; // Adjust to match your repository name
+      // The base path of your app on GitHub Pages
+      const base = '/cwbsolutions2';
 
-      // Redirect to the index.html with the correct path
-      const target = `${base}${redirectPath}`.replace('//', '/');
+      // Get the current path and remove the base if it already exists
+      let redirectPath = window.location.pathname;
+
+      if (redirectPath.startsWith(base)) {
+        redirectPath = redirectPath.slice(base.length);
+      }
+
+      // Construct the target URL and redirect
+      const target = `${base}${redirectPath}`.replace(/\/+/g, '/'); // Prevent duplicate slashes
       window.location.replace(target);
     </script>
   </head>
