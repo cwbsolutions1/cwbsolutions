@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      // Redirect to the root path
+      // Get the current path
       const redirectPath = window.location.pathname;
-      const target = redirectPath.replace('/index.html', '');
-      window.location.replace(`/${target}`);
+      
+      // Add your repository name as the basename
+      const base = '/cwbsolutions2'; // Adjust to match your repository name
+
+      // Redirect to the index.html with the correct path
+      const target = `${base}${redirectPath}`.replace('//', '/');
+      window.location.replace(target);
     </script>
   </head>
   <body>
