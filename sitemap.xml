@@ -1,0 +1,42 @@
+const { SitemapStream, streamToPromise } = require('sitemap');
+const fs = require('fs');
+const path = require('path');
+
+// Define your domain
+const hostname = 'https://www.cwbsolutions.net';
+
+// Define all the URLs for your website
+const urls = [
+  { url: '/', changefreq: 'weekly', priority: 1.0 },
+  { url: '/about-us', changefreq: 'monthly', priority: 0.8 },
+  { url: '/contact-us', changefreq: 'yearly', priority: 0.8 },
+  { url: '/clients', changefreq: 'yearly', priority: 0.9 },
+  { url: '/engineering-solutions', changefreq: 'monthly', priority: 0.8 },
+  { url: '/car-barrier-systems', changefreq: 'yearly', priority: 0.7 },
+  { url: '/parking-and-access-control/', changefreq: 'monthly', priority: 0.9 },
+];
+
+// Create the output directory if it does not exist
+const outputDir = path.resolve(__dirname, 'public');
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir);
+}
+
+// Create a SitemapStream
+const smStream = new SitemapStream({ hostname });
+
+// Write each URL to the stream
+urls.forEach((url) => smStream.write(url));
+
+// End the stream
+smStream.end();
+
+// Generate sitemap and write it to a file
+streamToPromise(smStream)
+  .then((data) => {
+    fs.writeFileSync(path.join(outputDir, 'sitemap.xml'), data.toString());
+    console.log('Sitemap updated successfully!');
+  })
+  .catch((err) => {
+    console.error('Error creating sitemap:', err.message);
+  });
